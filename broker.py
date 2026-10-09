@@ -27,6 +27,12 @@ class AlpacaPaperBroker:
     def open_position_symbols(self) -> list:
         return [p.symbol for p in self.trading.get_all_positions()]
 
+    def open_order_symbols(self) -> list:
+        from alpaca.trading.requests import GetOrdersRequest
+        from alpaca.trading.enums import QueryOrderStatus
+        orders = self.trading.get_orders(GetOrdersRequest(status=QueryOrderStatus.OPEN))
+        return [o.symbol for o in orders]
+
     def latest_prices(self, symbols: list) -> dict:
         from alpaca.data.requests import StockLatestTradeRequest
         from alpaca.data.enums import DataFeed

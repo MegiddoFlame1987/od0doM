@@ -34,6 +34,9 @@ class FakeBroker:
     def open_position_symbols(self):
         return self.leftover
 
+    def open_order_symbols(self):
+        return getattr(self, "pending", [])
+
     def latest_prices(self, symbols):
         return {s: OPEN[s] for s in symbols}
 
@@ -132,6 +135,14 @@ class Guards(Base):
         rec = load_day(DAY)
         self.assertFalse(rec["zaliczona"])
         self.assertEqual(b.orders, {})
+
+    def test_pending_orders_block_duplicate(self):
+        self.at("08:31")
+        b = FakeBroker()
+        b.pending = ["USO"]
+        self.assertEqual(forecast.main(b, fake_forecaster, fake_fetch), "juz_wykonane")
+        self.assertEqual(b.orders, {})
+        self.assertIsNone(load_day(DAY))
 
     def test_bad_model_output_no_orders(self):
         def bad(inst, day, heads):

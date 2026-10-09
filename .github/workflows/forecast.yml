@@ -2,9 +2,8 @@ name: Prognoza i wejście
 
 on:
   schedule:
-    # cel: 08:30 ET (latem i zimą jeden z dwóch startów trafia w okno). Cron jest w UTC, skrypt sam sprawdza okno ET.
-    - cron: "30 12 * * 1-5"
-    - cron: "30 13 * * 1-5"
+    # okno 08:00-09:20 ET; co 10 min, skrypt sam sprawdza okno i robi prognozę tylko raz dziennie
+    - cron: "*/10 12-14 * * 1-5"
   workflow_dispatch:
 
 permissions:

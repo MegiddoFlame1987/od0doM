@@ -2,9 +2,8 @@ name: Zamknięcie pozycji
 
 on:
   schedule:
-    # cel: 15:20 ET. Cron jest w UTC, skrypt sam sprawdza okno ET.
-    - cron: "20 19 * * 1-5"
-    - cron: "20 20 * * 1-5"
+    # okno 15:00-15:48 ET; co 10 min, skrypt działa tylko raz (etap "otwarta")
+    - cron: "*/10 19-20 * * 1-5"
   workflow_dispatch:
 
 permissions:

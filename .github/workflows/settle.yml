@@ -2,9 +2,8 @@ name: Rozliczenie sesji
 
 on:
   schedule:
-    # cel: 16:30 ET. Cron jest w UTC, skrypt sam sprawdza okno ET.
-    - cron: "30 20 * * 1-5"
-    - cron: "30 21 * * 1-5"
+    # po 16:05 ET; co 15 min, skrypt rozlicza tylko raz
+    - cron: "*/15 20-23 * * 1-5"
   workflow_dispatch:
 
 permissions:
