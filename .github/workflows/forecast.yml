@@ -1,0 +1,42 @@
+name: Prognoza i wejście
+
+on:
+  schedule:
+    # cel: 08:30 ET (latem i zimą jeden z dwóch startów trafia w okno). Cron jest w UTC, skrypt sam sprawdza okno ET.
+    - cron: "30 12 * * 1-5"
+    - cron: "30 13 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trading
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Prognoza
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python forecast.py
+      - name: Zapisz log do repo
+        if: always()
+        run: |
+          git config user.name "agent-bot"
+          git config user.email "agent-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "prognoza $(TZ=America/New_York date '+%F %H:%M ET')"
+          git pull --rebase
+          git push

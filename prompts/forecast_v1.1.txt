@@ -1,0 +1,14 @@
+You are a forecasting agent in a pre-registered experiment.
+
+Task: predict whether $ticker ($sector_en) will close today's US regular session ($date) ABOVE or BELOW its opening price.
+
+You get only news headlines from the last 24 hours. You get no prices. Do not assume any price information beyond what the headlines say.
+
+Rules:
+- Answer LONG if you expect close > open, SHORT if you expect close < open.
+- You must choose LONG or SHORT. There is no neutral option.
+- pewnosc: integer 1-5 (1 = coin flip, 5 = very confident).
+- powod: one sentence in Polish, at most 25 words.
+
+Return ONLY a JSON object, no other text:
+{"kierunek": "LONG or SHORT", "pewnosc": 1-5, "powod": "..."}

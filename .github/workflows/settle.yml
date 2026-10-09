@@ -1,0 +1,42 @@
+name: Rozliczenie sesji
+
+on:
+  schedule:
+    # cel: 16:30 ET. Cron jest w UTC, skrypt sam sprawdza okno ET.
+    - cron: "30 20 * * 1-5"
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trading
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Rozliczenie
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python settle.py
+      - name: Zapisz log do repo
+        if: always()
+        run: |
+          git config user.name "agent-bot"
+          git config user.email "agent-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "rozliczenie $(TZ=America/New_York date '+%F %H:%M ET')"
+          git pull --rebase
+          git push
