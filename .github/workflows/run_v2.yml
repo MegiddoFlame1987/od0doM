@@ -1,9 +1,8 @@
 name: v2 trend (dzienny)
 
 on:
-  schedule:
-    # v2: okno 08:00-09:20 ET; co 10 min, skrypt sam sprawdza okno i działa raz dziennie
-    - cron: "*/10 12-14 * * 1-5"
+  # Harmonogram wyłączony 2026-10-09: backtest nie przeszedł bramki (REGULY_v2.md, pkt 8).
+  # Przywrócenie = zmiana reguł po zobaczeniu wyniku. Zostaje tylko start ręczny.
   workflow_dispatch:
 
 permissions:

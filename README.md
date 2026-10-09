@@ -12,6 +12,7 @@ Dwa równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tic
 | Reguły | `REGULY.md` | `REGULY_v2.md` |
 | Dane | `data/` | `data_v2/` |
 | Bramka | 30 / 60 sesji | backtest, potem 26 tygodni |
+| Status | start 12.10.2026 | **zatrzymane 9.10.2026**: backtest nie przeszedł bramki, wynik w `data_v2/backtest.md` |
 
 ## v1.1: jak to działa
 
