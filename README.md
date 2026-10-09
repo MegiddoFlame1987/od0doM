@@ -15,8 +15,6 @@ Dwa równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tic
 
 ## v1.1: jak to działa
 
-## Jak to działa
-
 | Skrypt | Kiedy (ET) | Co robi |
 |---|---|---|
 | `forecast.py` | ok. 08:30 | nagłówki z Google News → Claude → prognoza → zlecenia na aukcję otwarcia |
