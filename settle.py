@@ -68,7 +68,7 @@ def main(broker=None) -> str:
             rec["powody"].append(f"{t}: brak pełnego wypełnienia wejścia lub wyjścia")
 
     try:
-        leftover = broker.open_position_symbols()
+        leftover = [s for s in broker.open_position_symbols() if s in {i['ticker'] for i in config.INSTRUMENTS}]
     except Exception as e:
         leftover = [f"nieznane ({e})"]
     if leftover:

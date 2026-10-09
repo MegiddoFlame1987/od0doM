@@ -44,12 +44,12 @@ def main(broker=None, forecaster=None, fetch=None) -> str:
     if close < config.FULL_DAY_CLOSE:
         return finish("pominieta", None, f"sesja skrócona do {close:%H:%M} ET")
 
-    pending = broker.open_order_symbols()
+    pending = [s for s in broker.open_order_symbols() if s in {i['ticker'] for i in config.INSTRUMENTS}]
     if pending:
         log(f"Są już otwarte zlecenia ({', '.join(pending)}), nie składam drugi raz. Koniec.")
         return "juz_wykonane"
 
-    leftover = broker.open_position_symbols()
+    leftover = [s for s in broker.open_position_symbols() if s in {i['ticker'] for i in config.INSTRUMENTS}]
     if leftover:
         return finish("rozliczona", False, f"otwarte pozycje z poprzedniego dnia: {', '.join(leftover)}")
 

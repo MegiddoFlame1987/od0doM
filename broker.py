@@ -33,6 +33,45 @@ class AlpacaPaperBroker:
         orders = self.trading.get_orders(GetOrdersRequest(status=QueryOrderStatus.OPEN))
         return [o.symbol for o in orders]
 
+    def positions(self) -> dict:
+        out = {}
+        for p in self.trading.get_all_positions():
+            q = abs(int(float(p.qty)))
+            side = getattr(p.side, "value", str(p.side)).lower()
+            out[p.symbol] = -q if "short" in side else q
+        return out
+
+    def daily_bars(self, symbols: list, start, end) -> dict:
+        """Dzienne bary skorygowane o splity i dywidendy: {ticker: [{d,o,c}]}. end = data wyłączna."""
+        from alpaca.data.requests import StockBarsRequest
+        from alpaca.data.timeframe import TimeFrame
+        from alpaca.data.enums import Adjustment, DataFeed
+        from common import ET
+        from datetime import datetime as dt
+        s = dt(start.year, start.month, start.day)
+        e = dt(end.year, end.month, end.day)
+        res = None
+        for feed in (DataFeed.SIP, DataFeed.IEX):
+            try:
+                res = self.data.get_stock_bars(StockBarsRequest(
+                    symbol_or_symbols=symbols, timeframe=TimeFrame.Day,
+                    start=s, end=e, adjustment=Adjustment.ALL, feed=feed))
+                break
+            except Exception:
+                if feed == DataFeed.IEX:
+                    raise
+        out = {}
+        for sym in symbols:
+            rows = res.data.get(sym, []) if hasattr(res, "data") else res[sym]
+            series = []
+            for b in rows:
+                ts = b.timestamp
+                d = (ts.astimezone(ET) if ts.tzinfo else ts).date()
+                if d < end:
+                    series.append({"d": d.isoformat(), "o": float(b.open), "c": float(b.close)})
+            out[sym] = sorted(series, key=lambda x: x["d"])
+        return out
+
     def latest_prices(self, symbols: list) -> dict:
         from alpaca.data.requests import StockLatestTradeRequest
         from alpaca.data.enums import DataFeed

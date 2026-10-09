@@ -1,6 +1,19 @@
-# Od 0 do milionera v1
+# Od 0 do milionera
 
-Agent tradingowy na koncie **paper** Alpaca. 5 sektorów, newsy z 24 h, LONG albo SHORT na sesję, rozliczenie po zamknięciu. Reguły: `REGULY.md` (v1.1, zamrożone).
+Dwa równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tickery, rozłączne budżety.
+
+| | v1.1 | v2.0 |
+|---|---|---|
+| Pomysł | newsy przewidują kierunek sesji | trend wybiera kierunek, newsy tylko wyłączają pozycję |
+| Horyzont | 1 sesja | tygodnie (trend sprawdzany raz w tygodniu) |
+| Kierunek | LONG / SHORT | LONG / SHORT |
+| Aktywa | USO, SMH, DBA, GLD, TLT | QQQ, URA, ITA, INDA, COPX, IBIT |
+| Budżet | 50 000 USD | 50 000 USD |
+| Reguły | `REGULY.md` | `REGULY_v2.md` |
+| Dane | `data/` | `data_v2/` |
+| Bramka | 30 / 60 sesji | backtest, potem 26 tygodni |
+
+## v1.1: jak to działa
 
 ## Jak to działa
 
@@ -12,6 +25,16 @@ Agent tradingowy na koncie **paper** Alpaca. 5 sektorów, newsy z 24 h, LONG alb
 | `evaluate.py` | ręcznie | bramka: agent vs zawsze LONG vs 1000 losowych → `data/raport.md` |
 
 Uruchamia GitHub Actions według crona. Każdy dzień to plik `data/dni/RRRR-MM-DD.json` i commit z godziną. Commit jest dowodem, że prognoza powstała przed otwarciem.
+
+## v2.0
+
+| Skrypt | Kiedy (ET) | Co robi |
+|---|---|---|
+| `run_v2.py` | ok. 08:00–09:20, raz dziennie | pierwszy przebieg w tygodniu: trend SMA200 → cele LONG/SHORT. Codziennie: Claude ocenia ryzyko z nagłówków, WYSOKIE = zamknięcie pozycji do końca tygodnia. Zlecenia na aukcję otwarcia |
+| `backtest_v2.py` | ręcznie, workflow "v2 backtest" | sam trend od 2016 vs kup i trzymaj → `data_v2/backtest.md` |
+| `evaluate_v2.py` | ręcznie | v2 vs cień bez filtra vs kup i trzymaj → `data_v2/raport.md` |
+
+Backtest uruchom **przed** pierwszym tygodniem: Actions → v2 backtest (ręcznie) → Run workflow. Potrzebuje tylko kluczy Alpaca. Jeśli trend nie bije kup i trzymaj, v2 nie startuje.
 
 ## Start: 5 kroków
 
@@ -47,4 +70,4 @@ Atrapy brokera, modelu i feedu. Pełna sesja, zabezpieczenia, bramka.
 
 ## Czego nie wolno w trakcie testu
 
-Zmieniać `config.py`, `prompts/` ani `REGULY.md`. Każda zmiana = nowa wersja i licznik od 0 (`REGULY.md`, punkt 10).
+Zmieniać `config.py`, `config_v2.py`, `prompts/`, `REGULY.md` ani `REGULY_v2.md`. Każda zmiana = nowa wersja i licznik od 0.
