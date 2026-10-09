@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "agent-bot"
           git config user.email "agent-bot@users.noreply.github.com"
-          git add data data_v2
+          git add data data_v2 data_v3
           git diff --cached --quiet && exit 0
           git commit -m "rozliczenie $(TZ=America/New_York date '+%F %H:%M ET')"
           git pull --rebase

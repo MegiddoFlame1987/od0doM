@@ -2,8 +2,10 @@
 import csv
 import sys
 
-import config
+import confload
 from common import all_days, data_dir, load_day, log, now_et, save_day
+
+config = confload.load()
 
 CSV_FIELDS = ["data", "wersja", "zaliczona", "ticker", "kierunek", "pewnosc",
               "cena_wejscia", "cena_wyjscia", "zmiana", "wynik"]
@@ -28,6 +30,14 @@ def rebuild_csv() -> None:
                          "cena_wejscia": p["wejscie"]["cena"],
                          "cena_wyjscia": p["wyjscie"]["cena"],
                          "zmiana": round(p["zmiana"], 6), "wynik": round(p["wynik"], 6)})
+        for p in rec.get("pominiete", []):
+            if "zmiana" not in p:
+                continue
+            rows.append({"data": rec["data"], "wersja": rec["wersja"],
+                         "zaliczona": rec["zaliczona"], "ticker": p["ticker"],
+                         "kierunek": "SKIP", "pewnosc": pew.get(p["ticker"]),
+                         "cena_wejscia": p["otwarcie"], "cena_wyjscia": p["zamkniecie"],
+                         "zmiana": round(p["zmiana"], 6), "wynik": 0.0})
     with open(data_dir() / "wyniki.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
         w.writeheader()
@@ -67,6 +77,25 @@ def main(broker=None) -> str:
         else:
             rec["powody"].append(f"{t}: brak pełnego wypełnienia wejścia lub wyjścia")
 
+    # SKIP (v3): bez pozycji, ale zmiana dnia potrzebna do benchmarków.
+    skipped = rec.get("pominiete", [])
+    if skipped:
+        from datetime import date, timedelta
+        d0 = date.fromisoformat(ds)
+        try:
+            bars = broker.daily_bars([p["ticker"] for p in skipped], d0, d0 + timedelta(days=1))
+        except Exception as e:
+            bars = {}
+            rec["powody"].append(f"błąd pobrania cen dla pominiętych: {e}")
+        for p in skipped:
+            day_bars = [b for b in bars.get(p["ticker"], []) if b["d"] == ds]
+            if day_bars:
+                b = day_bars[0]
+                p["otwarcie"], p["zamkniecie"] = b["o"], b["c"]
+                p["zmiana"], p["wynik"] = (b["c"] - b["o"]) / b["o"], 0.0
+            else:
+                rec["powody"].append(f"{p['ticker']}: brak ceny dnia dla pominiętego")
+
     try:
         leftover = [s for s in broker.open_position_symbols() if s in {i['ticker'] for i in config.INSTRUMENTS}]
     except Exception as e:
@@ -75,7 +104,9 @@ def main(broker=None) -> str:
         rec["uwaga"] = f"OTWARTE POZYCJE: {', '.join(leftover)}. Zamknij ręcznie w panelu Alpaca paper."
         rec["powody"].append("otwarte pozycje po sesji")
 
-    complete = len(rec["pozycje"]) == len(config.INSTRUMENTS) and all("wynik" in p for p in rec["pozycje"])
+    expected = rec.get("liczba_oczekiwana", len(config.INSTRUMENTS))
+    complete = (len(rec["pozycje"]) + len(skipped) == expected
+                and all("wynik" in p for p in rec["pozycje"]) and all("zmiana" in p for p in skipped))
     rec["zaliczona"] = complete and not rec["powody"]
     rec["wynik_sesji"] = round(sum(p.get("wynik", 0) for p in rec["pozycje"]), 6)
     rec["etap"] = "rozliczona"

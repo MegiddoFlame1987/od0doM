@@ -1,6 +1,8 @@
 """Czas, ścieżki i zapis dziennego logu."""
 import json
 import os
+
+import confload
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -10,7 +12,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def data_dir() -> Path:
-    d = Path(os.environ.get("DATA_DIR", ROOT / "data"))
+    d = Path(os.environ.get("DATA_DIR") or ROOT / getattr(confload.load(), "DATA_DIRNAME", "data"))
     (d / "dni").mkdir(parents=True, exist_ok=True)
     return d
 

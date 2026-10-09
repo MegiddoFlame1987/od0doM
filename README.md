@@ -1,18 +1,20 @@
 # Od 0 do milionera
 
-Dwa równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tickery, rozłączne budżety.
+Równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tickery, rozłączne budżety.
 
-| | v1.1 | v2.0 |
-|---|---|---|
-| Pomysł | newsy przewidują kierunek sesji | trend wybiera kierunek, newsy tylko wyłączają pozycję |
-| Horyzont | 1 sesja | tygodnie (trend sprawdzany raz w tygodniu) |
-| Kierunek | LONG / SHORT | LONG / SHORT |
-| Aktywa | USO, SMH, DBA, GLD, TLT | QQQ, URA, ITA, INDA, COPX, IBIT |
-| Budżet | 50 000 USD | 50 000 USD |
-| Reguły | `REGULY.md` | `REGULY_v2.md` |
-| Dane | `data/` | `data_v2/` |
-| Bramka | 30 / 60 sesji | backtest, potem 26 tygodni |
-| Status | start 12.10.2026 | **zatrzymane 9.10.2026**: backtest nie przeszedł bramki, wynik w `data_v2/backtest.md` |
+| | v1.1 | v2.0 | v3.0 |
+|---|---|---|---|
+| Pomysł | newsy przewidują kierunek sesji | trend wybiera kierunek, newsy tylko wyłączają | surowce w trendzie, newsy wybierają sesje |
+| Horyzont | 1 sesja | tygodnie | 1 sesja |
+| Kierunek | LONG / SHORT | LONG / SHORT | LONG / SKIP |
+| Aktywa | USO, SMH, DBA, GLD, TLT | QQQ, URA, ITA, INDA, COPX, IBIT | max 5 z 10 surowców, wybór dzienny po SMA200 |
+| Budżet | 50 000 USD | 50 000 USD | 33 333 USD |
+| Reguły | `REGULY.md` | `REGULY_v2.md` | `REGULY_v3.md` |
+| Dane | `data/` | `data_v2/` | `data_v3/` |
+| Bramka | 30 / 60 sesji | backtest, potem 26 tygodni | 30 / 60 sesji |
+| Status | start 12.10.2026 | **zatrzymane 9.10.2026**: backtest nie przeszedł bramki, wynik w `data_v2/backtest.md` | start 12.10.2026 |
+
+v3 używa tych samych skryptów co v1.1 (`forecast.py`, `close.py`, `settle.py`, `evaluate.py`) ze zmienną `CONFIG_MODULE=config_v3`. Raport bramki v3: `CONFIG_MODULE=config_v3 python evaluate.py`.
 
 ## v1.1: jak to działa
 
@@ -69,4 +71,4 @@ Atrapy brokera, modelu i feedu. Pełna sesja, zabezpieczenia, bramka.
 
 ## Czego nie wolno w trakcie testu
 
-Zmieniać `config.py`, `config_v2.py`, `prompts/`, `REGULY.md` ani `REGULY_v2.md`. Każda zmiana = nowa wersja i licznik od 0.
+Zmieniać `config.py`, `config_v2.py`, `config_v3.py`, `prompts/` ani plików `REGULY*.md`. Każda zmiana = nowa wersja i licznik od 0.

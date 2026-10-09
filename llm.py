@@ -4,8 +4,10 @@ import json
 import re
 from string import Template
 
-import config
+import confload
 from common import ROOT
+
+config = confload.load()
 
 
 def prompt_text() -> str:
@@ -16,14 +18,15 @@ def prompt_sha256() -> str:
     return hashlib.sha256(prompt_text().encode("utf-8")).hexdigest()
 
 
-def parse_forecast(text: str) -> dict:
+def parse_forecast(text: str, allowed=None) -> dict:
     """Zwraca {kierunek, pewnosc, powod} albo rzuca ValueError."""
+    allowed = allowed or getattr(config, "DIRECTIONS", ("LONG", "SHORT"))
     m = re.search(r"\{.*\}", text, re.S)
     if not m:
         raise ValueError("brak JSON w odpowiedzi")
     d = json.loads(m.group(0))
     kierunek = str(d.get("kierunek", "")).strip().upper()
-    if kierunek not in ("LONG", "SHORT"):
+    if kierunek not in allowed:
         raise ValueError(f"zły kierunek: {kierunek!r}")
     pewnosc = d.get("pewnosc")
     if isinstance(pewnosc, bool) or not isinstance(pewnosc, int) or not 1 <= pewnosc <= 5:

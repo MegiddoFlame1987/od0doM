@@ -5,7 +5,9 @@ import xml.etree.ElementTree as ET_XML
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
-import config
+import confload
+
+config = confload.load()
 
 RSS_URL = "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 

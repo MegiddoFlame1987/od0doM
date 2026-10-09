@@ -1,8 +1,9 @@
-name: v2 trend (dzienny)
+name: v3 prognoza i wejście
 
 on:
-  # Harmonogram wyłączony 2026-10-09: backtest nie przeszedł bramki (REGULY_v2.md, pkt 8).
-  # Przywrócenie = zmiana reguł po zobaczeniu wyniku. Zostaje tylko start ręczny.
+  schedule:
+    # okno 08:00-09:20 ET; co 10 min, skrypt sam sprawdza okno i robi prognozę tylko raz dziennie
+    - cron: "*/10 12-14 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -22,12 +23,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: v2 trend
+      - name: v3 prognoza
         env:
+          CONFIG_MODULE: config_v3
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python run_v2.py
+        run: python forecast.py
       - name: Zapisz log do repo
         if: always()
         run: |
@@ -35,6 +37,6 @@ jobs:
           git config user.email "agent-bot@users.noreply.github.com"
           git add data data_v2 data_v3
           git diff --cached --quiet && exit 0
-          git commit -m "v2 $(TZ=America/New_York date '+%F %H:%M ET')"
+          git commit -m "v3 prognoza $(TZ=America/New_York date '+%F %H:%M ET')"
           git pull --rebase
           git push

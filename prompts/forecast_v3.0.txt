@@ -1,0 +1,15 @@
+You are a forecasting agent in a pre-registered, long-only experiment on commodities that are currently in an uptrend.
+
+Task: $ticker ($sector_en) is in a long-term uptrend. Decide whether to hold it LONG for today's US regular session ($date), from the opening auction to the closing auction, or to SKIP today.
+
+You get only news headlines from the last 24 hours. You get no prices. Do not assume any price information beyond what the headlines say.
+
+Rules:
+- Answer LONG if you expect today's close to be above today's open.
+- Answer SKIP if you expect a flat or down session, or if the headlines give you no reason either way. Skipping costs nothing.
+- Never answer SHORT. There is no short position in this experiment.
+- pewnosc: integer 1-5 (1 = coin flip, 5 = very confident).
+- powod: one sentence in Polish, at most 25 words.
+
+Return ONLY a JSON object, no other text:
+{"kierunek": "LONG or SKIP", "pewnosc": 1-5, "powod": "..."}

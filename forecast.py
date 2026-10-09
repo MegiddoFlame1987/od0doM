@@ -2,10 +2,12 @@
 import sys
 from datetime import timezone
 
-import config
+import confload
 import llm
 import news
 from common import in_window, load_day, log, now_et, save_day
+
+config = confload.load()
 
 
 def main(broker=None, forecaster=None, fetch=None) -> str:
@@ -29,6 +31,7 @@ def main(broker=None, forecaster=None, fetch=None) -> str:
     rec = {"data": ds, "wersja": config.VERSION, "model": config.MODEL,
            "prompt_sha256": llm.prompt_sha256(), "etap": "prognoza",
            "zaliczona": None, "powody": [], "prognozy": [], "pozycje": []}
+    all_tickers = {i["ticker"] for i in config.INSTRUMENTS}
 
     def finish(etap, zaliczona, powod):
         rec["etap"], rec["zaliczona"] = etap, zaliczona
@@ -44,18 +47,31 @@ def main(broker=None, forecaster=None, fetch=None) -> str:
     if close < config.FULL_DAY_CLOSE:
         return finish("pominieta", None, f"sesja skrócona do {close:%H:%M} ET")
 
-    pending = [s for s in broker.open_order_symbols() if s in {i['ticker'] for i in config.INSTRUMENTS}]
+    pending = [s for s in broker.open_order_symbols() if s in all_tickers]
     if pending:
         log(f"Są już otwarte zlecenia ({', '.join(pending)}), nie składam drugi raz. Koniec.")
         return "juz_wykonane"
 
-    leftover = [s for s in broker.open_position_symbols() if s in {i['ticker'] for i in config.INSTRUMENTS}]
+    leftover = [s for s in broker.open_position_symbols() if s in all_tickers]
     if leftover:
         return finish("rozliczona", False, f"otwarte pozycje z poprzedniego dnia: {', '.join(leftover)}")
 
+    # Uniwersum dnia: stałe (v1.1) albo wybrane przez config.select_universe (v3: trendujące surowce).
+    select = getattr(config, "select_universe", None)
+    if select is None:
+        instruments = list(config.INSTRUMENTS)
+    else:
+        try:
+            instruments, rec["uniwersum"] = select(broker, day)
+        except Exception as e:
+            return finish("rozliczona", False, f"błąd wyboru uniwersum: {e}")
+        if not instruments:
+            return finish("pominieta", None, "brak instrumentów w trendzie")
+    rec["liczba_oczekiwana"] = len(instruments)
+
     # Prognozy. Agent widzi tylko nagłówki, nigdy cen.
     now_utc = now.astimezone(timezone.utc)
-    for inst in config.INSTRUMENTS:
+    for inst in instruments:
         try:
             heads = fetch(inst["query"], now_utc)
         except Exception as e:
@@ -75,19 +91,23 @@ def main(broker=None, forecaster=None, fetch=None) -> str:
             if p["czas_zapisu_et"] > config.FORECAST_DEADLINE.strftime("%H:%M")]
     if late:
         rec["powody"].append(f"zapis po {config.FORECAST_DEADLINE:%H:%M} ET: {', '.join(late)}")
-    if rec["powody"] or len(rec["prognozy"]) != len(config.INSTRUMENTS):
+    if rec["powody"] or len(rec["prognozy"]) != len(instruments):
         return finish("rozliczona", False, None)
 
     save_day(rec)  # prognozy zapisane przed jakimkolwiek zleceniem
 
-    # Zlecenia na aukcję otwarcia.
-    tickers = [p["ticker"] for p in rec["prognozy"]]
+    # Zlecenia na aukcję otwarcia. SKIP (v3) = brak pozycji, bez zlecenia.
+    active = [p for p in rec["prognozy"] if p["kierunek"] != "SKIP"]
+    rec["pominiete"] = [{"ticker": p["ticker"]} for p in rec["prognozy"] if p["kierunek"] == "SKIP"]
+    if not active:
+        return finish("otwarta", None, None)   # świadome wstrzymanie się: sesja liczy się, wynik 0
+    tickers = [p["ticker"] for p in active]
     try:
         prices = broker.latest_prices(tickers)
     except Exception as e:
         return finish("rozliczona", False, f"brak cen do wyliczenia wielkości: {e}")
 
-    for p in rec["prognozy"]:
+    for p in active:
         t = p["ticker"]
         qty = int(config.NOTIONAL_USD // prices[t])
         side = "buy" if p["kierunek"] == "LONG" else "sell"

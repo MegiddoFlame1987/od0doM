@@ -2,8 +2,10 @@
 import random
 import sys
 
-import config
+import confload
 from common import all_days, data_dir
+
+config = confload.load()
 
 
 def sessions(version: str = config.VERSION) -> list:
@@ -11,17 +13,32 @@ def sessions(version: str = config.VERSION) -> list:
     return sorted(days, key=lambda d: d["data"])
 
 
+LONG_ONLY = "SKIP" in getattr(config, "DIRECTIONS", ("LONG", "SHORT"))
+
+
+def slots(sess: list) -> list:
+    """Wszystkie decyzje: pozycje oraz (v3) pominięte z zapisaną zmianą dnia."""
+    out = []
+    for s in sess:
+        out += [(p["kierunek"], p["zmiana"], p["wynik"]) for p in s["pozycje"]]
+        out += [("SKIP", p["zmiana"], 0.0) for p in s.get("pominiete", []) if "zmiana" in p]
+    return out
+
+
 def agent_total(sess: list) -> float:
-    return sum(p["wynik"] for s in sess for p in s["pozycje"])
+    return sum(w for _, _, w in slots(sess))
 
 
 def always_long_total(sess: list) -> float:
-    return sum(p["zmiana"] - config.COST for s in sess for p in s["pozycje"])
+    return sum(c - config.COST for _, c, _ in slots(sess))
 
 
 def random_totals(sess: list, n: int = config.N_RANDOM, seed: int = config.SEED) -> list:
+    """Losowi agenci na tych samych cenach. L/S: moneta LONG/SHORT. Long-only: moneta LONG/SKIP."""
     rng = random.Random(seed)
-    changes = [p["zmiana"] for s in sess for p in s["pozycje"]]
+    changes = [c for _, c, _ in slots(sess)]
+    if LONG_ONLY:
+        return [sum((c - config.COST) if rng.random() < 0.5 else 0.0 for c in changes) for _ in range(n)]
     return [sum(rng.choice((1, -1)) * c - config.COST for c in changes) for _ in range(n)]
 
 
@@ -30,9 +47,9 @@ def beaten(agent: float, totals: list) -> int:
 
 
 def hit_rate(sess: list) -> float:
-    pos = [p for s in sess for p in s["pozycje"]]
-    hits = sum(1 for p in pos if (p["zmiana"] > 0) == (p["kierunek"] == "LONG"))
-    return hits / len(pos) if pos else 0.0
+    sl = slots(sess)
+    hits = sum(1 for k, c, _ in sl if (c > 0) == (k == "LONG"))
+    return hits / len(sl) if sl else 0.0
 
 
 def block(name: str, sess: list) -> tuple:
@@ -47,6 +64,7 @@ def block(name: str, sess: list) -> tuple:
         "|---|---|",
         f"| Agent, łączny wynik | {a:+.2%} |",
         f"| Zawsze LONG | {always_long_total(sess):+.2%} |",
+        f"| Decyzji (pozycje + pominięte) | {len(slots(sess))} |",
         f"| Losowi: 5. / 50. / 95. percentyl | {st[49]:+.2%} / {st[499]:+.2%} / {st[949]:+.2%} |",
         f"| Agent bije losowych | {b} z {config.N_RANDOM} |",
         f"| Trafność kierunku | {hit_rate(sess):.1%} |",

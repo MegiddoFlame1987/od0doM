@@ -1,8 +1,10 @@
 """Krok 4: zlecenia na aukcję zamknięcia. Uruchamiany ok. 15:20 ET."""
 import sys
 
-import config
+import confload
 from common import in_window, load_day, log, now_et, save_day
+
+config = confload.load()
 
 
 def main(broker=None) -> str:
