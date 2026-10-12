@@ -3,14 +3,18 @@
   "wersja": "1.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "zamykana",
+  "etap": "rozliczona",
   "zaliczona": false,
   "powody": [
     "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"only day orders are allowed for hard-to-borrow asset \\\"USO\\\"\"}",
     "SMH: wejście niewypełnione (expired)",
     "DBA: wejście niewypełnione (expired)",
     "GLD: wejście niewypełnione (expired)",
-    "TLT: wejście niewypełnione (expired)"
+    "TLT: wejście niewypełnione (expired)",
+    "SMH: brak pełnego wypełnienia wejścia lub wyjścia",
+    "DBA: brak pełnego wypełnienia wejścia lub wyjścia",
+    "GLD: brak pełnego wypełnienia wejścia lub wyjścia",
+    "TLT: brak pełnego wypełnienia wejścia lub wyjścia"
   ],
   "prognozy": [
     {
@@ -516,5 +520,6 @@
     }
   ],
   "liczba_oczekiwana": 5,
-  "pominiete": []
+  "pominiete": [],
+  "wynik_sesji": 0
 }
