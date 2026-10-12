@@ -54,7 +54,19 @@ def main(broker=None, forecaster=None, fetch=None) -> str:
 
     leftover = [s for s in broker.open_position_symbols() if s in all_tickers]
     if leftover:
-        return finish("rozliczona", False, f"otwarte pozycje z poprzedniego dnia: {', '.join(leftover)}")
+        # Sprzątanie: zamknij na otwarciu zleceniem market DAY, dziś bez nowych pozycji.
+        held = broker.positions()
+        for s in leftover:
+            q = held.get(s, 0)
+            if q == 0:
+                continue
+            try:
+                oid = broker.submit(s, abs(q), "sell" if q > 0 else "buy", "open")
+                rec["sprzatanie"] = rec.get("sprzatanie", []) + [{"ticker": s, "ilosc": q, "zlecenie": oid}]
+            except Exception as e:
+                rec["powody"].append(f"{s}: błąd zamknięcia pozycji z poprzedniego dnia: {e}")
+        return finish("rozliczona", False,
+                      f"otwarte pozycje z poprzedniego dnia zamknięte na otwarciu: {', '.join(leftover)}")
 
     # Uniwersum dnia: stałe (v1.1) albo wybrane przez config.select_universe (v3: trendujące surowce).
     select = getattr(config, "select_universe", None)

@@ -83,23 +83,15 @@ class AlpacaPaperBroker:
         """side: 'buy'/'sell'; when: 'open' (aukcja otwarcia) albo 'close' (aukcja zamknięcia)."""
         from alpaca.trading.requests import MarketOrderRequest
         from alpaca.trading.enums import OrderSide, TimeInForce
-        tif = TimeInForce.OPG if when == "open" else TimeInForce.CLS
+        # Zlecenia aukcyjne (OPG/CLS) w środowisku paper Alpaca wygasały bez wypełnienia
+        # (sesja 2026-10-12: 6 z 7). Market DAY: złożone przed sesją wykonuje się na otwarciu,
+        # złożone ok. 15:53 ET wykonuje się od razu. Shorty na aktywach trudnych do pożyczenia
+        # i tak wymagają DAY.
         req = MarketOrderRequest(symbol=symbol, qty=qty,
                                  side=OrderSide.BUY if side == "buy" else OrderSide.SELL,
-                                 time_in_force=tif)
-        try:
-            order = self.trading.submit_order(req)
-        except Exception as e:
-            # Short na aktywie trudnym do pożyczenia (np. USO): Alpaca przyjmuje tylko zlecenia DAY.
-            # Market DAY złożone przed sesją wykonuje się na otwarciu, tuż po aukcji.
-            if "only day orders are allowed" in str(e) and when == "open":
-                req.time_in_force = TimeInForce.DAY
-                order = self.trading.submit_order(req)
-                self.last_tif = "day"
-            else:
-                raise
-        else:
-            self.last_tif = tif.value
+                                 time_in_force=TimeInForce.DAY)
+        order = self.trading.submit_order(req)
+        self.last_tif = "day"
         return str(order.id)
 
     def fill(self, order_id: str) -> dict:

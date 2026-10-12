@@ -1,6 +1,6 @@
-# Reguły v3.0: day trading long-only na surowcach w trendzie
+# Reguły v3.1: day trading long-only na surowcach w trendzie
 
-Data zamrożenia: 2026-10-09
+Data zamrożenia: 2026-10-09, v3.1 z 2026-10-12 (po sesji próbnej, licznik = 0): zlecenia market DAY zamiast aukcyjnych, bo paper Alpaca nie wypełniał zleceń aukcyjnych. Wyjście ok. 15:53 ET.
 Tryb: wyłącznie paper trading. To samo konto co v1.1, rozłączne tickery, osobny budżet. Chodzi równolegle z v1.1.
 
 ## 1. Cel
@@ -40,8 +40,8 @@ Wybór uniwersum jest mechaniczny i zapisany w logu dnia. Agent nie ma na niego 
 |---|---|---|
 | Uniwersum i prognoza | 08:00–09:20 | dla każdego surowca w trendzie: nagłówki z 24 h → LONG albo SKIP, pewność 1–5, zapis z godziną |
 | Termin | 09:25 | zapis później = sesja niezaliczona |
-| Wejście | 09:30 | zlecenie market-on-open tylko dla LONG |
-| Zamknięcie | 16:00 | zlecenie market-on-close, składane ok. 15:20 |
+| Wejście | 09:30 | zlecenie market DAY złożone przed sesją, tylko dla LONG |
+| Zamknięcie | ok. 15:53 | zlecenie market DAY, wykonane od razu |
 | Rozliczenie | po 16:05 | wynik pozycji z cen wypełnienia; dla SKIP zapisana zmiana dnia (otwarcie → zamknięcie) do benchmarków |
 
 Agent nie widzi cen. Dostaje tylko nagłówki i informację, że surowiec jest w trendzie.
@@ -75,7 +75,7 @@ Agent ma sens tylko wtedy, gdy bije oba.
 ## 9. Zamrożenie
 
 - Żadnych zmian w `config_v3.py`, `prompts/forecast_v3.0.txt` ani w tym pliku w trakcie testu.
-- Każda zmiana = nowa wersja (v3.1) i licznik od 0.
+- Każda zmiana = nowa wersja (v3.2) i licznik od 0.
 
 ## 10. Prawdziwe pieniądze
 

@@ -1,7 +1,7 @@
 """Zamrożona konfiguracja v3: day trading long-only na surowcach w trendzie. Zmiana tutaj = nowa wersja."""
 from datetime import time, timedelta
 
-VERSION = "3.0"
+VERSION = "3.1"
 DATA_DIRNAME = "data_v3"
 DIRECTIONS = ("LONG", "SKIP")          # tylko long; SKIP = świadomy brak pozycji
 
@@ -34,7 +34,7 @@ NEWS_HOURS = 24
 
 FORECAST_WINDOW = (time(8, 0), time(9, 20))
 FORECAST_DEADLINE = time(9, 25)
-CLOSE_WINDOW = (time(15, 0), time(15, 48))
+CLOSE_WINDOW = (time(15, 50), time(15, 59))
 SETTLE_AFTER = time(16, 5)
 FULL_DAY_CLOSE = time(16, 0)
 

@@ -34,6 +34,9 @@ class FakeBroker:
     def open_position_symbols(self):
         return self.leftover
 
+    def positions(self):
+        return {s: 10 for s in self.leftover}
+
     def open_order_symbols(self):
         return getattr(self, "pending", [])
 
@@ -92,7 +95,7 @@ class FullDay(Base):
         # druga próba tego samego dnia nic nie robi
         self.assertEqual(forecast.main(b, fake_forecaster, fake_fetch), "juz_wykonane")
 
-        self.at("15:21")
+        self.at("15:52")
         self.assertEqual(close.main(b), "zamykana")
         exits = [o for o in b.orders.values() if o["when"] == "close"]
         self.assertEqual(len(exits), 5)
@@ -128,13 +131,14 @@ class Guards(Base):
         self.assertEqual(forecast.main(b, fake_forecaster, fake_fetch), "pominieta")
         self.assertEqual(b.orders, {})
 
-    def test_leftover_positions_block_trading(self):
+    def test_leftover_positions_closed_no_trading(self):
         self.at("08:31")
         b = FakeBroker(leftover=["USO"])
         forecast.main(b, fake_forecaster, fake_fetch)
         rec = load_day(DAY)
         self.assertFalse(rec["zaliczona"])
-        self.assertEqual(b.orders, {})
+        self.assertEqual([(o["symbol"], o["side"], o["qty"]) for o in b.orders.values()], [("USO", "sell", 10)])
+        self.assertEqual(rec["sprzatanie"][0]["ticker"], "USO")
 
     def test_pending_orders_block_duplicate(self):
         self.at("08:31")
@@ -189,7 +193,7 @@ class Guards(Base):
         b = FakeBroker(fill_status="canceled")
         self.at("08:31")
         forecast.main(b, fake_forecaster, fake_fetch)
-        self.at("15:21")
+        self.at("15:52")
         close.main(b)
         self.at("16:30")
         settle.main(b)

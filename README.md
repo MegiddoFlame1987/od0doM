@@ -2,7 +2,7 @@
 
 Równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tickery, rozłączne budżety.
 
-| | v1.1 | v2.0 | v3.0 |
+| | v1.2 | v2.0 | v3.1 |
 |---|---|---|---|
 | Pomysł | newsy przewidują kierunek sesji | trend wybiera kierunek, newsy tylko wyłączają | surowce w trendzie, newsy wybierają sesje |
 | Horyzont | 1 sesja | tygodnie | 1 sesja |
@@ -14,18 +14,18 @@ Równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tickery
 | Bramka | 30 / 60 sesji | backtest, potem 26 tygodni | 30 / 60 sesji |
 | Status | start 12.10.2026 | **zatrzymane 9.10.2026**: backtest nie przeszedł bramki, wynik w `data_v2/backtest.md` | start 12.10.2026 |
 
-v3 używa tych samych skryptów co v1.1 (`forecast.py`, `close.py`, `settle.py`, `evaluate.py`) ze zmienną `CONFIG_MODULE=config_v3`. Raport bramki v3: `CONFIG_MODULE=config_v3 python evaluate.py`.
+v3 używa tych samych skryptów co v1.2 (`forecast.py`, `close.py`, `settle.py`, `evaluate.py`) ze zmienną `CONFIG_MODULE=config_v3`. Raport bramki v3: `CONFIG_MODULE=config_v3 python evaluate.py`.
 
-## v1.1: jak to działa
+## v1.2: jak to działa
 
 | Skrypt | Kiedy (ET) | Co robi |
 |---|---|---|
-| `forecast.py` | ok. 08:30 | nagłówki z Google News → Claude → prognoza → zlecenia na aukcję otwarcia |
-| `close.py` | ok. 15:20 | zlecenia na aukcję zamknięcia |
+| `forecast.py` | ok. 08:30 | nagłówki z Google News → Claude → prognoza → zlecenia market wykonane na otwarciu |
+| `close.py` | ok. 15:53 | zlecenia market zamykające pozycje |
 | `settle.py` | ok. 16:30 | ceny wypełnienia → wynik → `data/wyniki.csv` |
 | `evaluate.py` | ręcznie | bramka: agent vs zawsze LONG vs 1000 losowych → `data/raport.md` |
 
-Uruchamia GitHub Actions według crona. Każdy dzień to plik `data/dni/RRRR-MM-DD.json` i commit z godziną. Commit jest dowodem, że prognoza powstała przed otwarciem.
+Uruchamia GitHub Actions. Cron GitHuba okazał się zawodny, więc workflowy odpalają zaplanowane zadania Claude (08:32, 15:53, 16:12 ET, dni robocze); cron w plikach workflow zostaje jako zapasowy. Każdy dzień to plik `data/dni/RRRR-MM-DD.json` i commit z godziną. Commit jest dowodem, że prognoza powstała przed otwarciem.
 
 ## v2.0
 

@@ -1,7 +1,7 @@
 """Zamrożona konfiguracja eksperymentu. Zmiana tutaj = nowa wersja reguł."""
 from datetime import time
 
-VERSION = "1.1"
+VERSION = "1.2"
 
 INSTRUMENTS = [
     {"sektor": "ropa", "ticker": "USO", "sector_en": "crude oil",
@@ -27,7 +27,7 @@ NEWS_HOURS = 24
 # Okna czasowe (ET). Skrypt poza oknem kończy się bez działania.
 FORECAST_WINDOW = (time(8, 0), time(9, 20))
 FORECAST_DEADLINE = time(9, 25)
-CLOSE_WINDOW = (time(15, 0), time(15, 48))
+CLOSE_WINDOW = (time(15, 50), time(15, 59))
 SETTLE_AFTER = time(16, 5)
 FULL_DAY_CLOSE = time(16, 0)
 

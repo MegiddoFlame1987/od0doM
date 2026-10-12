@@ -139,7 +139,7 @@ class FullSession(Base):
         self.assertTrue(all(o["side"] == "buy" for o in entry))
         self.assertEqual(entry[0]["qty"], int(C3.NOTIONAL_USD // 50))
 
-        self.at("15:21")
+        self.at("15:52")
         self.assertEqual(close.main(b), "zamykana")
         self.assertEqual(len([o for o in b.orders.values() if o["when"] == "close"]), 2)
 
@@ -163,7 +163,7 @@ class FullSession(Base):
         self.at("08:31")
         self.assertEqual(forecast.main(b, long_for(set()), fake_fetch), "otwarta")
         self.assertEqual(b.orders, {})
-        self.at("15:21")
+        self.at("15:52")
         close.main(b)
         self.at("16:30")
         settle.main(b)
