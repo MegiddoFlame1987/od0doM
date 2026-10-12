@@ -3,10 +3,14 @@
   "wersja": "1.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": false,
   "powody": [
-    "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"only day orders are allowed for hard-to-borrow asset \\\"USO\\\"\"}"
+    "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"only day orders are allowed for hard-to-borrow asset \\\"USO\\\"\"}",
+    "SMH: wejście niewypełnione (expired)",
+    "DBA: wejście niewypełnione (expired)",
+    "GLD: wejście niewypełnione (expired)",
+    "TLT: wejście niewypełnione (expired)"
   ],
   "prognozy": [
     {
@@ -470,25 +474,45 @@
       "ticker": "SMH",
       "kierunek": "LONG",
       "ilosc": 16,
-      "zlecenie_wejscia": "de463d28-f72c-41c5-a85d-23c20c9422fd"
+      "zlecenie_wejscia": "de463d28-f72c-41c5-a85d-23c20c9422fd",
+      "wejscie": {
+        "status": "expired",
+        "cena": null,
+        "ilosc": 0
+      }
     },
     {
       "ticker": "DBA",
       "kierunek": "LONG",
       "ilosc": 352,
-      "zlecenie_wejscia": "47b61b7e-cf8e-493c-a6d5-d5a60988b3d3"
+      "zlecenie_wejscia": "47b61b7e-cf8e-493c-a6d5-d5a60988b3d3",
+      "wejscie": {
+        "status": "expired",
+        "cena": null,
+        "ilosc": 0
+      }
     },
     {
       "ticker": "GLD",
       "kierunek": "SHORT",
       "ilosc": 26,
-      "zlecenie_wejscia": "c84003bc-6353-4f10-9fd0-b1ec3871e2a3"
+      "zlecenie_wejscia": "c84003bc-6353-4f10-9fd0-b1ec3871e2a3",
+      "wejscie": {
+        "status": "expired",
+        "cena": null,
+        "ilosc": 0
+      }
     },
     {
       "ticker": "TLT",
       "kierunek": "SHORT",
       "ilosc": 128,
-      "zlecenie_wejscia": "e2c2fb50-753d-45e8-b321-10d8408b4f1d"
+      "zlecenie_wejscia": "e2c2fb50-753d-45e8-b321-10d8408b4f1d",
+      "wejscie": {
+        "status": "expired",
+        "cena": null,
+        "ilosc": 0
+      }
     }
   ],
   "liczba_oczekiwana": 5,
