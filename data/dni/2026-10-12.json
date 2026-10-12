@@ -1,0 +1,496 @@
+{
+  "data": "2026-10-12",
+  "wersja": "1.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": false,
+  "powody": [
+    "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"only day orders are allowed for hard-to-borrow asset \\\"USO\\\"\"}"
+  ],
+  "prognozy": [
+    {
+      "data": "2026-10-12",
+      "czas_zapisu_et": "09:02",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Ropa po mocnym wzroście otwarcia powyżej 105 USD jest podatna na realizację zysków; odbudowa przepływów przez Ormuz sugeruje lekką korektę w ciągu sesji.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-12 12:48",
+          "tytul": "Oil & Gas Keynote Speaker | Energy Futurist Scott Steinberg - www.futuristsspeakers.com"
+        },
+        {
+          "czas_utc": "2026-10-12 12:40",
+          "tytul": "WTI Futures (USOIL-F) Surges on Oct 12: What Lie behind the Move? - TradingKey"
+        },
+        {
+          "czas_utc": "2026-10-12 12:33",
+          "tytul": "Global Oil Squeeze to Worsen without Hormuz Reopening, Aramco CEO Warns - تسنیم"
+        },
+        {
+          "czas_utc": "2026-10-12 12:24",
+          "tytul": "Aker BioMarine warns omega-3 demand could outstrip fish oil supply next year - Nutrition Insight"
+        },
+        {
+          "czas_utc": "2026-10-12 12:24",
+          "tytul": "World’s Energy Order Tested Again as Iran War’s Reach Extends Further - The New York Times"
+        },
+        {
+          "czas_utc": "2026-10-12 12:11",
+          "tytul": "Oil Tops $105 as Trump Turns to Russian Diesel, Raising Concerns for U.S. Agriculture - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-10-12 12:00",
+          "tytul": "Japan seeks to bridge the gap between oil giants and consumers - TodayPress.tv"
+        },
+        {
+          "czas_utc": "2026-10-12 11:46",
+          "tytul": "Asian refiners buy spot November Saudi oil, sources say - Reuters"
+        },
+        {
+          "czas_utc": "2026-10-12 11:46",
+          "tytul": "Goldman Sachs raises December Brent oil price forecast to $90 - AzerNews"
+        },
+        {
+          "czas_utc": "2026-10-12 11:42",
+          "tytul": "129 Gulf Of Mexico Oil And Gas Platforms Evacuated As Hurricane Isaias Forces Production Offline - Marine Insight"
+        },
+        {
+          "czas_utc": "2026-10-12 11:41",
+          "tytul": "Gold Price Faces $4,000 Support as WTI Oil Eyes $100 Year-End Ceiling - Coinpedia"
+        },
+        {
+          "czas_utc": "2026-10-12 11:40",
+          "tytul": "Study explores why Indigenous communities may accept oil extraction despite its harms - Phys.org"
+        },
+        {
+          "czas_utc": "2026-10-12 11:38",
+          "tytul": "US futures are mixed as Brent crude tops $105 a barrel after Trump says US will buy Russian diesel - Star Beacon"
+        },
+        {
+          "czas_utc": "2026-10-12 11:38",
+          "tytul": "US futures are mixed as Brent crude tops $105 a barrel after Trump says US will buy Russian diesel - The News-Item"
+        },
+        {
+          "czas_utc": "2026-10-12 11:38",
+          "tytul": "US futures are mixed as Brent crude tops $105 a barrel after Trump says US will buy Russian diesel - Marietta Daily Journal"
+        },
+        {
+          "czas_utc": "2026-10-12 11:38",
+          "tytul": "US futures are mixed as Brent crude tops $105 a barrel after Trump says US will buy Russian diesel - couriernews.com"
+        },
+        {
+          "czas_utc": "2026-10-12 11:03",
+          "tytul": "Earnings Season, Oil, Bonds Pressure Wall Street Pre-Bell; Asia Mixed, Europe Up - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 11:00",
+          "tytul": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments - South China Morning Post"
+        },
+        {
+          "czas_utc": "2026-10-12 11:00",
+          "tytul": "The oil market's center of gravity is moving east: Maguire - TradingView"
+        },
+        {
+          "czas_utc": "2026-10-12 10:59",
+          "tytul": "US says Hormuz oil flows recover to 14 million bpd despite Saudi attacks - The National"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "czas_zapisu_et": "09:02",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "pewnosc": 1,
+      "powod": "Nagłówki są mieszane (nowy chip Microsoftu, duży zakład przeciw Nvidii, ale też pozytywne analizy i wzrosty), więc przewaga jest minimalna, lekko skłaniam się ku wzrostowi.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-12 13:00",
+          "tytul": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs - The Verge"
+        },
+        {
+          "czas_utc": "2026-10-12 12:46",
+          "tytul": "Someone Just Spent $21 Million Betting Nvidia Falls Below $180 by January - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-10-12 12:45",
+          "tytul": "Super Micro contractor pleaded guilty to smuggling $2.5B in Nvidia AI servers to China - Quartz"
+        },
+        {
+          "czas_utc": "2026-10-12 12:45",
+          "tytul": "Week Ahead in AI: Report of Decart Acquisition by Amazon, Nvidia Investment in Reflection Talk, Plus Will 'Super Intelligence' Term Stick? - AI Insider"
+        },
+        {
+          "czas_utc": "2026-10-12 12:42",
+          "tytul": "Japan’s $15 Billion Rapidus Chip Bet Hinges - Spherical Insights"
+        },
+        {
+          "czas_utc": "2026-10-12 12:36",
+          "tytul": "Nvidia (NVDA) Grows Like a Rocket But Still Looks Cheap - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 12:24",
+          "tytul": "Nvidia weighs acquisition or further investment in Reflection AI - Proactive financial news"
+        },
+        {
+          "czas_utc": "2026-10-12 12:17",
+          "tytul": "GlobalFoundries’ Silicon Photonics Ambitions: Can Glass Waveguides Challenge TSMC’s COUPE in the Next Era of AI Infrastructure? - semivision"
+        },
+        {
+          "czas_utc": "2026-10-12 12:12",
+          "tytul": "Nvidia Stock Surges, But Technicals Warn of a Sharp Drop Ahead - Barron's"
+        },
+        {
+          "czas_utc": "2026-10-12 12:12",
+          "tytul": "Here are Monday's biggest analyst calls: SpaceX, Nvidia, Apple, Salesforce, Robinhood, First Solar & more - CNBC"
+        },
+        {
+          "czas_utc": "2026-10-12 12:06",
+          "tytul": "NVIDIA Rubin PCIe GPUs confirmed in HPE ProLiant Gen13 presentation - VideoCardz.com"
+        },
+        {
+          "czas_utc": "2026-10-12 12:05",
+          "tytul": "Latest Rumors Claim the GeForce RTX 5090 Is Doomed, and NVIDIA Will Replace It with the RTX 5080 24GB as Its Consumer Flagship Offering - The FPS Review"
+        },
+        {
+          "czas_utc": "2026-10-12 12:01",
+          "tytul": "NVIDIA’s 9-Year-Old Tesla V100 Still Packs Some Inference Muscle; 4 GPUs On An NVLink Board Can Outperform M5 Ultra, DGX Spark In Various AI Benchmarks By Up To 230% - Wccftech"
+        },
+        {
+          "czas_utc": "2026-10-12 12:01",
+          "tytul": "First Look: Nvidia, Micron Face Setback; Data Centers Drive Growth - GuruFocus"
+        },
+        {
+          "czas_utc": "2026-10-12 12:00",
+          "tytul": "Leverage without independence: The Netherlands and the geopolitics of semiconductor chokepoints - The Hague Centre for Strategic Studies"
+        },
+        {
+          "czas_utc": "2026-10-12 11:46",
+          "tytul": "Gudeng Precision to open West Valley production semiconductor component facility - KTAR News 92.3 FM"
+        },
+        {
+          "czas_utc": "2026-10-12 11:46",
+          "tytul": "Productive Technologies Wins New Semiconductor Equipment Orders and Advances High-End Tool Portfolio - The Globe and Mail"
+        },
+        {
+          "czas_utc": "2026-10-12 11:22",
+          "tytul": "Nvidia in talks to acquire or invest further in Reflection AI - Quartz"
+        },
+        {
+          "czas_utc": "2026-10-12 11:18",
+          "tytul": "RTX Mega Geometry - NVIDIA - NVIDIA"
+        },
+        {
+          "czas_utc": "2026-10-12 11:15",
+          "tytul": "Adding Nvidia During The Current Uncertainty is How Fortunes Are Made - 24/7 Wall St."
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "czas_zapisu_et": "09:02",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "LONG",
+      "pewnosc": 1,
+      "powod": "Po piątkowej wyprzedaży kukurydzy możliwy odbicie techniczne, a drogą ropa (>105 USD) wspiera rynki rolne; przewaga niewielka.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-12 12:58",
+          "tytul": "What’s Hot What’s Not in the Markets - Red River Farm Network"
+        },
+        {
+          "czas_utc": "2026-10-12 12:30",
+          "tytul": "USDA's Corn Yield Surprise: What Analysts Say Now - American Ag Network"
+        },
+        {
+          "czas_utc": "2026-10-12 12:11",
+          "tytul": "Oil Tops $105 as Trump Turns to Russian Diesel, Raising Concerns for U.S. Agriculture - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-10-12 11:59",
+          "tytul": "WASDE Raises Corn Yield Forecast, Surprising Market Analysts - News Dakota"
+        },
+        {
+          "czas_utc": "2026-10-12 11:56",
+          "tytul": "NCGA Calls for Action on Farm Bill, E15 Legislation Following WASDE Report, Corn Price Drop - American Ag Network"
+        },
+        {
+          "czas_utc": "2026-10-12 11:50",
+          "tytul": "USDA Says Soy Crop Biggest Ever, Corn Second Biggest - Farm Policy News"
+        },
+        {
+          "czas_utc": "2026-10-12 11:25",
+          "tytul": "First Thing Today | Can corn stop the bleeding? - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-10-12 11:17",
+          "tytul": "3 Big Things Today, Oct. 12, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-10-12 11:04",
+          "tytul": "Brazil Challenges U.S. Grain Sales Across Chinese Market - RFD-TV"
+        },
+        {
+          "czas_utc": "2026-10-12 10:56",
+          "tytul": "Double Burden for Egg-Laying Hen Farmers: Corn Prices Soar, Egg Prices Remain Low - Kompas.id"
+        },
+        {
+          "czas_utc": "2026-10-12 10:54",
+          "tytul": "Indonesia corn prices rise above $390/t as feed producers seek alternatives - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-12 10:00",
+          "tytul": "Grain Cart Inventories Surge as Year-Over-Year Sales Drop 40% - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-10-12 09:55",
+          "tytul": "Türkiye increases durum wheat imports 14.7-fold on cheaper foreign supply - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-12 09:26",
+          "tytul": "USDA’s Surprise Yield Hike Sends Corn Futures to an Eight-Week Low - Global Agriculture"
+        },
+        {
+          "czas_utc": "2026-10-12 09:18",
+          "tytul": "Pakistan Wheat Price Surge Sparks Consumer Crisis - Dainik Jagran MP CG"
+        },
+        {
+          "czas_utc": "2026-10-12 09:07",
+          "tytul": "U.S. Corn Acres Shrink as Fertilizer Costs Push Growers to Soybeans - StoneX"
+        },
+        {
+          "czas_utc": "2026-10-12 08:56",
+          "tytul": "Wheat and corn fall while soybeans rise in Chicago on Friday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-12 08:40",
+          "tytul": "Falling Wages and Rising Prices Cut Workers’ Purchasing Power by 25 Percent - 8AM Media"
+        },
+        {
+          "czas_utc": "2026-10-12 08:38",
+          "tytul": "Trump Cites 'Energy Truce,' But Russia Attacks Ukraine's Black Sea Ports - news.sbs.co.kr"
+        },
+        {
+          "czas_utc": "2026-10-12 08:31",
+          "tytul": "Pakistan faces criticism as wheat prices soar - Awaz The Voice"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "czas_zapisu_et": "09:02",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Nagłówki wskazują na spadki cen złota w Indiach i Pakistanie oraz brak utrzymania poziomu 4200 USD, co lekko sprzyja słabszej sesji.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-12 12:30",
+          "tytul": "Gold Loses Shine: Yellow Metal Prices Drop By Over Rs 1,600 To Below Rs 1,50,000 - NDTV Profit"
+        },
+        {
+          "czas_utc": "2026-10-12 12:23",
+          "tytul": "Gold rate today (October 12, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-10-12 12:22",
+          "tytul": "Gold Price Today on October 12, 2026 - USA Today"
+        },
+        {
+          "czas_utc": "2026-10-12 11:41",
+          "tytul": "Gold Price Faces $4,000 Support as WTI Oil Eyes $100 Year-End Ceiling - Coinpedia"
+        },
+        {
+          "czas_utc": "2026-10-12 11:38",
+          "tytul": "Gold price at the close of the session on October 12: Unexpected drop - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-10-12 11:25",
+          "tytul": "China Seizes on Gold Price Dip to Import Over 1,000 Tons in Eight Months, Accelerating De-Dollarization - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 11:21",
+          "tytul": "Small-cap, mid-cap fund inflows jump 12% in September. Are investors chasing returns? What SIP investors should do - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-12 11:01",
+          "tytul": "Gold prices today, Monday, October 12, 2026: Gold opens at the highest point in over a week - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 10:51",
+          "tytul": "Gold ETF inflows jump 71% to ₹4,451 crore in September despite falling gold prices. What drove the surge? - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-12 10:46",
+          "tytul": "Shriram Finances hikes in FD rates: Check and compare fixed deposit interest rates for senior citizens, women - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-12 10:24",
+          "tytul": "How to create lasting wealth: 5 lessons from Dave Ramsey’s international bestseller 'The Total Money Makeover' - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-12 10:23",
+          "tytul": "Gold Rate Today in Kolkata 12th October 2026 : 22 & 24 Carat, Todays Gold Price in Kolkata - Business Today"
+        },
+        {
+          "czas_utc": "2026-10-12 10:15",
+          "tytul": "Copper Price Forecast: Chile Supply Risks Put Record High in Focus - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-10-12 10:08",
+          "tytul": "Gold (XAUUSD) & Silver Price Forecast: Can Gold Hold $4,175 as Silver Eyes $59.96? - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-10-12 10:05",
+          "tytul": "Gold Rate Today in Lakhisarai 12th October 2026 : 22 & 24 Carat, Todays Gold Price in Lakhisarai - Business Today"
+        },
+        {
+          "czas_utc": "2026-10-12 10:02",
+          "tytul": "Gold price drops by Rs2,100 per tola in Pakistan - Investify"
+        },
+        {
+          "czas_utc": "2026-10-12 09:39",
+          "tytul": "Infographic: SJC gold bar selling price stands at 144.8 million VND per tael on October 12 - Nhan Dan Online"
+        },
+        {
+          "czas_utc": "2026-10-12 09:38",
+          "tytul": "World gold price today, October 12th: Shortfall pulls gold away from the 4,200 USD mark - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-10-12 09:37",
+          "tytul": "Trusting AI with your money is subject to market risks - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-12 09:35",
+          "tytul": "Gold Price in Tarn Taran Sahib Today: 24K, 22K, 18K, 14K Gold Rates Tarn Taran Sahib, 12th October 2026 - India Today"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-12",
+      "czas_zapisu_et": "09:02",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Rosnące rentowności, ropa powyżej 106 USD i obawy inflacyjne przed CPI sprzyjają dalszej presji na długie obligacje, choć święto ogranicza płynność.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-12 12:35",
+          "tytul": "Global Liquidity Inflection Point Confirmed: U.S. Treasury Yields Surge, A-Share Short-Term Rebound Window Emerges - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 12:31",
+          "tytul": "Why Economists Think Higher Bond Yields Are Here to Stay - WSJ"
+        },
+        {
+          "czas_utc": "2026-10-12 12:11",
+          "tytul": "Top 3 catalysts for the S&P 500 Index this week: bonds, earnings season, CPI - Invezz"
+        },
+        {
+          "czas_utc": "2026-10-12 12:11",
+          "tytul": "Dow Jones Today: Dow Futures Edge Up 0.06% as Oil Prices Top $106, Treasury Yields Rise Ahead of Bank Earnings & US Inflation Data; Check What Investors Should Know - The Sunday Guardian"
+        },
+        {
+          "czas_utc": "2026-10-12 12:07",
+          "tytul": "COMMENTARY: Why surging yields aren’t spooking corporate borrowers - Reuters"
+        },
+        {
+          "czas_utc": "2026-10-12 11:55",
+          "tytul": "Morgan Stanley Strategist: Bond Market Has Already Done the Fed's \"Rate Hikes\" by 120 Basis Points — Two Key Signals to Watch for a U.S. Stock Rebound - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 11:38",
+          "tytul": "Is the US stock market open today on Columbus Day? Will NYSE and Nasdaq trade? Here's the Dow Jones and S& - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-10-12 10:59",
+          "tytul": "Bond Market Today: Treasury yields witness volatile Monday, check latest data - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-10-12 10:42",
+          "tytul": "Gold price forecast as US Treasury yields fall ahead of the inflation report - Invezz"
+        },
+        {
+          "czas_utc": "2026-10-12 10:26",
+          "tytul": "U.S. Stocks Hold Firm Despite High Rates — Earnings Separate This Cycle from a Bubble - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 10:04",
+          "tytul": "Bitcoin’s Next Move Depends on the US Bond Market and Inflation Report - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-12 09:38",
+          "tytul": "Bonds At 5%: Is The 10-Year Treasury Finally A Buy? - Real Investment Advice"
+        },
+        {
+          "czas_utc": "2026-10-12 09:20",
+          "tytul": "TradFi News | Global Bond Sell-Off Cuts Rate Hike Expectations by 178 Basis Points as Yields Tighten Financial Conditions - Binance"
+        },
+        {
+          "czas_utc": "2026-10-12 09:03",
+          "tytul": "What Is the Term Premium? Why Long-Term Bond Yields Can Rise Without a Fed Hike - EBC Financial Group"
+        },
+        {
+          "czas_utc": "2026-10-12 08:08",
+          "tytul": "US bull market nears four-year milestone as AI boom fuels profits, growth - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-10-12 07:52",
+          "tytul": "US Market: Four warning signs that bond selling could intensify - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-10-12 07:30",
+          "tytul": "Friday Briefing: This income is anything but fixed - Investment Week"
+        },
+        {
+          "czas_utc": "2026-10-12 07:15",
+          "tytul": "Rising US bond yields are putting significant pressure on the European economy. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-10-12 07:15",
+          "tytul": "Latest forecasts on interest rates and exchange rates. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-10-12 06:56",
+          "tytul": "September Short-Term South Korean Government Bond Yields Surge as Foreign Investors Exit ₩7.8 Trillion - BigGo Finance"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "ilosc": 16,
+      "zlecenie_wejscia": "de463d28-f72c-41c5-a85d-23c20c9422fd"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "LONG",
+      "ilosc": 352,
+      "zlecenie_wejscia": "47b61b7e-cf8e-493c-a6d5-d5a60988b3d3"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "ilosc": 26,
+      "zlecenie_wejscia": "c84003bc-6353-4f10-9fd0-b1ec3871e2a3"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "SHORT",
+      "ilosc": 128,
+      "zlecenie_wejscia": "e2c2fb50-753d-45e8-b321-10d8408b4f1d"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
