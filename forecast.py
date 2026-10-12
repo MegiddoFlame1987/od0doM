@@ -117,7 +117,7 @@ def main(broker=None, forecaster=None, fetch=None) -> str:
             rec["powody"].append(f"{t}: błąd zlecenia wejścia: {e}")
             continue
         rec["pozycje"].append({"ticker": t, "kierunek": p["kierunek"], "ilosc": qty,
-                               "zlecenie_wejscia": oid})
+                               "zlecenie_wejscia": oid, "tif_wejscia": getattr(broker, "last_tif", "opg")})
 
     if not rec["pozycje"]:
         return finish("rozliczona", False, "żadne zlecenie nie zostało przyjęte")
