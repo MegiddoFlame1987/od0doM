@@ -1,0 +1,3 @@
+data,wersja,zaliczona,ticker,kierunek,pewnosc,cena_wejscia,cena_wyjscia,zmiana,wynik
+2026-10-12,3.0,False,SOYB,SKIP,2,27.37,27.47,0.003654,0.0
+2026-10-12,3.0,False,WEAT,SKIP,1,24.445,24.45,0.000205,0.0
