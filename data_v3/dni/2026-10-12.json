@@ -3,9 +3,12 @@
   "wersja": "3.0",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
-  "powody": [],
+  "powody": [
+    "BNO: wejście niewypełnione (expired)",
+    "CPER: wejście niewypełnione (expired)"
+  ],
   "prognozy": [
     {
       "data": "2026-10-12",
@@ -404,19 +407,35 @@
       "ticker": "BNO",
       "kierunek": "LONG",
       "ilosc": 104,
-      "zlecenie_wejscia": "4798de41-4898-456e-b242-a99ee63c497e"
+      "zlecenie_wejscia": "4798de41-4898-456e-b242-a99ee63c497e",
+      "wejscie": {
+        "status": "expired",
+        "cena": null,
+        "ilosc": 0
+      }
     },
     {
       "ticker": "CANE",
       "kierunek": "LONG",
       "ilosc": 553,
-      "zlecenie_wejscia": "d0eb63b6-731d-420f-880a-896d691c9087"
+      "zlecenie_wejscia": "d0eb63b6-731d-420f-880a-896d691c9087",
+      "wejscie": {
+        "status": "filled",
+        "cena": 12.25,
+        "ilosc": 553
+      },
+      "zlecenie_wyjscia": "b2e067c5-2cde-4e88-9a8b-7a1abef7b5e9"
     },
     {
       "ticker": "CPER",
       "kierunek": "LONG",
       "ilosc": 165,
-      "zlecenie_wejscia": "2a2035f1-6291-4091-a44b-aa2ccaa09b41"
+      "zlecenie_wejscia": "2a2035f1-6291-4091-a44b-aa2ccaa09b41",
+      "wejscie": {
+        "status": "expired",
+        "cena": null,
+        "ilosc": 0
+      }
     }
   ],
   "uniwersum": {
