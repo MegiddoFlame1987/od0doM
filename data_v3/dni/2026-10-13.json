@@ -1,0 +1,20 @@
+{
+  "data": "2026-10-13",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "otwarte pozycje z poprzedniego dnia zamknięte na otwarciu: CANE"
+  ],
+  "prognozy": [],
+  "pozycje": [],
+  "sprzatanie": [
+    {
+      "ticker": "CANE",
+      "ilosc": 553,
+      "zlecenie": "f226325d-f163-4ba8-be83-412acf15d1bb"
+    }
+  ]
+}
