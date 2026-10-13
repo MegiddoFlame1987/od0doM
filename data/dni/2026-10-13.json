@@ -1,0 +1,18 @@
+{
+  "data": "2026-10-13",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "USO: błąd feedu: HTTP Error 503: Service Unavailable",
+    "SMH: błąd feedu: HTTP Error 503: Service Unavailable",
+    "DBA: błąd feedu: HTTP Error 503: Service Unavailable",
+    "GLD: błąd feedu: HTTP Error 503: Service Unavailable",
+    "TLT: błąd feedu: HTTP Error 503: Service Unavailable"
+  ],
+  "prognozy": [],
+  "pozycje": [],
+  "liczba_oczekiwana": 5
+}
