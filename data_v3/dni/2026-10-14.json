@@ -3,9 +3,16 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
-  "zaliczona": null,
-  "powody": [],
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "zlecenia zamknięcia nie zostały złożone",
+    "BNO: brak pełnego wypełnienia wejścia lub wyjścia",
+    "CANE: brak pełnego wypełnienia wejścia lub wyjścia",
+    "SOYB: brak pełnego wypełnienia wejścia lub wyjścia",
+    "CPER: brak pełnego wypełnienia wejścia lub wyjścia",
+    "otwarte pozycje po sesji"
+  ],
   "prognozy": [
     {
       "data": "2026-10-14",
@@ -558,7 +565,13 @@
   "liczba_oczekiwana": 5,
   "pominiete": [
     {
-      "ticker": "WEAT"
+      "ticker": "WEAT",
+      "otwarcie": 24.2,
+      "zamkniecie": 24.4,
+      "zmiana": 0.008264462809917326,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "uwaga": "OTWARTE POZYCJE: BNO, CANE, CPER, SOYB. Zamknij ręcznie w panelu Alpaca paper.",
+  "wynik_sesji": 0
 }
