@@ -3,9 +3,17 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "otwarta",
-  "zaliczona": null,
-  "powody": [],
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "zlecenia zamknięcia nie zostały złożone",
+    "USO: brak pełnego wypełnienia wejścia lub wyjścia",
+    "SMH: brak pełnego wypełnienia wejścia lub wyjścia",
+    "DBA: brak pełnego wypełnienia wejścia lub wyjścia",
+    "GLD: brak pełnego wypełnienia wejścia lub wyjścia",
+    "TLT: brak pełnego wypełnienia wejścia lub wyjścia",
+    "otwarte pozycje po sesji"
+  ],
   "prognozy": [
     {
       "data": "2026-10-14",
@@ -501,5 +509,7 @@
     }
   ],
   "liczba_oczekiwana": 5,
-  "pominiete": []
+  "pominiete": [],
+  "uwaga": "OTWARTE POZYCJE: DBA, GLD, SMH, TLT, USO. Zamknij ręcznie w panelu Alpaca paper.",
+  "wynik_sesji": 0
 }
