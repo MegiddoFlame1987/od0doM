@@ -1,0 +1,29 @@
+name: zegar (heartbeat)
+
+on:
+  schedule:
+    # Tylko wznowienie łańcucha, gdy się urwie. Cron GitHuba spóźnia się o godziny, więc nie jest zegarem.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Zegar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python heartbeat.py
