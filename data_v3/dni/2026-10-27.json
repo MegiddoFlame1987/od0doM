@@ -1,0 +1,35 @@
+{
+  "data": "2026-10-27",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "otwarte pozycje z poprzedniego dnia zamknięte na otwarciu: BNO, CANE, CPER, SOYB"
+  ],
+  "prognozy": [],
+  "pozycje": [],
+  "sprzatanie": [
+    {
+      "ticker": "BNO",
+      "ilosc": 102,
+      "zlecenie": "56eb15c2-05fd-47e5-a733-c456384a3460"
+    },
+    {
+      "ticker": "CANE",
+      "ilosc": 538,
+      "zlecenie": "5da2e0af-4d2b-48ad-be55-e08eacfc9cc1"
+    },
+    {
+      "ticker": "CPER",
+      "ilosc": 164,
+      "zlecenie": "f0ad4fb3-b178-4538-b533-88174366afa1"
+    },
+    {
+      "ticker": "SOYB",
+      "ilosc": 243,
+      "zlecenie": "33acfe1b-143d-4c99-a9db-9b8cc0389c5d"
+    }
+  ]
+}
