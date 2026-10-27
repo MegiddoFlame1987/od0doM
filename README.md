@@ -14,6 +14,8 @@ Równoległe eksperymenty na jednym koncie **paper** Alpaca. Rozłączne tickery
 | Bramka | 30 / 60 sesji | backtest, potem 26 tygodni | 30 / 60 sesji |
 | Status | start 12.10.2026 | **zatrzymane 9.10.2026**: backtest nie przeszedł bramki, wynik w `data_v2/backtest.md` | start 12.10.2026 |
 
+Zakładka **Strategie** (`strategie/README.md`): testy pomysłów z rolek i literatury, bez live. Test 1: typy akcji z rolek vs SPY, raport co tydzień w `strategie/typy_raport.md`.
+
 v3 używa tych samych skryptów co v1.2 (`forecast.py`, `close.py`, `settle.py`, `evaluate.py`) ze zmienną `CONFIG_MODULE=config_v3`. Raport bramki v3: `CONFIG_MODULE=config_v3 python evaluate.py`.
 
 ## v1.2: jak to działa
