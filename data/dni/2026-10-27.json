@@ -1,0 +1,40 @@
+{
+  "data": "2026-10-27",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "otwarte pozycje z poprzedniego dnia zamknięte na otwarciu: DBA, GLD, SMH, TLT, USO"
+  ],
+  "prognozy": [],
+  "pozycje": [],
+  "sprzatanie": [
+    {
+      "ticker": "DBA",
+      "ilosc": -351,
+      "zlecenie": "23f257a1-e8a5-4bce-837b-7ea8563a0150"
+    },
+    {
+      "ticker": "GLD",
+      "ilosc": -26,
+      "zlecenie": "588027ba-b9e8-4d28-bc53-d9701ac27320"
+    },
+    {
+      "ticker": "SMH",
+      "ilosc": 17,
+      "zlecenie": "10e5ef74-2e23-4a5c-a9b5-b513a8af5b05"
+    },
+    {
+      "ticker": "TLT",
+      "ilosc": 128,
+      "zlecenie": "810d1560-ab47-4f03-925a-df28cab190e7"
+    },
+    {
+      "ticker": "USO",
+      "ilosc": 64,
+      "zlecenie": "6ab0381c-29bf-49d1-85f0-3f88c294efcf"
+    }
+  ]
+}
