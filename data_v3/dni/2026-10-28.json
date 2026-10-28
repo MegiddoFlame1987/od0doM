@@ -3,8 +3,8 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -475,7 +475,14 @@
         "cena": 70.59,
         "ilosc": 95
       },
-      "zlecenie_wyjscia": "b8ad299b-6d21-45de-bab0-8bdfa868a0ef"
+      "zlecenie_wyjscia": "b8ad299b-6d21-45de-bab0-8bdfa868a0ef",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 70.65,
+        "ilosc": 95
+      },
+      "zmiana": 0.0008499787505312689,
+      "wynik": -0.0006500212494687311
     },
     {
       "ticker": "CANE",
@@ -488,7 +495,14 @@
         "cena": 11.678755,
         "ilosc": 578
       },
-      "zlecenie_wyjscia": "f579e976-8821-473c-9202-c84598f95c92"
+      "zlecenie_wyjscia": "f579e976-8821-473c-9202-c84598f95c92",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 11.63,
+        "ilosc": 578
+      },
+      "zmiana": -0.004174674440897157,
+      "wynik": -0.005674674440897157
     },
     {
       "ticker": "CPER",
@@ -501,7 +515,14 @@
         "cena": 40.056867,
         "ilosc": 166
       },
-      "zlecenie_wyjscia": "2200a00c-e256-4388-bed0-40ea437c5cd6"
+      "zlecenie_wyjscia": "2200a00c-e256-4388-bed0-40ea437c5cd6",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 40.31,
+        "ilosc": 166
+      },
+      "zmiana": 0.006319340950953688,
+      "wynik": 0.004819340950953687
     },
     {
       "ticker": "DBB",
@@ -514,7 +535,14 @@
         "cena": 25.25,
         "ilosc": 263
       },
-      "zlecenie_wyjscia": "dea4e956-9aad-4b29-b3b8-30db011224e5"
+      "zlecenie_wyjscia": "dea4e956-9aad-4b29-b3b8-30db011224e5",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 25.31,
+        "ilosc": 263
+      },
+      "zmiana": 0.0023762376237623254,
+      "wynik": 0.0008762376237623254
     }
   ],
   "uniwersum": {
@@ -582,7 +610,12 @@
   "liczba_oczekiwana": 5,
   "pominiete": [
     {
-      "ticker": "SOYB"
+      "ticker": "SOYB",
+      "otwarcie": 26.28,
+      "zamkniecie": 26.13,
+      "zmiana": -0.005707762557077707,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": -0.000629
 }
