@@ -3,7 +3,7 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
@@ -469,28 +469,52 @@
       "kierunek": "LONG",
       "ilosc": 95,
       "zlecenie_wejscia": "36a3b117-358a-4ad2-b5d0-69d2826e5032",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 70.59,
+        "ilosc": 95
+      },
+      "zlecenie_wyjscia": "b8ad299b-6d21-45de-bab0-8bdfa868a0ef"
     },
     {
       "ticker": "CANE",
       "kierunek": "LONG",
       "ilosc": 578,
       "zlecenie_wejscia": "99eecbb5-55a2-4fa6-9e22-1b6825621cc4",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 11.678755,
+        "ilosc": 578
+      },
+      "zlecenie_wyjscia": "f579e976-8821-473c-9202-c84598f95c92"
     },
     {
       "ticker": "CPER",
       "kierunek": "LONG",
       "ilosc": 166,
       "zlecenie_wejscia": "2acfd303-849f-4e39-be51-d3c2f454e80d",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 40.056867,
+        "ilosc": 166
+      },
+      "zlecenie_wyjscia": "2200a00c-e256-4388-bed0-40ea437c5cd6"
     },
     {
       "ticker": "DBB",
       "kierunek": "LONG",
       "ilosc": 263,
       "zlecenie_wejscia": "2e2112a1-4a61-4bee-a5a3-d17f625c8a56",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 25.25,
+        "ilosc": 263
+      },
+      "zlecenie_wyjscia": "dea4e956-9aad-4b29-b3b8-30db011224e5"
     }
   ],
   "uniwersum": {
