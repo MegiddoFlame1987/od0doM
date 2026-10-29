@@ -3,8 +3,8 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -529,19 +529,40 @@
   "liczba_oczekiwana": 5,
   "pominiete": [
     {
-      "ticker": "BNO"
+      "ticker": "BNO",
+      "otwarcie": 69.51,
+      "zamkniecie": 70.78,
+      "zmiana": 0.01827075240972516,
+      "wynik": 0.0
     },
     {
-      "ticker": "CANE"
+      "ticker": "CANE",
+      "otwarcie": 11.7,
+      "zamkniecie": 11.71,
+      "zmiana": 0.0008547008547009884,
+      "wynik": 0.0
     },
     {
-      "ticker": "CPER"
+      "ticker": "CPER",
+      "otwarcie": 39.56,
+      "zamkniecie": 39.76,
+      "zmiana": 0.0050556117290191036,
+      "wynik": 0.0
     },
     {
-      "ticker": "SOYB"
+      "ticker": "SOYB",
+      "otwarcie": 25.98,
+      "zamkniecie": 26.01,
+      "zmiana": 0.0011547344110854941,
+      "wynik": 0.0
     },
     {
-      "ticker": "DBB"
+      "ticker": "DBB",
+      "otwarcie": 25.03,
+      "zamkniecie": 25.115,
+      "zmiana": 0.0033959248901317338,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": 0
 }
