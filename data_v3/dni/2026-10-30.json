@@ -1,0 +1,552 @@
+{
+  "data": "2026-10-30",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "LONG",
+      "pewnosc": 3,
+      "powod": "Atak na tankowiec w Ormuzie, nowe szczyty Brenta i rewizje prognoz w górę wspierają momentum, choć część wzrostu już w cenie, a dyplomacja USA-Iran to ryzyko.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 11:56",
+          "tytul": "Tanker attack in Strait of Hormuz sends oil prices sharply higher - The New Voice of Ukraine"
+        },
+        {
+          "czas_utc": "2026-10-30 11:30",
+          "tytul": "Oil prices today: Brent at $117.62, WTI at $104.18 - Investify"
+        },
+        {
+          "czas_utc": "2026-10-30 11:27",
+          "tytul": "Oil Prices Jump More Than 2% as Strait of Hormuz Tanker Attack Renews Middle East Supply Fears - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-10-30 11:26",
+          "tytul": "Brent January Futures Hit New Highs as Oil Market Braces for Post-Midterm Gulf Escalation - The Dark Side Of The Boom"
+        },
+        {
+          "czas_utc": "2026-10-30 11:13",
+          "tytul": "Brent Crude Surges 13 Percent in October Amid Strait of Hormuz Tanker Attack - https://streamlinefeed.co.ke/"
+        },
+        {
+          "czas_utc": "2026-10-30 10:27",
+          "tytul": "Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper"
+        },
+        {
+          "czas_utc": "2026-10-30 10:24",
+          "tytul": "Oil prices rise, Brent reaches $116.08 pb - Gulf Today"
+        },
+        {
+          "czas_utc": "2026-10-30 10:23",
+          "tytul": "Crude Oil Price Forecast: WTI, Brent Rise After Hormuz Tanker Attack - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-10-30 10:17",
+          "tytul": "Brent crude surges 13% in October as Middle East attacks threaten oil supplies - Nairametrics"
+        },
+        {
+          "czas_utc": "2026-10-30 10:07",
+          "tytul": "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - TradingView"
+        },
+        {
+          "czas_utc": "2026-10-30 10:04",
+          "tytul": "The World Bank (WB) forecasts global commodity prices: Brent crude to reach $92 per barrel, gold likely to increase by 40%. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-10-30 10:01",
+          "tytul": "Brent Hits $116 as OPEC Meets With Saudi Output 4.5 mb/d Below Quota - https://houseofsaud.com/"
+        },
+        {
+          "czas_utc": "2026-10-30 10:00",
+          "tytul": "Wall Street Banks Raise Oil Price Forecasts as Supply Fears Deepen - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-10-30 09:53",
+          "tytul": "Oil prices rise, Brent reaches US$116.08 pb - Sharjah24"
+        },
+        {
+          "czas_utc": "2026-10-30 09:48",
+          "tytul": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks - WSJ"
+        },
+        {
+          "czas_utc": "2026-10-30 09:35",
+          "tytul": "Brent 2026 view tops $90 for first time since May as MidEast stability remains elusive - Reuters"
+        },
+        {
+          "czas_utc": "2026-10-30 09:18",
+          "tytul": "Can renewed US-Iran diplomacy pressure Brent crude price? - Traders Union"
+        },
+        {
+          "czas_utc": "2026-10-30 09:00",
+          "tytul": "Anas Alhajji: Brent trades above $116 - Traders Union"
+        },
+        {
+          "czas_utc": "2026-10-30 08:50",
+          "tytul": "Oil prices rise, Brent tops $116 - ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي"
+        },
+        {
+          "czas_utc": "2026-10-30 08:41",
+          "tytul": "Oil rises as Hormuz attack drives fourth monthly gain - Profit by Pakistan Today"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "SKIP",
+      "pewnosc": 1,
+      "powod": "Nagłówki o cukrze są mieszane (napięta podaż krótkoterminowo, słabsza krzywa terminowa), brak wyraźnego katalizatora na dzisiejszą sesję.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 09:39",
+          "tytul": "Record 2026 South African maize harvest weighs on regional prices — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 09:15",
+          "tytul": "European wheat slips on Black Sea shipping talks — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 09:15",
+          "tytul": "Sea of Azov Reopening Shifts Black Sea Wheat Market Dynamics — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 09:14",
+          "tytul": "India’s Record Soybean Imports as Domestic Soybean Prices Rally — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 08:58",
+          "tytul": "Invesco DB Agriculture Fund (DBA) Stock Price, News, Quote & History - Yahoo! Finance Canada"
+        },
+        {
+          "czas_utc": "2026-10-30 07:46",
+          "tytul": "Sugar futures steady as near-term tightness meets softer forward curve — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:46",
+          "tytul": "Sugar beet market outlook: tight EU supply and firm ICE futures — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:42",
+          "tytul": "Barley Market Analysis – Black Sea Exports, Tunisia Tender, Price Outlook — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:41",
+          "tytul": "Oat market October 2026: CBOT softer, EU cash flat, Black Sea risk — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:40",
+          "tytul": "Wheat market stabilises as Russia reopens Azov exports — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:38",
+          "tytul": "Crude Oil Market Analysis – Curve, Risk Premium and Diesel Crack — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:36",
+          "tytul": "Palm oil market update – MDEX curve, stocks and El Niño risks — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:36",
+          "tytul": "Sunflower market outlook: softer seeds, firm oil on export floors — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:35",
+          "tytul": "Soybean market outlook: record US harvest, soft oils and export demand — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:33",
+          "tytul": "Rapeseed market steadies amid Australian record crop and firm EU prices — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 06:14",
+          "tytul": "Corn under global harvest pressure as EU imports surge and Ukraine stalls - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 05:59",
+          "tytul": "Palm Oil Market Under Pressure Despite Strong Malaysian Exports — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 05:55",
+          "tytul": "Sugar Market Outlook: Indian Supply Risks and Firm Global Prices — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 05:52",
+          "tytul": "India soymeal stocks cushion soybeans market as crush margins tighten — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 03:39",
+          "tytul": "China White Sugar Prices Fluctuate Upward in October - Sunsirs"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:33",
+      "sektor": "miedz",
+      "ticker": "CPER",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Rekordowa premia w Chinach, najniższe zapasy rafinowanej miedzi i przerwa w Oyu Tolgoi wspierają ceny, choć inwestorzy pozostają ostrożni.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 11:47",
+          "tytul": "Copper Market Struggles with Tax Changes and Supply Shortages in October 2026 - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 11:43",
+          "tytul": "AI boom drives demand but investment slowdown could hit copper market, stocks: S&P Global - India's News.Net"
+        },
+        {
+          "czas_utc": "2026-10-30 10:50",
+          "tytul": "NorthIsle Copper and Gold Inc. Shares Decline 0.97% as Market Sentiment Weakens - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-10-30 08:59",
+          "tytul": "Aurubis stock: 2027 copper premium reported at record level - ad-hoc-news.de"
+        },
+        {
+          "czas_utc": "2026-10-30 08:55",
+          "tytul": "India Copper Bottle Market to Reach USD 67.1 Million by 2033, Says Markntel Advisor - openPR.com"
+        },
+        {
+          "czas_utc": "2026-10-30 08:07",
+          "tytul": "Metals.io launches tokenised copper trading as demand grows - The Armchair Trader"
+        },
+        {
+          "czas_utc": "2026-10-30 07:33",
+          "tytul": "Southern Copper Corporation $SCCO Holdings Boosted by Bosman Wealth Management LLC - MarketBeat"
+        },
+        {
+          "czas_utc": "2026-10-30 07:17",
+          "tytul": "Southern Copper Corporation $SCCO Stock: Ashoka WhiteOak Capital Pte Ltd Boosts Holdings - MarketBeat"
+        },
+        {
+          "czas_utc": "2026-10-30 06:29",
+          "tytul": "Copper Forecast 30/10: Buyers Eye $6.40 Support (Video) - Daily Forex"
+        },
+        {
+          "czas_utc": "2026-10-30 06:10",
+          "tytul": "Month-end tight supply persists, coupled with early-month purchasing expectations, spot premiums may remain high [SMM Shanghai spot copper] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 04:23",
+          "tytul": "North China premiums edge up; market trading remains sluggish [SMM North China spot copper] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 04:23",
+          "tytul": "Copper Drops As Glencore Reports 3% Rise In Nine-Month Copper Output This Year By Kedia Advisory - Investing.com India"
+        },
+        {
+          "czas_utc": "2026-10-30 03:24",
+          "tytul": "Focused Chilean Copper Exploration - Investing News Network"
+        },
+        {
+          "czas_utc": "2026-10-30 03:22",
+          "tytul": "DAILY: Refined copper inventory hits year-low in China - Mysteel"
+        },
+        {
+          "czas_utc": "2026-10-30 02:31",
+          "tytul": "Rio Tinto’s Oyu Tolgoi Copper Mine Halts Underground Operations - Bloomberg"
+        },
+        {
+          "czas_utc": "2026-10-30 02:16",
+          "tytul": "Copper price slips from two-week high as cautious investors stay on sidelines - Mining.com.au"
+        },
+        {
+          "czas_utc": "2026-10-30 02:16",
+          "tytul": "China copper premium hits record as supply tightens in world’s top consumer - Mining.com.au"
+        },
+        {
+          "czas_utc": "2026-10-30 01:59",
+          "tytul": "Tax-inclusive supply \"cleared within 1-2 days\"; invoices and invoice tax rates choke off volume growth [SMM Copper Scrap Weekly Review] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 01:50",
+          "tytul": "Jiangxi Copper stock holds at EUR 2.99 in late quote - ad-hoc-news.de"
+        },
+        {
+          "czas_utc": "2026-10-29 23:53",
+          "tytul": "With copper flowing into the US, China faces supply pressure. - Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Nagłówki wskazują na presję żniw, rekordowe zbiory w USA i słabe oleje, a soja traciła poprzedniego dnia; brak wyraźnego impulsu wzrostowego.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 11:30",
+          "tytul": "3 Big Things Today, Oct. 30, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-10-30 11:03",
+          "tytul": "Wheat prices rise in Chicago on Thursday, while corn and soybeans trade mixed - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-30 09:14",
+          "tytul": "India’s Record Soybean Imports as Domestic Soybean Prices Rally — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:35",
+          "tytul": "Soybean market outlook: record US harvest, soft oils and export demand — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 05:52",
+          "tytul": "India soymeal stocks cushion soybeans market as crush margins tighten — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 04:15",
+          "tytul": "ICE Canola Board Margin Index Close – Oct. 28 - The Western Producer"
+        },
+        {
+          "czas_utc": "2026-10-29 22:48",
+          "tytul": "Chicago Grain Futures Close Mixed as Wheat Rallies and Soybeans Extend Losses - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-10-29 22:21",
+          "tytul": "Corn Holds Steady on Thursday - TradingView"
+        },
+        {
+          "czas_utc": "2026-10-29 22:21",
+          "tytul": "Soybeans Close Thursday with Mixed Trade - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-10-29 21:54",
+          "tytul": "After the Bell | Wheat bounces on strong export sales - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-10-29 20:06",
+          "tytul": "U.S. Grain/Oilseed Review: Soybeans, corn push lower - The Western Producer"
+        },
+        {
+          "czas_utc": "2026-10-29 19:11",
+          "tytul": "Closing Markets for Thursday, October 29 - Windsor News Today"
+        },
+        {
+          "czas_utc": "2026-10-29 18:31",
+          "tytul": "ZSH27.CBT Gráfico interactivo de acciones | Soybean Futures,Mar-2027 Acciones - Yahoo"
+        },
+        {
+          "czas_utc": "2026-10-29 17:24",
+          "tytul": "Haunted by harvest pressure? - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-10-29 17:03",
+          "tytul": "Soybeans On the Lower Side of Unchanged on Thursday - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-10-29 14:28",
+          "tytul": "Soybean Futures,Aug-2028 (ZSQ28.CBT) Futures Chain - Yahoo! Finance Canada"
+        },
+        {
+          "czas_utc": "2026-10-29 14:13",
+          "tytul": "Soybean Oil Futures Just Hit a 4-Month Low. Here's When to Sell. - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-10-29 14:00",
+          "tytul": "BC-Soybean Futures - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-29 12:33",
+          "tytul": "Soybeans Falling Early on Thursday - Barchart.com"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:33",
+      "sektor": "metale_bazowe",
+      "ticker": "DBB",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Nagłówki są mieszane: metale w nocy w większości spadały, choć dolar słabł; brak wyraźnego impulsu na dziś, więc pomijam sesję.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 12:27",
+          "tytul": "Aluminum Angles Manufacturing Plant Setup Cost in India - IMARC Group"
+        },
+        {
+          "czas_utc": "2026-10-30 11:29",
+          "tytul": "North Stable, South Cutting Output: Regional Divergence Drives Production Changes, November Output Expected to Edge Down - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 10:18",
+          "tytul": "A00 edged up slightly today, aluminum scrap prices generally stable with a wait-and-see attitude [Aluminum Scrap Daily Review] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 08:17",
+          "tytul": "Gold Prices Are High While the Share Price Is Low, Making Now the Time to Re-examine Wheaton - NAI500"
+        },
+        {
+          "czas_utc": "2026-10-30 07:30",
+          "tytul": "Aluminium and copper battling for electrification dominance: SMM - Mining.com.au"
+        },
+        {
+          "czas_utc": "2026-10-30 07:01",
+          "tytul": "Vintage Aluminum Ice Bucket Metal Silver Bar Accessory - Alphaville e Arredores"
+        },
+        {
+          "czas_utc": "2026-10-30 05:27",
+          "tytul": "New capacity and production resumptions support supply recovery; November ex-China aluminum production expected to return to positive YoY growth [SMM Analysis] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 05:13",
+          "tytul": "Kia misses profit forecast as discounts and costs bite despite record sales - Chosunbiz"
+        },
+        {
+          "czas_utc": "2026-10-30 05:11",
+          "tytul": "[ADC12 Price Daily Review] Slight decline in aluminum casting futures with increased positions, ADC12 spot prices remain stable amid wait-and-see sentiment - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 05:00",
+          "tytul": "NYMEX: Precious Metals Prices Down - 29-10-26 - Armenpress"
+        },
+        {
+          "czas_utc": "2026-10-30 04:59",
+          "tytul": "Oil Prices Up - 29-10-26 - Armenpress"
+        },
+        {
+          "czas_utc": "2026-10-30 03:34",
+          "tytul": "Demand Release and Low Supply Continue, Aluminum Fluoride Prices Keep Rising in November [SMM Analysis] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 00:54",
+          "tytul": "US dollar falls for second day; metals mostly decline, SHFE tin plunges, LME tin, coking coal and coke, SHFE gold lead losses, SHFE silver dives [Overnight market] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-10-30 00:30",
+          "tytul": "LANYUN PPGL Buying Guide Helps Roofing Buyers Compare Materials and Request Project Quotes - openPR.com"
+        },
+        {
+          "czas_utc": "2026-10-29 21:08",
+          "tytul": "Can Alcoa Corporation (NYSE:AA) Navigate Rising Costs and Expansion Challenges? - Kalkine Media"
+        },
+        {
+          "czas_utc": "2026-10-29 20:38",
+          "tytul": "Shanghai Exchange Halts Duty-Free Metal Delivery Against Futures - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-29 14:01",
+          "tytul": "Mandler 50mm f/1.4 Pre-A Review: Looks and Feels Like a Leica for a Fraction of the Price - PetaPixel"
+        },
+        {
+          "czas_utc": "2026-10-29 13:42",
+          "tytul": "Rolled Or Extruded Aluminum Rods Bars And Wires Market in China: Size, Trends and Forecast to 2035 - IndexBox"
+        },
+        {
+          "czas_utc": "2026-10-29 13:07",
+          "tytul": "A Comprehensive Comparison of Apple Watch Series 12 Materials: Aluminum, Titanium, and Ceramic.. Which One Is Worth Buying? - آي-فون إسلام"
+        },
+        {
+          "czas_utc": "2026-10-29 12:51",
+          "tytul": "US aluminum trihydrate prices rise 2.38% as Bosnia Market Slides 3% in Q3 2026 - AL Circle"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "BNO",
+      "kierunek": "LONG",
+      "ilosc": 94,
+      "zlecenie_wejscia": "5381ecbd-19f6-4fa3-8147-7282dfe0e2a8",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "CPER",
+      "kierunek": "LONG",
+      "ilosc": 167,
+      "zlecenie_wejscia": "4b8bbae0-6746-4363-b774-7b3b3f09feb9",
+      "tif_wejscia": "day"
+    }
+  ],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 47.28,
+      "sma200": 64.4317,
+      "sila": 0.7338,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 13.48,
+      "sma200": 17.199,
+      "sila": 0.7838,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 39.73,
+      "sma200": 37.8935,
+      "sila": 1.0485,
+      "trend": true
+    },
+    "DBB": {
+      "zamkniecie": 25.1,
+      "sma200": 24.7928,
+      "sila": 1.0124,
+      "trend": true
+    },
+    "UNG": {
+      "zamkniecie": 9.18,
+      "sma200": 11.2032,
+      "sila": 0.8194,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 70.76,
+      "sma200": 49.587,
+      "sila": 1.427,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 22.17,
+      "sma200": 23.5251,
+      "sila": 0.9424,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.44,
+      "sma200": 18.1784,
+      "sila": 0.9594,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 26.11,
+      "sma200": 25.0842,
+      "sila": 1.0409,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 11.72,
+      "sma200": 10.2101,
+      "sila": 1.1479,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 5,
+  "pominiete": [
+    {
+      "ticker": "CANE"
+    },
+    {
+      "ticker": "SOYB"
+    },
+    {
+      "ticker": "DBB"
+    }
+  ]
+}
