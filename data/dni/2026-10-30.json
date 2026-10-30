@@ -1,0 +1,505 @@
+{
+  "data": "2026-10-30",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:32",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Nowe ataki w Cieśninie Ormuz, miny limpet na tankowcu i zatrzymane tankowce podtrzymują momentum wzrostowe, choć uwolnienia SPR ograniczają potencjał.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 12:30",
+          "tytul": "Oil giants report windfall profits as high gas prices loom over the election - The Washington Post"
+        },
+        {
+          "czas_utc": "2026-10-30 12:27",
+          "tytul": "Market Talk: The oil market 'has got savvy to the ebbs and flows of this war' - Reuters"
+        },
+        {
+          "czas_utc": "2026-10-30 12:26",
+          "tytul": "Trump Secures First 1 Million Barrels of Venezuelan Oil Under New Deal - ChemAnalyst"
+        },
+        {
+          "czas_utc": "2026-10-30 12:25",
+          "tytul": "Crude oil surges past $115 as Saudi attacks fuel global supply fears - The Indian Panorama"
+        },
+        {
+          "czas_utc": "2026-10-30 12:19",
+          "tytul": "US oil giants report profit surge again on Iran war - France 24"
+        },
+        {
+          "czas_utc": "2026-10-30 12:19",
+          "tytul": "WTI Oil holds above $103.00, near five-month highs amid new attacks in the Strait of Hormuz - FXStreet"
+        },
+        {
+          "czas_utc": "2026-10-30 12:05",
+          "tytul": "Chevron's profits almost triple on record U.S. refinery output - Quartz"
+        },
+        {
+          "czas_utc": "2026-10-30 12:04",
+          "tytul": "Tanker in Strait of Hormuz hit by limpet mines, security sources say - Reuters"
+        },
+        {
+          "czas_utc": "2026-10-30 12:02",
+          "tytul": "Two GB News Directors Have Investments in Oil Companies Behind Rosebank and Jackdaw - DeSmog"
+        },
+        {
+          "czas_utc": "2026-10-30 11:43",
+          "tytul": "India cut U.S. and Russian oil imports in September 2026, pivoting to the UAE as tariffs and sanctions reshaped the market. - The Hindu"
+        },
+        {
+          "czas_utc": "2026-10-30 11:35",
+          "tytul": "Indian Rupee bounces back strongly despite rallying oil prices - FXStreet"
+        },
+        {
+          "czas_utc": "2026-10-30 11:30",
+          "tytul": "Oil Markets Caught Between Iran War Risks and Emergency SPR Releases - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-10-30 11:30",
+          "tytul": "BP Quadruples Profit to Record as War Boosts Refining and Trading - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-10-30 11:20",
+          "tytul": "Forecast update for crude oil -30-10-2026 - Economies.com"
+        },
+        {
+          "czas_utc": "2026-10-30 11:09",
+          "tytul": "IRGC says two tankers stopped south of Strait of Hormuz after ignoring radio warnings from Iran - The Jerusalem Post"
+        },
+        {
+          "czas_utc": "2026-10-30 11:03",
+          "tytul": "China’s soybean oil prices remain under pressure from high stocks and weak demand - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-30 11:02",
+          "tytul": "Oil is nearing a monthly profit for the fourth consecutive time - المتداول العربي"
+        },
+        {
+          "czas_utc": "2026-10-30 11:01",
+          "tytul": "Gold Slips Below $4,000 As Oil Prices, US Inflation Fuel Fed Rate Hike Bets - TradingView"
+        },
+        {
+          "czas_utc": "2026-10-30 10:59",
+          "tytul": "Exxon Raises Its Dividend Yet Again as Oil-Price Rally Boosts Earnings - Barron's"
+        },
+        {
+          "czas_utc": "2026-10-30 10:42",
+          "tytul": "BP net profit quadruples as Mideast war lifts oil prices - Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:32",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Kontrakty Nasdaq mocno w dół (do -2,5%), Nvidia i AMD tracą do 7%, ale po tak dużej wyprzedaży przed otwarciem możliwe jest odbicie w trakcie sesji.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 12:21",
+          "tytul": "US intelligence agencies identify businesswoman close to Nvidia chief as Beijing asset: Report - Deccan Herald"
+        },
+        {
+          "czas_utc": "2026-10-30 12:20",
+          "tytul": "China denies allegations of spy operation targeting Nvidia CEO - Yahoo"
+        },
+        {
+          "czas_utc": "2026-10-30 12:20",
+          "tytul": "Suspected Chinese Spy Gained Access to Nvidia’s Jensen Huang - www.trendingtopics.eu"
+        },
+        {
+          "czas_utc": "2026-10-30 12:20",
+          "tytul": "Nvidia in Talks to Back $30 Billion Nscale Data Center Project for Anthropic - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-10-30 12:14",
+          "tytul": "China rejects report of spy plot targeting Nvidia's Jensen Huang - Euronews.com"
+        },
+        {
+          "czas_utc": "2026-10-30 12:10",
+          "tytul": "Buy This Incredible Artificial Intelligence (AI) Stock Before It Soars 144% (Hint: It Will Outpace Nvidia’s Growth) - The Motley Fool"
+        },
+        {
+          "czas_utc": "2026-10-30 12:09",
+          "tytul": "Could Nvidia's New 800-Volt Shift Spark a Navitas Stock Turnaround? - The Motley Fool"
+        },
+        {
+          "czas_utc": "2026-10-30 12:06",
+          "tytul": "AETHER: New CEM, Baker Hughes and semiconductor programs are powering a capacity-led growth pipeline - TradingView"
+        },
+        {
+          "czas_utc": "2026-10-30 12:00",
+          "tytul": "Inside the spy plot around Nvidia’s CEO - The Rundown AI"
+        },
+        {
+          "czas_utc": "2026-10-30 12:00",
+          "tytul": "It's free; semiconductor bootcamp at FLCC - Finger Lakes Times"
+        },
+        {
+          "czas_utc": "2026-10-30 11:55",
+          "tytul": "RTX 5080 Is The Next GPU To Disappear From NVIDIA’s Online Marketplace Following Reports That A 24GB VRAM Variant Is Arriving Soon - Wccftech"
+        },
+        {
+          "czas_utc": "2026-10-30 11:46",
+          "tytul": "Nasdaq futures crash up to 2.5% as tech stock selloff deepens; Nvidia, AMD fall up to 7% - TradingView"
+        },
+        {
+          "czas_utc": "2026-10-30 11:45",
+          "tytul": "Five trends reshaping the semiconductor market - Electronic Products & Technology"
+        },
+        {
+          "czas_utc": "2026-10-30 11:39",
+          "tytul": "Edinburgh to lead £18m UK chip design academy - The Engineer"
+        },
+        {
+          "czas_utc": "2026-10-30 11:37",
+          "tytul": "Latest News In AI Chips - AI Demand Spurs Semiconductor Market Transformation 2027 Predictions - Yahoo Finance Singapore"
+        },
+        {
+          "czas_utc": "2026-10-30 11:36",
+          "tytul": "NVIDIA Convenes the Open Secure AI Alliance, Citing a Forensics Gap in Closed Models - OrcaRouter"
+        },
+        {
+          "czas_utc": "2026-10-30 11:28",
+          "tytul": "Nvidia CEO Reportedly Targeted in Chinese Spy Plot - TODAY.com"
+        },
+        {
+          "czas_utc": "2026-10-30 11:27",
+          "tytul": "RTX 5080 removed from official Nvidia store as rumored 24GB model supposedly arrives in a couple of months - PC Guide"
+        },
+        {
+          "czas_utc": "2026-10-30 11:16",
+          "tytul": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-30 11:14",
+          "tytul": "Trying Gears of War: E-Day with Max Settings on NVIDIA GeForce NOW - IGN"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:32",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Prognoza Banku Światowego o wzroście cen zbóż i słabe siewy pszenicy w Indiach wspierają ceny, choć otwarcie Azowa i presja żniw ograniczają wzrost.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 12:09",
+          "tytul": "Australia’s wheat totals fall as 2026-27 barley production grows - World Grain"
+        },
+        {
+          "czas_utc": "2026-10-30 11:03",
+          "tytul": "Wheat prices rise in Chicago on Thursday, while corn and soybeans trade mixed - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-30 11:03",
+          "tytul": "North Korean rice prices hit record highs despite ongoing harvest - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-10-30 10:31",
+          "tytul": "Grain markets measure spooky headlines against fundamentals - Agweek"
+        },
+        {
+          "czas_utc": "2026-10-30 10:25",
+          "tytul": "PIA increases London flights to seven weekly, plans three Birmingham Flights - Daily Ausaf"
+        },
+        {
+          "czas_utc": "2026-10-30 10:12",
+          "tytul": "PBS Weekly Prices: Wheat Flour, Beef, Mutton, Petrol and Essential Items as of 29 October 2026 - News and Statistics - IndexBox"
+        },
+        {
+          "czas_utc": "2026-10-30 09:46",
+          "tytul": "Wheat prices fall by Rs10 per kilogram in Karachi, but flour rates remain unchanged - Daily Ausaf"
+        },
+        {
+          "czas_utc": "2026-10-30 09:32",
+          "tytul": "World Bank forecasts sharp rise in grain prices through 2027 - Miller Magazine"
+        },
+        {
+          "czas_utc": "2026-10-30 09:16",
+          "tytul": "Azov Sea Grain Shipping Resumes: Impact on Black Sea Barley Prices — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 09:15",
+          "tytul": "Sea of Azov Reopening Shifts Black Sea Wheat Market Dynamics — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 09:15",
+          "tytul": "European wheat slips on Black Sea shipping talks — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 09:15",
+          "tytul": "India wheat sowing lags on weak monsoon, raising 2026-27 supply and price risks — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 08:31",
+          "tytul": "AgroGeneration: net loss of €1M in the first half, grain prices fall by at least 30% - Idéal Investisseur"
+        },
+        {
+          "czas_utc": "2026-10-30 08:17",
+          "tytul": "Bread prices rise as bakers cite skyrocketing wheat, fuel costs - Daily Monitor"
+        },
+        {
+          "czas_utc": "2026-10-30 07:44",
+          "tytul": "Corn market update: harvest pressure vs firm EU cash prices — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:40",
+          "tytul": "Wheat market stabilises as Russia reopens Azov exports — CMB News - CMB News"
+        },
+        {
+          "czas_utc": "2026-10-30 07:01",
+          "tytul": "Wheat prices fall as Russia weighs Black Sea grain proposals - All about feed"
+        },
+        {
+          "czas_utc": "2026-10-30 07:00",
+          "tytul": "EU nitrogen fertilizer prices 45% higher than in 2024, despite cheaper imports - електронна зернова біржа України"
+        },
+        {
+          "czas_utc": "2026-10-30 06:56",
+          "tytul": "Olive oil prices in Italy have fallen by almost 50% despite production cuts - електронна зернова біржа України"
+        },
+        {
+          "czas_utc": "2026-10-30 06:40",
+          "tytul": "Why winter wheat deserves a second look in Iowa - Farm Progress"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:32",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Złoto przebiło poziom 4000 USD, na rynku dominuje presja spadkowa z powodu oczekiwań podwyżek stóp Fed i słabego popytu fizycznego, choć możliwe jest odbicie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 12:20",
+          "tytul": "Gold Price Today: Gold Falls 2.19% on October 30, 2026 - USA Today"
+        },
+        {
+          "czas_utc": "2026-10-30 12:11",
+          "tytul": "Asia physical gold demand remains subdued - Mining.com.au"
+        },
+        {
+          "czas_utc": "2026-10-30 11:54",
+          "tytul": "Gold price in Pakistan falls Rs5,100 per tola - Investify"
+        },
+        {
+          "czas_utc": "2026-10-30 11:51",
+          "tytul": "Fed Hike Bets Lower Gold’s Entry Price as Custody Shapes Digital Demand - Crux Investor"
+        },
+        {
+          "czas_utc": "2026-10-30 11:23",
+          "tytul": "Gold price falls by Tk 1,633 per bhori - New Age BD"
+        },
+        {
+          "czas_utc": "2026-10-30 11:20",
+          "tytul": "Gold price falls by Rs5,100 per tola in Pakistan - Investify"
+        },
+        {
+          "czas_utc": "2026-10-30 11:14",
+          "tytul": "Gold price today, Friday, October 30, 2026: Gold slips below $4,000 as Mid-East concerns mount - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-10-30 11:06",
+          "tytul": "Planning to invest in Meta, SpaceX or Nvidia? 3 risks Indian investors must know before buying US stocks - Livemint"
+        },
+        {
+          "czas_utc": "2026-10-30 11:03",
+          "tytul": "Gold price falls in Bangladesh after two straight rises - bdnews24.com"
+        },
+        {
+          "czas_utc": "2026-10-30 10:21",
+          "tytul": "World gold price breaks 4,000 USD/ounce mark, downward pressure is not stopping - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-10-30 10:13",
+          "tytul": "Gold Gets No Boost from Traditional Tailwinds. Forecast as of 30.10.2026 - LiteFinance"
+        },
+        {
+          "czas_utc": "2026-10-30 09:56",
+          "tytul": "Pure Bullion Price Exposure Backed by London Vault Gold: GOLD Explained (ASX:GOLD) - Kalkine"
+        },
+        {
+          "czas_utc": "2026-10-30 09:56",
+          "tytul": "Physical Gold Exposure Through an ETC: GLDN Holds iShares Gold Bullion Without the Vault Visit (ASX:GLDN) - Kalkine"
+        },
+        {
+          "czas_utc": "2026-10-30 09:56",
+          "tytul": "Gold Spot Price Exposure in Australian Dollars: GXLD Tracks Bullion Through Gold Interests (ASX:GXLD) - Kalkine"
+        },
+        {
+          "czas_utc": "2026-10-30 09:56",
+          "tytul": "Currency-Hedged Gold Exposure in a Unit Trust: GHLD Removes the AUD/USD Effect (ASX:GHLD) - Kalkine"
+        },
+        {
+          "czas_utc": "2026-10-30 09:53",
+          "tytul": "Gold prices on October 30th: SJC gold bars drop sharply by 1.3 million VND/ounce. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-10-30 09:43",
+          "tytul": "iShares Gold Bullion ETF (CAD-Hedged) (CGL.TO) Seasonal returns chart - Yahoo Finance UK"
+        },
+        {
+          "czas_utc": "2026-10-30 09:05",
+          "tytul": "Gold Rate Today in Yamuna Nagar 30th October 2026 : 22 & 24 Carat, Todays Gold Price in Yamuna Nagar - Business Today"
+        },
+        {
+          "czas_utc": "2026-10-30 09:00",
+          "tytul": "World gold price today, October 30th: Deep drop causes gold to lose the 4,000 USD mark - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-10-30 08:51",
+          "tytul": "Diwali 2026, Samvat 2083 investment guide: Gold ETFs vs NSE Gold EGRs — Where should you invest your money? Experts view - Livemint"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-30",
+      "czas_zapisu_et": "08:32",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Rentowności spadają przy ucieczce do bezpiecznych aktywów (Francja, wyprzedaż technologii), co sprzyja wzrostowi TLT, choć zmienność i presja długoterminowych rentowności pozostają.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-10-30 10:36",
+          "tytul": "Higher yields now hurting AI stock bull as bond markets police capex: BofA - Investing.com"
+        },
+        {
+          "czas_utc": "2026-10-30 10:31",
+          "tytul": "U.S. Treasury Yields Fall; Eurozone Bond Yields Mixed After GDP Data - WSJ"
+        },
+        {
+          "czas_utc": "2026-10-30 09:55",
+          "tytul": "Long-Dated Bond Yields Climb to Multi-Decade Highs, Wall Street Institutions Add Back Duration Assets - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-10-30 08:23",
+          "tytul": "Bond market jitters, global yields, and political risk - Moneyweb"
+        },
+        {
+          "czas_utc": "2026-10-30 08:09",
+          "tytul": "South Korean Treasury Yields Fall Across the Board Amid Global Risk-Aversion - news.sbs.co.kr"
+        },
+        {
+          "czas_utc": "2026-10-30 08:01",
+          "tytul": "Global markets may remain volatile in 2027 despite expected easing in US Treasury yields: Fitch Ratings - Big News Network.com"
+        },
+        {
+          "czas_utc": "2026-10-30 07:42",
+          "tytul": "U.S. 10-Year Treasury Yield Falls Under 5% as French Turmoil Fuels Flight for Safety - WSJ"
+        },
+        {
+          "czas_utc": "2026-10-30 05:14",
+          "tytul": "EUR/USD Short Squeeze Underway as Yields Drag US Dollar Lower - StoneX"
+        },
+        {
+          "czas_utc": "2026-10-30 05:06",
+          "tytul": "Technology Stocks Face Selloff While U.S. Treasuries Attract Inflows - NAI500"
+        },
+        {
+          "czas_utc": "2026-10-30 04:04",
+          "tytul": "Retirees Weigh 10-Year U.S. Treasuries at 5% Yield - 조선일보"
+        },
+        {
+          "czas_utc": "2026-10-30 02:18",
+          "tytul": "Fed over-tightening: Could high yields trigger a US recession? - Equiti Global"
+        },
+        {
+          "czas_utc": "2026-10-30 02:07",
+          "tytul": "10-Year Treasury Yield Climbs Back Above 5% After Fed Decision - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-10-30 01:20",
+          "tytul": "USD/CHF (USDCHF) Drops 0.56% on Oct 30: What You Need to Watch - TradingKey"
+        },
+        {
+          "czas_utc": "2026-10-29 21:34",
+          "tytul": "Alphabet plunge drags Wall Street lower - CommBank"
+        },
+        {
+          "czas_utc": "2026-10-29 20:19",
+          "tytul": "Treasury Rates Today: October 29, 2026 - Forbes"
+        },
+        {
+          "czas_utc": "2026-10-29 19:23",
+          "tytul": "Warsh’s ‘Forward Silence’ Risks Bigger Treasury Market Swings - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-10-29 17:59",
+          "tytul": "Did the Fed make a mistake with its October rate pause? The Treasury could help save the day. - MarketWatch"
+        },
+        {
+          "czas_utc": "2026-10-29 17:40",
+          "tytul": "Why Happen Bank (HAPN) stock is up today - StockStory"
+        },
+        {
+          "czas_utc": "2026-10-29 16:59",
+          "tytul": "Japan's Bond Market Breaks Records: Why JGB Yields Matter Globally - Admirals"
+        },
+        {
+          "czas_utc": "2026-10-29 16:59",
+          "tytul": "US Treasury yields retreat after Fed's rate hold but risks persist - Invezz"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "USO",
+      "kierunek": "LONG",
+      "ilosc": 58,
+      "zlecenie_wejscia": "7c7d3dc9-29c4-49b2-bc4a-095539ae7a83",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "ilosc": 18,
+      "zlecenie_wejscia": "d9d991b4-c573-4dfc-ab92-089eecb2cb39",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "LONG",
+      "ilosc": 368,
+      "zlecenie_wejscia": "cfc31aa8-342f-4db7-8d2c-4737c2ab6658",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "ilosc": 27,
+      "zlecenie_wejscia": "e95a24d7-8198-4611-9b13-750e7d453b36",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "ilosc": 122,
+      "zlecenie_wejscia": "ee432c70-a970-4f2c-92b5-ec86164b6786",
+      "tif_wejscia": "day"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
