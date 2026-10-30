@@ -3,7 +3,7 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
@@ -465,14 +465,26 @@
       "kierunek": "LONG",
       "ilosc": 94,
       "zlecenie_wejscia": "5381ecbd-19f6-4fa3-8147-7282dfe0e2a8",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 71.838617,
+        "ilosc": 94
+      },
+      "zlecenie_wyjscia": "67599397-307d-4251-8277-edd75f1975f2"
     },
     {
       "ticker": "CPER",
       "kierunek": "LONG",
       "ilosc": 167,
       "zlecenie_wejscia": "4b8bbae0-6746-4363-b774-7b3b3f09feb9",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 39.268683,
+        "ilosc": 167
+      },
+      "zlecenie_wyjscia": "f3505dfe-8e39-43a5-9f19-52171dc8c945"
     }
   ],
   "uniwersum": {
