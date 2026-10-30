@@ -3,8 +3,8 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -471,7 +471,14 @@
         "cena": 71.838617,
         "ilosc": 94
       },
-      "zlecenie_wyjscia": "67599397-307d-4251-8277-edd75f1975f2"
+      "zlecenie_wyjscia": "67599397-307d-4251-8277-edd75f1975f2",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 71.4,
+        "ilosc": 94
+      },
+      "zmiana": -0.0061055880293463,
+      "wynik": -0.0076055880293463
     },
     {
       "ticker": "CPER",
@@ -484,7 +491,14 @@
         "cena": 39.268683,
         "ilosc": 167
       },
-      "zlecenie_wyjscia": "f3505dfe-8e39-43a5-9f19-52171dc8c945"
+      "zlecenie_wyjscia": "f3505dfe-8e39-43a5-9f19-52171dc8c945",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 38.99,
+        "ilosc": 167
+      },
+      "zmiana": -0.007096825732607353,
+      "wynik": -0.008596825732607352
     }
   ],
   "uniwersum": {
@@ -552,13 +566,26 @@
   "liczba_oczekiwana": 5,
   "pominiete": [
     {
-      "ticker": "CANE"
+      "ticker": "CANE",
+      "otwarcie": 11.58,
+      "zamkniecie": 11.65,
+      "zmiana": 0.006044905008635603,
+      "wynik": 0.0
     },
     {
-      "ticker": "SOYB"
+      "ticker": "SOYB",
+      "otwarcie": 26.24,
+      "zamkniecie": 26.24,
+      "zmiana": 0.0,
+      "wynik": 0.0
     },
     {
-      "ticker": "DBB"
+      "ticker": "DBB",
+      "otwarcie": 24.885,
+      "zamkniecie": 24.83,
+      "zmiana": -0.0022101667671289237,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": -0.016202
 }
