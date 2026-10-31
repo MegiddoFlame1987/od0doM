@@ -1,33 +1,33 @@
-# Typy z rolek vs S&P 500 (SPY), stan na 2026-10-27
+# Typy z rolek vs S&P 500 (SPY), stan na 2026-10-31
 
 Wejście: zamknięcie pierwszej sesji od daty publikacji. Bez kosztów, bez dywidend. Przewaga = wynik akcji minus wynik SPY w tym samym okresie.
 
 | Źródło | Data | Ticker | Etykieta | Wejście | Dni | Akcja | SPY | Przewaga |
 |---|---|---|---|---|---|---|---|---|
-| martinelli_paul (Instagram) | 2026-10-05 | VRT | RIGHT NOW | 253.41 | 22 | -21.1% | -1.3% | -19.9% |
-| martinelli_paul (Instagram) | 2026-10-05 | EME | RIGHT NOW | 778.45 | 22 | -14.5% | -1.3% | -13.2% |
-| martinelli_paul (Instagram) | 2026-10-05 | GLW | RIGHT NOW | 159.35 | 22 | -19.9% | -1.3% | -18.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | CRWV | TOO EARLY | 87.42 | 22 | -36.9% | -1.3% | -35.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | LEU | TOO EARLY | 141.89 | 22 | -30.7% | -1.3% | -29.4% |
-| martinelli_paul (Instagram) | 2026-10-05 | ACHR | TOO EARLY | 4.74 | 22 | -17.0% | -1.3% | -15.7% |
-| martinelli_paul (Instagram) | 2026-10-05 | NVDA | TOO LATE | 238.98 | 22 | -9.6% | -1.3% | -8.4% |
-| martinelli_paul (Instagram) | 2026-10-05 | PLTR | TOO LATE | 189.31 | 22 | +5.0% | -1.3% | +6.3% |
-| martinelli_paul (Instagram) | 2026-10-05 | CRWD | TOO LATE | 272.72 | 22 | -4.0% | -1.3% | -2.7% |
-| derekanddakota (Instagram) | 2026-10-11 | CEG | KUP | 293.79 | 15 | -14.1% | -1.6% | -12.4% |
-| derekanddakota (Instagram) | 2026-10-11 | VST | KUP | 158.12 | 15 | -10.4% | -1.6% | -8.7% |
-| derekanddakota (Instagram) | 2026-10-11 | VRT | KUP | 239.36 | 15 | -16.5% | -1.6% | -14.9% |
-| derekanddakota (Instagram) | 2026-10-11 | MU | KUP | 988.95 | 15 | -8.6% | -1.6% | -7.0% |
-| derekanddakota (Instagram) | 2026-10-11 | ANET | KUP | 210.85 | 15 | -15.9% | -1.6% | -14.3% |
-| derekanddakota (Instagram) | 2026-10-11 | AVGO | KUP | 354.79 | 15 | -7.2% | -1.6% | -5.5% |
+| martinelli_paul (Instagram) | 2026-10-05 | VRT | RIGHT NOW | 253.41 | 26 | -8.2% | -2.5% | -5.8% |
+| martinelli_paul (Instagram) | 2026-10-05 | EME | RIGHT NOW | 778.45 | 26 | -12.9% | -2.5% | -10.4% |
+| martinelli_paul (Instagram) | 2026-10-05 | GLW | RIGHT NOW | 159.35 | 26 | -22.6% | -2.5% | -20.1% |
+| martinelli_paul (Instagram) | 2026-10-05 | CRWV | TOO EARLY | 87.42 | 26 | -37.1% | -2.5% | -34.6% |
+| martinelli_paul (Instagram) | 2026-10-05 | LEU | TOO EARLY | 141.89 | 26 | -27.3% | -2.5% | -24.8% |
+| martinelli_paul (Instagram) | 2026-10-05 | ACHR | TOO EARLY | 4.74 | 26 | -11.4% | -2.5% | -8.9% |
+| martinelli_paul (Instagram) | 2026-10-05 | NVDA | TOO LATE | 238.98 | 26 | -14.3% | -2.5% | -11.8% |
+| martinelli_paul (Instagram) | 2026-10-05 | PLTR | TOO LATE | 189.31 | 26 | -2.8% | -2.5% | -0.3% |
+| martinelli_paul (Instagram) | 2026-10-05 | CRWD | TOO LATE | 272.72 | 26 | -8.2% | -2.5% | -5.7% |
+| derekanddakota (Instagram) | 2026-10-11 | CEG | KUP | 293.79 | 19 | -10.7% | -2.9% | -7.8% |
+| derekanddakota (Instagram) | 2026-10-11 | VST | KUP | 158.12 | 19 | -12.5% | -2.9% | -9.6% |
+| derekanddakota (Instagram) | 2026-10-11 | VRT | KUP | 239.36 | 19 | -2.9% | -2.9% | +0.0% |
+| derekanddakota (Instagram) | 2026-10-11 | MU | KUP | 988.95 | 19 | -10.6% | -2.9% | -7.7% |
+| derekanddakota (Instagram) | 2026-10-11 | ANET | KUP | 210.85 | 19 | -19.9% | -2.9% | -17.1% |
+| derekanddakota (Instagram) | 2026-10-11 | AVGO | KUP | 354.79 | 19 | -8.1% | -2.9% | -5.2% |
 
 ## Średnia przewaga nad SPY wg źródła i etykiety
 
 | Źródło | Etykieta | Typów | Średnia przewaga | Trafionych (przewaga > 0) |
 |---|---|---|---|---|
-| derekanddakota (Instagram) | KUP | 6 | -10.5% | 0/6 |
-| martinelli_paul (Instagram) | RIGHT NOW | 3 | -17.2% | 0/3 |
-| martinelli_paul (Instagram) | TOO EARLY | 3 | -26.9% | 0/3 |
-| martinelli_paul (Instagram) | TOO LATE | 3 | -1.6% | 1/3 |
+| derekanddakota (Instagram) | KUP | 6 | -7.9% | 1/6 |
+| martinelli_paul (Instagram) | RIGHT NOW | 3 | -12.1% | 0/3 |
+| martinelli_paul (Instagram) | TOO EARLY | 3 | -22.8% | 0/3 |
+| martinelli_paul (Instagram) | TOO LATE | 3 | -5.9% | 0/3 |
 
 ## Horyzonty (gdy minęły)
 
