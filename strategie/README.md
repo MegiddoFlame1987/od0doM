@@ -15,3 +15,14 @@ Każdy pomysł dostaje ten sam test, zanim ktokolwiek pomyśli o pieniądzach: b
 | 9 | Tabela 10 surowców | rozmowa 27.10 | cena, odległość od SMA200, zmiana 1 i 6 mies., co tydzień | **następny** |
 
 Jak dodać typ z rolki: dopisz wiersz do `typy.json` (źródło, data publikacji, ticker, etykieta, cena z rolki jeśli podana). Skrypt policzy resztę. Typ dopisany po fakcie z datą wsteczną psuje test, więc data = dzień, w którym rolka została zobaczona, albo data publikacji, jeśli jest widoczna.
+
+## Zapasowe źródło danych
+
+| Źródło | Rola | Co daje | Status |
+|---|---|---|---|
+| Alpaca | główne | świece i ceny dla wszystkich testów | używane |
+| London Strategic Edge (londonstrategicedge.com) | **backup** | świece od ticka do miesiąca, opcje z greckimi, makro od 1900, Parquet/CSV, darmowy klucz, 10 pobrań/h po max 1 mln wierszy | **niesprawdzone** |
+
+Warunek użycia backupu: test zgodności z Alpaca. Dzienne świece SPY za 5 lat, porównanie zamknięć. Odchylenie powyżej 0,1% albo brakujące sesje = odpada. Do czasu testu nie podpinać do agenta ani do backtestu.
+
+Ryzyka: brak niezależnych opinii, źródło danych nieujawnione, niespójne liczby na stronie (227 tys. vs 118 tys. zbiorów), skrót "LSE" myli się z London Stock Exchange. Pobrane pliki trzymamy u siebie, nie odpytujemy API na żywo.
