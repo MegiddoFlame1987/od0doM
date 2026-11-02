@@ -3,7 +3,7 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "zamykana",
+  "etap": "rozliczona",
   "zaliczona": false,
   "powody": [
     "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"asset \\\"USO\\\" cannot be sold short\"}"
@@ -477,7 +477,14 @@
         "cena": 526.93,
         "ilosc": 19
       },
-      "zlecenie_wyjscia": "c236bfe3-0a5d-45ac-b8d7-3b2ca0c0edac"
+      "zlecenie_wyjscia": "c236bfe3-0a5d-45ac-b8d7-3b2ca0c0edac",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 509.258421,
+        "ilosc": 19
+      },
+      "zmiana": -0.033536862581367455,
+      "wynik": -0.034536862581367456
     },
     {
       "ticker": "DBA",
@@ -490,7 +497,14 @@
         "cena": 26.980512,
         "ilosc": 371
       },
-      "zlecenie_wyjscia": "6c09447e-12ad-4562-8fe9-0981fd787c4e"
+      "zlecenie_wyjscia": "6c09447e-12ad-4562-8fe9-0981fd787c4e",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 26.81,
+        "ilosc": 371
+      },
+      "zmiana": -0.006319820765447379,
+      "wynik": 0.005319820765447379
     },
     {
       "ticker": "GLD",
@@ -503,7 +517,14 @@
         "cena": 362.341111,
         "ilosc": 27
       },
-      "zlecenie_wyjscia": "7171bd36-932f-4785-8368-5c1004ebbf3e"
+      "zlecenie_wyjscia": "7171bd36-932f-4785-8368-5c1004ebbf3e",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 361.562222,
+        "ilosc": 27
+      },
+      "zmiana": -0.002149601511819597,
+      "wynik": -0.003149601511819597
     },
     {
       "ticker": "TLT",
@@ -516,9 +537,17 @@
         "cena": 81.85,
         "ilosc": 122
       },
-      "zlecenie_wyjscia": "25a73b1b-a1f8-46d8-bcfd-78b7b493edf5"
+      "zlecenie_wyjscia": "25a73b1b-a1f8-46d8-bcfd-78b7b493edf5",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 81.78,
+        "ilosc": 122
+      },
+      "zmiana": -0.0008552229688453657,
+      "wynik": -0.0018552229688453656
     }
   ],
   "liczba_oczekiwana": 5,
-  "pominiete": []
+  "pominiete": [],
+  "wynik_sesji": -0.034222
 }
