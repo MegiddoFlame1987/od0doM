@@ -1,0 +1,500 @@
+{
+  "data": "2026-11-02",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": false,
+  "powody": [
+    "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"asset \\\"USO\\\" cannot be sold short\"}"
+  ],
+  "prognozy": [
+    {
+      "data": "2026-11-02",
+      "czas_zapisu_et": "08:33",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Ropa mocno spadła na rozmowy pokojowe USA-Iran; dalsza presja podażowa możliwa, choć ryzyko odbicia po luce w dół jest wysokie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-02 13:24",
+          "tytul": "Oil drops more than 4% on talks aimed at ending US-Iran war - Central Oregon Daily"
+        },
+        {
+          "czas_utc": "2026-11-02 13:24",
+          "tytul": "Mexico trims paperwork for drilling oil and gas wells - BNamericas"
+        },
+        {
+          "czas_utc": "2026-11-02 13:13",
+          "tytul": "US Stock Futures Rise as Oil Drop Buoys Sentiment: Markets Wrap - Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-02 13:08",
+          "tytul": "US Stock Futures Rise as Oil Prices Drop Easing AI-Led Selloff - Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-02 12:41",
+          "tytul": "European stocks edge down, oil drops as midterm caution prevails - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-02 12:37",
+          "tytul": "Strait of Hormuz Crisis: 8 Months of Global Impact - Kings Research"
+        },
+        {
+          "czas_utc": "2026-11-02 12:33",
+          "tytul": "UAE oil exports surpass prewar levels despite Hormuz disruption, energy minister says - The National"
+        },
+        {
+          "czas_utc": "2026-11-02 12:24",
+          "tytul": "Oman Crude Oil Price Drops USD 9.05 - Fana News -"
+        },
+        {
+          "czas_utc": "2026-11-02 12:24",
+          "tytul": "Brent falls to $112.60 per barrel — Fortune - UA.NEWS"
+        },
+        {
+          "czas_utc": "2026-11-02 12:21",
+          "tytul": "US futures rise up to 1% as crude oil prices fall 4%; AI stocks inch higher - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-02 12:21",
+          "tytul": "Goldman hikes December Brent outlook $15/b as supply risks persist - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-02 12:21",
+          "tytul": "US futures rise up to 1% as crude oil prices fall 4%; AI stocks inch higher - Moneycontrol.com"
+        },
+        {
+          "czas_utc": "2026-11-02 12:20",
+          "tytul": "Iraq plans to expand oil tanker fleet - IraqiNews"
+        },
+        {
+          "czas_utc": "2026-11-02 12:17",
+          "tytul": "COMMENTARY: Asia's crude oil imports back to pre-war levels but refined fuels lag - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-02 12:13",
+          "tytul": "Russian Shadow Fleet Tanker Carrying 1 Million Barrels of Oil Hit by Explosives Near Hormuz Strait - UNITED24 Media"
+        },
+        {
+          "czas_utc": "2026-11-02 12:11",
+          "tytul": "Adnoc CEO: Gulf disruption drains 1 billion barrels of oil, 600 Bcf of LNG supplies - Upstream Online"
+        },
+        {
+          "czas_utc": "2026-11-02 12:08",
+          "tytul": "Forecast update for Brent -02-11-2026 - Economies.com"
+        },
+        {
+          "czas_utc": "2026-11-02 12:07",
+          "tytul": "Saudi Oil Exports Drop to 5.52 Million Barrels a Day as Both Routes Degraded - https://houseofsaud.com/"
+        },
+        {
+          "czas_utc": "2026-11-02 12:04",
+          "tytul": "【US Pre-Market】Three Major Index Futures Rise, Memory Stocks Rebound With SK Hynix Up Nearly 5%, WTI Crude Drops Below $100 - TradingKey"
+        },
+        {
+          "czas_utc": "2026-11-02 12:01",
+          "tytul": "Buy CVX and XOM Amid Solid Q3 Earnings and Surging Crude Oil Prices - Zacks Investment Research"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-02",
+      "czas_zapisu_et": "08:33",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Ogromna transakcja Marvell-Lumentum i pozytywne wyniki Tower wskazują na silny sentyment wokół AI, choć nietypowe początki tygodnia i brak danych o cenach ograniczają pewność.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-02 13:23",
+          "tytul": "Nvidia may miss January 2027 launch for GeForce RTX 5080 24GB - Mezha.net"
+        },
+        {
+          "czas_utc": "2026-11-02 13:21",
+          "tytul": "Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-02 13:12",
+          "tytul": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, Apple, Rivian, Amazon, CrowdStrike, Broadcom & more - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-02 13:05",
+          "tytul": "Nvidia may miss January launch of GeForce RTX 5080 24GB - Notebookcheck"
+        },
+        {
+          "czas_utc": "2026-11-02 13:05",
+          "tytul": "Sequoia Partner Predicts SpaceX's Revenue Will Surge Like NVIDIA, Underestimating Starship, AI Computing, and Direct-to-Cell Technologies - KuCoin"
+        },
+        {
+          "czas_utc": "2026-11-02 13:04",
+          "tytul": "Tower Semiconductor (TSEM) Shares Rise 5% After Q3 Earnings Beat Expectations - GuruFocus"
+        },
+        {
+          "czas_utc": "2026-11-02 13:04",
+          "tytul": "Tower Semiconductor (TSEM) Reports Strong Q3 Results, Eyes Robus - GuruFocus"
+        },
+        {
+          "czas_utc": "2026-11-02 13:04",
+          "tytul": "The AI Memory Boom Could Make This Stock a Much Bigger Story by 2030 - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-02 13:00",
+          "tytul": "Grand Theft Auto VI will receive NVIDIA VFG frame generation via Veyra on GeForce RTX 40 and RTX 50 - GameGPU"
+        },
+        {
+          "czas_utc": "2026-11-02 12:57",
+          "tytul": "Tower Semiconductor rises on strong Q4 revenue guidance - StreetInsider"
+        },
+        {
+          "czas_utc": "2026-11-02 12:51",
+          "tytul": "Nvidia Is Maintained at Buy by Melius Research - Moomoo"
+        },
+        {
+          "czas_utc": "2026-11-02 12:49",
+          "tytul": "Nvidia Stock’s Real Risk Isn’t China. It’s Power. - Trefis"
+        },
+        {
+          "czas_utc": "2026-11-02 12:38",
+          "tytul": "What’s Next for Sacramento’s Semiconductor Sector? - CommercialSearch"
+        },
+        {
+          "czas_utc": "2026-11-02 12:35",
+          "tytul": "Bizarre Dell Pro Max Tower T2 workstation pricing quirk makes it cheaper than the Nvidia Blackwell GPU inside it - TechRadar"
+        },
+        {
+          "czas_utc": "2026-11-02 12:35",
+          "tytul": "NVIDIA GeForce RTX 5080 24 GB May Miss January 2027 Launch As Board Partners Still Await Design Kits - Wccftech"
+        },
+        {
+          "czas_utc": "2026-11-02 12:34",
+          "tytul": "Tenstorrent Raises $1.5B at $6.2B Valuation [2026] - tech-insider.org"
+        },
+        {
+          "czas_utc": "2026-11-02 12:31",
+          "tytul": "ON Semiconductor (NASDAQ:ON) Looks Undervalued on Decent Value Metrics - ChartMill"
+        },
+        {
+          "czas_utc": "2026-11-02 12:31",
+          "tytul": "Meet the Spectacular Vanguard ETF With 44.6% of Its Portfolio Parked in Nvidia, Alphabet, Apple, and Microsoft - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-02 12:30",
+          "tytul": "Marvell to Buy Nvidia-Backed Lumentum for $115B in AI Deal - FourWeekMBA"
+        },
+        {
+          "czas_utc": "2026-11-02 12:25",
+          "tytul": "Marvell to buy Lumentum in $115 billion deal in AI data-center bet - Reuters"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-02",
+      "czas_zapisu_et": "08:33",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Presja zbiorów, słaby eksport, wyprzedaż funduszy i spadki pszenicy oraz kukurydzy w piątek sugerują lekką przewagę spadków, choć rekordowa ropa może wspierać ceny.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-02 12:29",
+          "tytul": "3 Big Things Today, Nov. 2, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-02 12:00",
+          "tytul": "When Will High Corn and Soybean Prices Start Driving Buyers Away? 3 Signs to Watch - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-02 11:36",
+          "tytul": "High Fructose Corn Syrup Market Forecast to 2035, Driven by Beverage Demand and Cost Advantages - IndexBox"
+        },
+        {
+          "czas_utc": "2026-11-02 11:22",
+          "tytul": "Colombia’s corn, rice output seen declining - World Grain"
+        },
+        {
+          "czas_utc": "2026-11-02 11:13",
+          "tytul": "Russian wheat export prices decline - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-02 11:13",
+          "tytul": "Balkan grain strength tested by logistics, finance and export competition - Miller Magazine"
+        },
+        {
+          "czas_utc": "2026-11-02 10:52",
+          "tytul": "Wheat and corn futures fall while soybeans trade mixed in Chicago on Friday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-02 07:55",
+          "tytul": "Russian Wheat Market Shifts as Grain Exports Test Arctic Route - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-02 07:48",
+          "tytul": "Corn drying costs in Ukraine may reach one-third of grain value - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-02 07:43",
+          "tytul": "U.S. rice crop shrinks; global prices set to firm up - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-02 07:37",
+          "tytul": "Soybean Market Brief: Sideways Futures, Softer FOBs, Brazil Weather Risk - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-02 07:34",
+          "tytul": "Wheat market analysis: futures soften as Black Sea cash stabilises - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-02 07:31",
+          "tytul": "Corn Market: Harvest Pressure, Weak Exports and Fund Liquidation - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-02 07:22",
+          "tytul": "Indian Corn Market: Firm Feed Demand and Weather Risks Support Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-02 07:21",
+          "tytul": "India Wheat Auctions Weigh on Prices While Global Wheat Market Softens - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-02 07:16",
+          "tytul": "Oil prices remain at record levels in anticipation of escalation in relations with Iran following the US and Israeli elections - електронна зернова біржа України"
+        },
+        {
+          "czas_utc": "2026-11-02 07:00",
+          "tytul": "Grain merchandisers face larger risks - AgUpdate"
+        },
+        {
+          "czas_utc": "2026-11-02 06:39",
+          "tytul": "China Domestic Corn Prices Halt Decline and See Slight Recovery in October - Sunsirs"
+        },
+        {
+          "czas_utc": "2026-11-02 03:51",
+          "tytul": "Russia struggles to find ways to export grain. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-11-02 02:53",
+          "tytul": "Chicago wheat retreats toward 4-month low on Russian export outlook - Livemint"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-02",
+      "czas_zapisu_et": "08:33",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Złoto odbija po najsilniejszym miesięcznym spadku i minimach rocznych; popyt przed Dhanteras i odbicie techniczne lekko przeważają nad ryzykiem podwyżki stóp Fed.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-02 13:04",
+          "tytul": "12kg LPG cylinder price rises by Tk 223 - Jagonews24"
+        },
+        {
+          "czas_utc": "2026-11-02 13:00",
+          "tytul": "Perspective on the Gold & bullion industry by Darshan Desai, CEO, Aspect Bullion & Refinery - Investment Guru India"
+        },
+        {
+          "czas_utc": "2026-11-02 12:47",
+          "tytul": "Gold Price Today: Rebound Near $3,900 Faces Fed Rate-Hike Risk - The Eastern Herald"
+        },
+        {
+          "czas_utc": "2026-11-02 12:43",
+          "tytul": "Gold prices this afternoon (November 2nd): World gold prices rebound from their \"low\" levels. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-11-02 12:30",
+          "tytul": "Dhanteras Gold Prediction 2026: Will Gold Prices Rise or Fall Before November 6? Check MCX Targets, Expert Forecasts, Buying Strategy & More - The Sunday Guardian"
+        },
+        {
+          "czas_utc": "2026-11-02 12:26",
+          "tytul": "Gold Price Today on November 01, 2026 - USA Today"
+        },
+        {
+          "czas_utc": "2026-11-02 12:23",
+          "tytul": "Gold price at the close of the session on November 2: Gold recovers after the strongest monthly drop - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-02 12:18",
+          "tytul": "Rates crash: Gold price slips 7%, silver tanks 20% in Oct: Is Dhanteras 2026 right time to buy? What should investors do - Livemint"
+        },
+        {
+          "czas_utc": "2026-11-02 12:17",
+          "tytul": "Gold prices today, Monday, November 2, 2026: Gold opens at its lowest point in over a year ahead of midterms - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-02 12:06",
+          "tytul": "Gold Price Outlook: Why I’m Avoiding the Dip as Gold Stays Expensive - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-11-02 12:00",
+          "tytul": "Gold Price Rises Rs. 2,400 To Rs. 412,136 Per Tola In Pakistan - UrduPoint"
+        },
+        {
+          "czas_utc": "2026-11-02 11:41",
+          "tytul": "Polymarket Adds Gold and Silver to 15-Minute Markets With Chainlink - FinanceFeeds"
+        },
+        {
+          "czas_utc": "2026-11-02 11:30",
+          "tytul": "Gold price rises in Bangladesh - Banglanews24"
+        },
+        {
+          "czas_utc": "2026-11-02 11:30",
+          "tytul": "Gold prices rebound in Pakistan after three-day drop as international market gains - Daily Times"
+        },
+        {
+          "czas_utc": "2026-11-02 11:21",
+          "tytul": "How to Choose a Gold ETF Before Dhanteras - HDFC Sky"
+        },
+        {
+          "czas_utc": "2026-11-02 11:20",
+          "tytul": "Gold Price Today | Gold Rate Pakistan | 24K Gold Per Tola | International Gold Price | 4PM HEADLINE - Aaj English TV"
+        },
+        {
+          "czas_utc": "2026-11-02 11:12",
+          "tytul": "XM launches Diwali campaign to help investors explore online gold trading - TheWire.in"
+        },
+        {
+          "czas_utc": "2026-11-02 11:11",
+          "tytul": "Gold price increases in local market - en.bd-pratidin.com"
+        },
+        {
+          "czas_utc": "2026-11-02 11:10",
+          "tytul": "Gold prices today, afternoon of November 2nd, 2026: Closing prices for SJC, BTMC, BTMH, and DOJI gold. - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-11-02 11:06",
+          "tytul": "How jewellers calculate gold jewellery price: This formula reveals the final bill - Don't ignore these cos - The Economic Times"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-02",
+      "czas_zapisu_et": "08:33",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Spadek cen ropy obniża rentowności, a rynek rozważa cięcia emisji długich obligacji przez Skarb USA, co sprzyja wzrostowi cen TLT w ciągu sesji.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-02 13:23",
+          "tytul": "Government bond yields log best session since April as crude prices slide - Moneycontrol.com"
+        },
+        {
+          "czas_utc": "2026-11-02 11:41",
+          "tytul": "Strategy's Michael Saylor Blames These 3 Factors for Bitcoin's Recent Sluggish Performance. The Most Important Is Treasury Yields. - The Globe and Mail"
+        },
+        {
+          "czas_utc": "2026-11-02 11:24",
+          "tytul": "US Treasury yields mixed ahead of midterm elections, jobs data and major corporate earnings | Hindustan Times - Hindustan Times"
+        },
+        {
+          "czas_utc": "2026-11-02 11:06",
+          "tytul": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-02 10:10",
+          "tytul": "Treasury bond yields rise across the board... 3-year note at 3.740% per annum : Finance : JKN - 재경일보"
+        },
+        {
+          "czas_utc": "2026-11-02 10:02",
+          "tytul": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years - Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-02 08:11",
+          "tytul": "Korean Treasury Bond Yields Close Higher Across the Board... 3-Year at 3.740% - 아시아경제"
+        },
+        {
+          "czas_utc": "2026-11-02 07:54",
+          "tytul": "US Treasury Yields Fall as Fed Signals Caution on Rates - Serrari Group"
+        },
+        {
+          "czas_utc": "2026-11-02 06:00",
+          "tytul": "If equities follow bonds, we’re in trouble - AOL.com"
+        },
+        {
+          "czas_utc": "2026-11-02 05:32",
+          "tytul": "AI boom comes with a debt bomb: Magnificent Seven borrowing surges 45% to $578 billion - Firstpost"
+        },
+        {
+          "czas_utc": "2026-11-02 05:12",
+          "tytul": "US Treasury Weighs Long Bond Cuts Ahead of November Review - Demokratis.co.id"
+        },
+        {
+          "czas_utc": "2026-11-02 03:30",
+          "tytul": "AI debt surge pushes Magnificent Seven borrowing to USD 578 billion, up 45%: SBI Research - Big News Network.com"
+        },
+        {
+          "czas_utc": "2026-11-02 02:03",
+          "tytul": "US roundtable: Real estate is a market of winners and losers - PERE"
+        },
+        {
+          "czas_utc": "2026-11-02 01:54",
+          "tytul": "Money Pours In as U.S. 10-Year Yield Holds Around 5%…KODEX U.S. Treasury ETF Tops 200 Billion Won in Net Assets - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-02 01:35",
+          "tytul": "Why is Gold falling alongside tech stocks? A closer look at liquidity and the bond market - FXStreet"
+        },
+        {
+          "czas_utc": "2026-11-02 01:25",
+          "tytul": "Oil-Yield Link Breaks Down as BlackRock Says AI Risk Has Overtaken Geopolitics as Market's Main Driver - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-01 23:45",
+          "tytul": "Wall Street Braces for Bessent’s Next Treasury Experiment - The Dark Side Of The Boom"
+        },
+        {
+          "czas_utc": "2026-11-01 23:02",
+          "tytul": "Bitcoin Uptober Failed as Oil, Bonds and AI Broke Pattern: What Changed? - CryptoRank"
+        },
+        {
+          "czas_utc": "2026-11-01 20:00",
+          "tytul": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years - Yahoo Finance UK"
+        },
+        {
+          "czas_utc": "2026-11-01 19:39",
+          "tytul": "Oklo and NuScale sink 15% in a week as bond yields punish nuclear stocks - Startup Fortune"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "ilosc": 19,
+      "zlecenie_wejscia": "99632f19-078a-4391-91f0-59df9cc5a40c",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "ilosc": 371,
+      "zlecenie_wejscia": "683f3100-96b9-4620-bf33-14df330e05f7",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "LONG",
+      "ilosc": 27,
+      "zlecenie_wejscia": "4dd72fdc-d483-403b-85d3-6247a52b8325",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "ilosc": 122,
+      "zlecenie_wejscia": "6f48973e-c6aa-4dec-9b28-618ca6faaddd",
+      "tif_wejscia": "day"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
