@@ -3,7 +3,7 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": false,
   "powody": [
     "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"asset \\\"USO\\\" cannot be sold short\"}"
@@ -471,28 +471,52 @@
       "kierunek": "LONG",
       "ilosc": 19,
       "zlecenie_wejscia": "99632f19-078a-4391-91f0-59df9cc5a40c",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 526.93,
+        "ilosc": 19
+      },
+      "zlecenie_wyjscia": "c236bfe3-0a5d-45ac-b8d7-3b2ca0c0edac"
     },
     {
       "ticker": "DBA",
       "kierunek": "SHORT",
       "ilosc": 371,
       "zlecenie_wejscia": "683f3100-96b9-4620-bf33-14df330e05f7",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 26.980512,
+        "ilosc": 371
+      },
+      "zlecenie_wyjscia": "6c09447e-12ad-4562-8fe9-0981fd787c4e"
     },
     {
       "ticker": "GLD",
       "kierunek": "LONG",
       "ilosc": 27,
       "zlecenie_wejscia": "4dd72fdc-d483-403b-85d3-6247a52b8325",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 362.341111,
+        "ilosc": 27
+      },
+      "zlecenie_wyjscia": "7171bd36-932f-4785-8368-5c1004ebbf3e"
     },
     {
       "ticker": "TLT",
       "kierunek": "LONG",
       "ilosc": 122,
       "zlecenie_wejscia": "6f48973e-c6aa-4dec-9b28-618ca6faaddd",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 81.85,
+        "ilosc": 122
+      },
+      "zlecenie_wyjscia": "25a73b1b-a1f8-46d8-bcfd-78b7b493edf5"
     }
   ],
   "liczba_oczekiwana": 5,
