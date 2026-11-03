@@ -3,7 +3,7 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "zamykana",
+  "etap": "rozliczona",
   "zaliczona": false,
   "powody": [
     "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"asset \\\"USO\\\" cannot be sold short\"}"
@@ -477,7 +477,14 @@
         "cena": 520.08,
         "ilosc": 19
       },
-      "zlecenie_wyjscia": "983f645f-2d0e-4c4b-b0a5-71bd88e504fc"
+      "zlecenie_wyjscia": "983f645f-2d0e-4c4b-b0a5-71bd88e504fc",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 518.25,
+        "ilosc": 19
+      },
+      "zmiana": -0.0035186894323950947,
+      "wynik": -0.004518689432395095
     },
     {
       "ticker": "DBA",
@@ -490,7 +497,14 @@
         "cena": 26.659973,
         "ilosc": 373
       },
-      "zlecenie_wyjscia": "fdcd1e19-b04d-45ab-bc5e-f76ef9254707"
+      "zlecenie_wyjscia": "fdcd1e19-b04d-45ab-bc5e-f76ef9254707",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 26.51,
+        "ilosc": 373
+      },
+      "zmiana": -0.005625399545603412,
+      "wynik": -0.006625399545603412
     },
     {
       "ticker": "GLD",
@@ -503,7 +517,14 @@
         "cena": 361.64,
         "ilosc": 27
       },
-      "zlecenie_wyjscia": "a97aa24c-c181-4130-91a7-5e8bbcdbbdba"
+      "zlecenie_wyjscia": "a97aa24c-c181-4130-91a7-5e8bbcdbbdba",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 359.246667,
+        "ilosc": 27
+      },
+      "zmiana": -0.006617998562105918,
+      "wynik": -0.007617998562105918
     },
     {
       "ticker": "TLT",
@@ -516,9 +537,17 @@
         "cena": 81.4,
         "ilosc": 122
       },
-      "zlecenie_wyjscia": "212737e1-0566-4813-b878-a1f6e1176103"
+      "zlecenie_wyjscia": "212737e1-0566-4813-b878-a1f6e1176103",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 81.099754,
+        "ilosc": 122
+      },
+      "zmiana": -0.0036885257985258147,
+      "wynik": -0.004688525798525815
     }
   ],
   "liczba_oczekiwana": 5,
-  "pominiete": []
+  "pominiete": [],
+  "wynik_sesji": -0.023451
 }
