@@ -3,7 +3,7 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
@@ -469,14 +469,26 @@
       "kierunek": "LONG",
       "ilosc": 101,
       "zlecenie_wejscia": "d8dd30f3-7715-4b48-bddf-29a3d44a7bac",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 65.877129,
+        "ilosc": 101
+      },
+      "zlecenie_wyjscia": "b260d8b0-10f5-43cd-8dea-d04204b8382c"
     },
     {
       "ticker": "DBB",
       "kierunek": "LONG",
       "ilosc": 265,
       "zlecenie_wejscia": "c4374c06-a523-417c-ad65-d0d2f669bc93",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 24.762981,
+        "ilosc": 265
+      },
+      "zlecenie_wyjscia": "8a7f1395-9072-4839-8626-9045dfb239fa"
     }
   ],
   "uniwersum": {
