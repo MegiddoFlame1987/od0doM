@@ -1,0 +1,505 @@
+{
+  "data": "2026-11-04",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-04",
+      "czas_zapisu_et": "08:32",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Ropa spada po wyborach w USA i rozmowach pokojowych z Iranem, które obniżają premię wojenną; presja spadkowa może się utrzymać w trakcie sesji.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-04 13:29",
+          "tytul": "Syria says Hezbollah targeted Homs refinery - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-04 13:14",
+          "tytul": "Oil News: Crude Oil Futures Fall as Iran Peace Talks Pressure War Premium - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-11-04 13:06",
+          "tytul": "US midterm results: Here's what they could mean for Iran, Ukraine, oil prices and global relations | Hindustan Times - Hindustan Times"
+        },
+        {
+          "czas_utc": "2026-11-04 12:47",
+          "tytul": "Venezuela’s oil revival moves cargoes from shadow fleet to mainstream tankers - Lloyd's List"
+        },
+        {
+          "czas_utc": "2026-11-04 12:40",
+          "tytul": "Dollar and oil fall after Trump’s election rout - The Sun Malaysia"
+        },
+        {
+          "czas_utc": "2026-11-04 12:31",
+          "tytul": "Rupee Seen At 94.75-95.75 Against Dollar In Near Term As Oil Prices Weigh: BoB - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-04 12:30",
+          "tytul": "Nigeria's Oil and Gas Output Rises to 3.04 Million Boepd - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-04 12:29",
+          "tytul": "Oil Prices Fall as Democrats Seize Control of U.S. Congress and Uncertainty Grows Over Iran Conflict – WTI Below $95, Brent Near $102 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-04 12:15",
+          "tytul": "Current price of oil as of Nov. 4, 2026 - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-04 12:15",
+          "tytul": "Crude Oil Pulls Back on US Election Shift & Iran - TradingPedia"
+        },
+        {
+          "czas_utc": "2026-11-04 12:08",
+          "tytul": "Indian markets defy mixed Asian cues, Sensex and Nifty extend winning streak - The New Indian Express"
+        },
+        {
+          "czas_utc": "2026-11-04 12:07",
+          "tytul": "Omani Oil Price Drops - Fana News -"
+        },
+        {
+          "czas_utc": "2026-11-04 11:58",
+          "tytul": "Oman Crude Oil Price Drops USD 0.92 - Fana News -"
+        },
+        {
+          "czas_utc": "2026-11-04 11:44",
+          "tytul": "Kazakhstan says it's asked Russia to allow resumption of oil exports to Germany via Druzhba - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-04 11:44",
+          "tytul": "Azerbaijan expects preservation of SOFAZ's assets despite oil price drop to $65 - Trend News Agency"
+        },
+        {
+          "czas_utc": "2026-11-04 11:30",
+          "tytul": "Renewables Stocks Soar as Democrats Sweep U.S. Congress - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-04 11:25",
+          "tytul": "Canada's Cenovus posts higher third-quarter profit on record production - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-04 11:08",
+          "tytul": "Oil futures: Crude drifts lower after Trump defeat, Mideast policy eyed - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-04 11:08",
+          "tytul": "Forecast update for Brent -04-11-2026 - Economies.com"
+        },
+        {
+          "czas_utc": "2026-11-04 11:07",
+          "tytul": "Oil Market Weighs Next Stage in Iran Conflict After Midterms - Rigzone"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-04",
+      "czas_zapisu_et": "08:32",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Nvidia odzyskała tytuł największej spółki, a kontrakty futures sugerują byczy nastrój; brak wyraźnych negatywnych impulsów, choć przewaga jest niewielka.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-04 13:17",
+          "tytul": "NVIDIA App Quietly Adds GPU Prioritization Controls, But The New Feature Isn’t Available To Everyone - Wccftech"
+        },
+        {
+          "czas_utc": "2026-11-04 13:09",
+          "tytul": "Rosenblatt Upgrades Navitas Semiconductor to Buy From Neutral - www.marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-04 13:06",
+          "tytul": "Bosch strengthening its semiconductor division in 2028 and seeking robotics expansion - Digital Watch Observatory"
+        },
+        {
+          "czas_utc": "2026-11-04 13:01",
+          "tytul": "Bosch to Establish Semiconductor Division! - Gasgoo"
+        },
+        {
+          "czas_utc": "2026-11-04 13:01",
+          "tytul": "Nvidia’s RTX Spark laptops make no sense — until they do - PCWorld"
+        },
+        {
+          "czas_utc": "2026-11-04 12:57",
+          "tytul": "Forget Nvidia: Why Samsung, TSMC, and Micron Just Generated 'More Free Cash Flow... Than Any Other Listed - Benzinga"
+        },
+        {
+          "czas_utc": "2026-11-04 12:54",
+          "tytul": "NVIDIA adds 19 DLSS Override profiles, including several upcoming PC games - VideoCardz.com"
+        },
+        {
+          "czas_utc": "2026-11-04 12:47",
+          "tytul": "Report: Nvidia to deliver only about 1% of Chinese RTX Pro 5500 orders in coming months - Mezha.net"
+        },
+        {
+          "czas_utc": "2026-11-04 12:39",
+          "tytul": "1Finity launches full-stack vRAN suite with Nvidia-powered GPU infrastructure sharing - Telecompaper"
+        },
+        {
+          "czas_utc": "2026-11-04 12:37",
+          "tytul": "Nvidia Took Back the World’s Biggest Company Title From Apple on Election Day - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 12:37",
+          "tytul": "Nvidia Took Back the World’s Biggest Company Title From Apple on Election Day - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-04 12:35",
+          "tytul": "Nvidia's RTX 5080 24GB May Debut at CES 2027 as a Paper Launch, Leaker Says - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 12:34",
+          "tytul": "Nvidia Futures Hold Above Pivot as Traders Favor Longs - TradingPedia"
+        },
+        {
+          "czas_utc": "2026-11-04 12:31",
+          "tytul": "Nordic Semiconductor Promises Ultra-Low-Power, Multi-Protocol Edge Smarts with the New nRF71 Series - Hackster.io"
+        },
+        {
+          "czas_utc": "2026-11-04 12:30",
+          "tytul": "Breakfast News: Did Nvidia Just Favor Marvell? - The Motley Fool"
+        },
+        {
+          "czas_utc": "2026-11-04 12:30",
+          "tytul": "Playing hot potato before earnings later this month $NVIDIA (NVDA.US)$ - Moomoo"
+        },
+        {
+          "czas_utc": "2026-11-04 12:19",
+          "tytul": "Hogwarts Legacy Brings Nvidia DLSS 5 Support on November 5th - GamingBolt"
+        },
+        {
+          "czas_utc": "2026-11-04 12:15",
+          "tytul": "Nvidia can only fulfill 1% of China’s massive $70 billion GPU order for AI chips, report claims — supply constraints choke export-friendly RTX Pro 5500 deliveries despite huge demand - Tom's Hardware"
+        },
+        {
+          "czas_utc": "2026-11-04 12:04",
+          "tytul": "$NVIDIA (NVDA.US)$ my prediction - Moomoo"
+        },
+        {
+          "czas_utc": "2026-11-04 12:00",
+          "tytul": "Crypto’s Biggest Heist Ever + The Spy Who Loved Nvidia + Hacktober’s Mysteries : Machine Gods - NPR"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-04",
+      "czas_zapisu_et": "08:32",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Przeważają nagłówki o presji spadkowej: pszenica na najniższym poziomie od lipca, tańsza kukurydza ukraińska, spadek cen ropy i oleju roślinnego oraz słabsze ceny eksportowe.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-04 13:21",
+          "tytul": "Wheat Market: MATIF Declines, Black Sea Risk Premium Fades - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-04 13:18",
+          "tytul": "Fertilizer Prices Rise Again as UAN28 Leads October Gains - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-04 12:08",
+          "tytul": "Australia’s wheat production falls as 2026/27 barley crop str ... - Milling Middle East & Africa"
+        },
+        {
+          "czas_utc": "2026-11-04 11:24",
+          "tytul": "Wheat hits its lowest level since early July 🚩 Russia resumes exports. What are funds doing after the massive sell-off? - XTB.com"
+        },
+        {
+          "czas_utc": "2026-11-04 10:59",
+          "tytul": "India increases corn imports amid record domestic prices - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-04 10:23",
+          "tytul": "Govts Ethanol Blending Target At Risk As Weak Monsoon Hits Sugarcane, Corn Output - Free Press Journal"
+        },
+        {
+          "czas_utc": "2026-11-04 09:21",
+          "tytul": "Ukrainian corn prices fall below $200/t for first time in two years — S&P Global - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-04 08:40",
+          "tytul": "Grain Market Rally Could Trigger $9.6 Billion in Margin Calls for Elevators, Cobank Economist Says - RFD-TV"
+        },
+        {
+          "czas_utc": "2026-11-04 08:22",
+          "tytul": "Corn prices in India surge 50%, increasing pressure on bioethanol producers - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-04 08:21",
+          "tytul": "Corn Market: Mexico Slows US Purchases, Brazil Gains, Ukraine Freight Spikes - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-04 07:57",
+          "tytul": "Wheat prices slashed in Sindh, flour to become Rs17 cheaper per kg - Pakistan Connect"
+        },
+        {
+          "czas_utc": "2026-11-04 07:35",
+          "tytul": "Ukraine thyme market outlook amid slow corn harvest and export bottlenecks - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-04 07:33",
+          "tytul": "Palm and soybean oil prices fall under pressure from falling oil prices, while sunflower oil prices remain high due to supply delays - електронна зернова біржа України"
+        },
+        {
+          "czas_utc": "2026-11-04 07:28",
+          "tytul": "Oil prices fall amid Democrats' landslide victory in US midterm elections and US agreement to start talks with Iran - електронна зернова біржа України"
+        },
+        {
+          "czas_utc": "2026-11-04 07:19",
+          "tytul": "India’s Soybean Meal Import Dispute Puts Floor Under Global Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-04 06:42",
+          "tytul": "China Corn Remains Range-Bound at Low Levels - Sunsirs"
+        },
+        {
+          "czas_utc": "2026-11-04 06:29",
+          "tytul": "Indian wheat demand steady while global export prices stay weak - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-04 06:20",
+          "tytul": "Grain prices in southern Russia fall below other regions amid Black Sea export disruptions - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-04 06:20",
+          "tytul": "Sindh Cabinet slashes wheat release price to provide relief to consumers - Daily Times"
+        },
+        {
+          "czas_utc": "2026-11-04 06:17",
+          "tytul": "Wheat market under pressure as Russian export offers decline - CMB News"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-04",
+      "czas_zapisu_et": "08:32",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Słabszy dolar po wygranej Demokratów w wyborach połówkowych i napływ popytu wspierają złoto, choć po mocnym wzroście możliwe są realizacje zysków.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-04 13:29",
+          "tytul": "Triple Flag increases revenue on higher gold price - www.mining-journal.com"
+        },
+        {
+          "czas_utc": "2026-11-04 13:07",
+          "tytul": "Gold Price Correction Boosts Dhanteras Jewellery Sentiment - Rediff MoneyWiz"
+        },
+        {
+          "czas_utc": "2026-11-04 12:53",
+          "tytul": "Gold prices on global markets exceed $4,200 in third quarter - Apa.az"
+        },
+        {
+          "czas_utc": "2026-11-04 12:50",
+          "tytul": "Gold & Silver Prices Soar in Delhi Amid Festive Demand - Rediff MoneyWiz"
+        },
+        {
+          "czas_utc": "2026-11-04 12:32",
+          "tytul": "Gold and silver prices today: Bought on Dhanteras 2025? Check what your ₹1 lakh investment is worth now - Livemint"
+        },
+        {
+          "czas_utc": "2026-11-04 12:25",
+          "tytul": "Gold price today, Wednesday, November 4, 2026: Gold prices rise in early trading, but limited gains expected - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 12:25",
+          "tytul": "Spot gold price surge amid interest rate uncertainty & midterms - TVB"
+        },
+        {
+          "czas_utc": "2026-11-04 12:14",
+          "tytul": "Gold Price Today on November 03, 2026 - USA Today"
+        },
+        {
+          "czas_utc": "2026-11-04 12:10",
+          "tytul": "US Midterms: How Markets Are Reacting to Democrat Victory - Morningstar"
+        },
+        {
+          "czas_utc": "2026-11-04 12:07",
+          "tytul": "Gold price at the close of the session on November 4th: Gold rings increase sharply by more than 2 million VND/tael - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-04 12:05",
+          "tytul": "Bengaluru Bullion Rates: Gold & Silver Prices Nov 4 - Rediff MoneyWiz"
+        },
+        {
+          "czas_utc": "2026-11-04 12:02",
+          "tytul": "Gold Mining Shares Rally as Democratic Midterm Victory Weakens US Dollar and Lifts Bullion Prices - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 12:01",
+          "tytul": "Gold Steadies as Traders Track Iran Talk Prospects, US Midterms - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-04 11:57",
+          "tytul": "Gold prices are assessed to have fallen too much, prospects are still positive - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-04 11:45",
+          "tytul": "Artemis Gold Reports Financial and Operating Results for Q3 2026 - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-04 11:37",
+          "tytul": "Gold rate today (November 4, 2026): Check 24k, 22k, 20k, 18k gold jewellery prices from Malabar Gold & Diamonds, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-04 11:21",
+          "tytul": "Do US election results really steer the gold price? - Kalkine"
+        },
+        {
+          "czas_utc": "2026-11-04 11:21",
+          "tytul": "Could Hong Kong's tokenised gold push reshape bullion trading? - Kalkine"
+        },
+        {
+          "czas_utc": "2026-11-04 11:18",
+          "tytul": "Tudor Gold Pins a Break From Gold-Price Trading on 3 Fourth-Quarter Catalysts - Crux Investor"
+        },
+        {
+          "czas_utc": "2026-11-04 11:16",
+          "tytul": "Gold gains 3% as dollar slides after Democratic midterm gains - Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-04",
+      "czas_zapisu_et": "08:32",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Rajd obligacji po zwycięstwie Demokratów i ucieczka do bezpieczeństwa przy spadkach akcji mogą się utrzymać, choć część ruchu jest już wyceniona.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-04 12:38",
+          "tytul": "Treasury Yields Decline After Democrat Triumph; Eurozone Bond Yields Trade Mixed - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-04 12:24",
+          "tytul": "Why are US Treasury yields falling as investors seek safety amid election-driven stock sell-off? - Firstpost"
+        },
+        {
+          "czas_utc": "2026-11-04 12:01",
+          "tytul": "10-year Treasury yield slips to 4.93% as Democratic victory drives bond rally - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-04 11:49",
+          "tytul": "Treasuries Advance as Traders Eye US Votes, Refinancing Plans - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-04 11:04",
+          "tytul": "Gold ETF Inflows Rise as Yields Limit Gold Price Recovery - Equiti Global"
+        },
+        {
+          "czas_utc": "2026-11-04 10:27",
+          "tytul": "How global markets reacted to Democrats’ midterm sweep: Stocks rebound, Treasury yields fall - Moneycontrol.com"
+        },
+        {
+          "czas_utc": "2026-11-04 10:21",
+          "tytul": "Eurozone bond yields steady as investors await inflation data; US Treasury yields ease after midterm elect - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-04 09:41",
+          "tytul": "Treasury Yields Climb as Midterm Elections and Iran Tensions Weigh - Demokratis.co.id"
+        },
+        {
+          "czas_utc": "2026-11-04 09:25",
+          "tytul": "iShares 20+ Year Treasury Bond ETF (TLT) Stock Price, News, Quote & History - Yahoo! Finance Canada"
+        },
+        {
+          "czas_utc": "2026-11-04 09:06",
+          "tytul": "TREASURIES-US bonds rally as Democratic sweep seen stalling spending - Devdiscourse"
+        },
+        {
+          "czas_utc": "2026-11-04 07:36",
+          "tytul": "Gold Climbs Toward $3,950 as Midterm Results Weaken Dollar, Treasury Yields - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 07:05",
+          "tytul": "Market analysts react to Democratic sweep in US midterms - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 07:02",
+          "tytul": "Standard Chartered Explains Why Rising U.S. Stocks and Treasury Yields Could Benefit Risk-Sensitive Currencies - KuCoin"
+        },
+        {
+          "czas_utc": "2026-11-04 06:34",
+          "tytul": "Oil slide, Treasury strength boost Indian bonds - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-04 06:27",
+          "tytul": "US bond yields fall; Nasdaq, Dow Jones futures slip 2% as Democrats set for big win in US midterm election - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-04 04:41",
+          "tytul": "India bond yields today: 10-year falls to 7.258% as oil cools - Business Upturn"
+        },
+        {
+          "czas_utc": "2026-11-04 03:24",
+          "tytul": "Treasury yields fall after Democrats win House and Senate majorities - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-04 02:39",
+          "tytul": "Treasury Yield Split Signals Persistent Fed Tightening, Future Slowdown - InteractiveCrypto"
+        },
+        {
+          "czas_utc": "2026-11-04 01:56",
+          "tytul": "Gold Falls Below $3,930 as Dollar and U.S. Treasury Yields Both Climb; Market Awaits Midterm Elections - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-04 01:10",
+          "tytul": "Corporates rush to raise over Rs 17,000 crore as yields ease - The Economic Times"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "ilosc": 64,
+      "zlecenie_wejscia": "ef4a3e6d-8574-4cee-ba10-dffb3e6766f7",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "ilosc": 19,
+      "zlecenie_wejscia": "1cd80151-7b34-4f1c-b4e4-fcd055ad39a8",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "ilosc": 376,
+      "zlecenie_wejscia": "d8e0a431-08b7-4814-9f2f-7f78761a48dd",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "LONG",
+      "ilosc": 27,
+      "zlecenie_wejscia": "49fef85d-f2ae-4ecb-ac24-7590ac9f439a",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "ilosc": 123,
+      "zlecenie_wejscia": "bf38e01a-7c88-46b4-924c-64ab8380a76d",
+      "tif_wejscia": "day"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
