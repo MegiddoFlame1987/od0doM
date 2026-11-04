@@ -3,9 +3,11 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
-  "powody": [],
+  "etap": "rozliczona",
+  "zaliczona": false,
+  "powody": [
+    "SOYB: brak ceny dnia dla pominiętego"
+  ],
   "prognozy": [
     {
       "data": "2026-11-04",
@@ -422,16 +424,29 @@
   "liczba_oczekiwana": 4,
   "pominiete": [
     {
-      "ticker": "BNO"
+      "ticker": "BNO",
+      "otwarcie": 63.77,
+      "zamkniecie": 60.4,
+      "zmiana": -0.05284616590873458,
+      "wynik": 0.0
     },
     {
-      "ticker": "CANE"
+      "ticker": "CANE",
+      "otwarcie": 11.1,
+      "zamkniecie": 11.105,
+      "zmiana": 0.0004504504504505209,
+      "wynik": 0.0
     },
     {
       "ticker": "SOYB"
     },
     {
-      "ticker": "CPER"
+      "ticker": "CPER",
+      "otwarcie": 38.38,
+      "zamkniecie": 38.565,
+      "zmiana": 0.004820218863991536,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": 0
 }
