@@ -3,8 +3,8 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -467,7 +467,14 @@
         "cena": 38.8,
         "ilosc": 172
       },
-      "zlecenie_wyjscia": "e652d076-502a-48d0-ba8f-58b903473bc1"
+      "zlecenie_wyjscia": "e652d076-502a-48d0-ba8f-58b903473bc1",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 37.41,
+        "ilosc": 172
+      },
+      "zmiana": -0.035824742268041256,
+      "wynik": -0.03732474226804126
     },
     {
       "ticker": "DBB",
@@ -480,7 +487,14 @@
         "cena": 25.054254,
         "ilosc": 268
       },
-      "zlecenie_wyjscia": "6b916bac-49b4-4616-bef0-06af5fb13201"
+      "zlecenie_wyjscia": "6b916bac-49b4-4616-bef0-06af5fb13201",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 24.45,
+        "ilosc": 268
+      },
+      "zmiana": -0.024117820470727285,
+      "wynik": -0.025617820470727286
     }
   ],
   "uniwersum": {
@@ -548,13 +562,26 @@
   "liczba_oczekiwana": 5,
   "pominiete": [
     {
-      "ticker": "BNO"
+      "ticker": "BNO",
+      "otwarcie": 61.535,
+      "zamkniecie": 62.52,
+      "zmiana": 0.01600715040221023,
+      "wynik": 0.0
     },
     {
-      "ticker": "CANE"
+      "ticker": "CANE",
+      "otwarcie": 11.275,
+      "zamkniecie": 11.165,
+      "zmiana": -0.009756097560975717,
+      "wynik": 0.0
     },
     {
-      "ticker": "SOYB"
+      "ticker": "SOYB",
+      "otwarcie": 25.335,
+      "zamkniecie": 25.3,
+      "zmiana": -0.0013814880599960584,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": -0.062943
 }
