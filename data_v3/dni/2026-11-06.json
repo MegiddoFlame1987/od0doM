@@ -1,0 +1,359 @@
+{
+  "data": "2026-11-06",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Ropa przeżywa największy tygodniowy spadek od 2020 r. przez nadzieje na pokój na Bliskim Wschodzie; momentum jest spadkowe, a kierunek sesji niejasny.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 12:33",
+          "tytul": "OIL PRICES FALL AGAIN as U.S. Election Results Fuel Hopes of Middle East Peace – WTI Below $90, Brent Near $98 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-06 12:10",
+          "tytul": "Top 5 African countries that produced the most crude oil in September 2026 - Business Insider Africa"
+        },
+        {
+          "czas_utc": "2026-11-06 12:09",
+          "tytul": "Oil prices set for sharp weekly fall after US midterms - JournalArta"
+        },
+        {
+          "czas_utc": "2026-11-06 11:53",
+          "tytul": "Oil heads for biggest drop since pandemic as hopes for end to Iran war push prices down - Nacionale"
+        },
+        {
+          "czas_utc": "2026-11-06 11:52",
+          "tytul": "Nifty Rises 9% In November As Oil Falls, But Is The Euphoria Premature? - Outlook Business"
+        },
+        {
+          "czas_utc": "2026-11-06 11:44",
+          "tytul": "Brent oil price benchmark set for biggest weekly drop since 2020 - Euronext Markets: Real-time Stock Market Data | live"
+        },
+        {
+          "czas_utc": "2026-11-06 11:39",
+          "tytul": "Oil Prices Sink as U.S. Midterms Raise Market Hopes for Middle East Solution - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-06 11:10",
+          "tytul": "Sensex Jumps 1,718 Points, Nifty Reclaims 25,000 Amid Global Turmoil - Rediff"
+        },
+        {
+          "czas_utc": "2026-11-06 11:05",
+          "tytul": "Oil Slides Below $100 a Barrel, With Focus on Iran Outlook After U.S. Midterms - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-06 10:54",
+          "tytul": "World oil prices set for sharp weekly drop - RTE.ie"
+        },
+        {
+          "czas_utc": "2026-11-06 10:11",
+          "tytul": "Brent crude near $99 as global oil risks persist - News Karnataka"
+        },
+        {
+          "czas_utc": "2026-11-06 10:02",
+          "tytul": "Oil prices set for sharp weekly fall following US midterm elections - Riviera Radio"
+        },
+        {
+          "czas_utc": "2026-11-06 09:42",
+          "tytul": "Oil Prices Rebound Towards $100 but Brent Heads for 12% Weekly Decline - Investors King"
+        },
+        {
+          "czas_utc": "2026-11-06 09:38",
+          "tytul": "Oil Prices Face 12% Weekly Drop as Gulf Risks Persist - grafa.com"
+        },
+        {
+          "czas_utc": "2026-11-06 09:34",
+          "tytul": "Brent rebounds as Middle East supply risks outweigh expectations of de-escalation - https://www.engine.online/"
+        },
+        {
+          "czas_utc": "2026-11-06 09:27",
+          "tytul": "Oil prices fall as Chinese economic data fuel demand concerns - oEnergetice.cz"
+        },
+        {
+          "czas_utc": "2026-11-06 09:19",
+          "tytul": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance"
+        },
+        {
+          "czas_utc": "2026-11-06 09:19",
+          "tytul": "Brent crude faces pipeline attack and rising Chinese imports: XBR remains range-bound - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-06 09:01",
+          "tytul": "Oil Prices Today: Brent Drops Below $98, WTI Nears $90 - Arbiterz"
+        },
+        {
+          "czas_utc": "2026-11-06 08:46",
+          "tytul": "ANZ Group Holdings stock faces oil-market focus after forecast hike - ad-hoc-news.de"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Sygnały są mieszane: osłabienie dolara i droższa ropa wspierają cukier, ale kontrakty łagodnieją, a nadwyżka etanolu w Brazylii ciąży rynkowi.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 13:08",
+          "tytul": "Daily Sugar Market Update By Vizzie – 06/11/2026 - ChiniMandi"
+        },
+        {
+          "czas_utc": "2026-11-06 12:00",
+          "tytul": "Global Food Prices Fall, but a Troubling Signal Emerges: What's Really Happening to Markets? - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-06 10:25",
+          "tytul": "Global Food Prices Ease on Cheaper Grains, Dairy and Meat, UN Says - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-06 08:01",
+          "tytul": "India Sugar Market: AISTA MSP Hike Demand and Its Price Impact - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 08:00",
+          "tytul": "Sugar maple trees and autumn foliage on the farm - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-06 07:58",
+          "tytul": "Sugar No.11 Futures Ease as Forward Curve Signals Softer Tightness - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 07:57",
+          "tytul": "Sugar Beet Market November 2026: Tight EU Beet, Softer White Sugar Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 07:54",
+          "tytul": "Barley market calm on futures, soft physical prices and Black Sea risks - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 07:53",
+          "tytul": "Oat market update: CBOT futures soften, EU feed prices steady - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 07:52",
+          "tytul": "Rice market November 2026 – CBOT futures and Asian export prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 07:50",
+          "tytul": "Corn Market Update: Futures Steady, European and Black Sea Basis Softer - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 05:38",
+          "tytul": "India’s Ethanol Pivot and Its Impact on Sugarcane and Sugar Markets - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 05:36",
+          "tytul": "Sugar Market: Weaker Indian Jaggery, Steady EU Granulated Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 05:30",
+          "tytul": "India Cotton Market 2025/26: Lower Output, Duty-Free Imports and Price Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 03:50",
+          "tytul": "Analysis of Sugar Beet Production in the Eurasian Economic Union for the 2026/27 Season - Sunsirs"
+        },
+        {
+          "czas_utc": "2026-11-05 20:13",
+          "tytul": "Brazil Ethanol Glut Set to Squeeze Sugar Mills in 2027 - The AgriBiz"
+        },
+        {
+          "czas_utc": "2026-11-05 20:04",
+          "tytul": "Daily Market Price Updates and Commentary 5th November 2026 - Czapp"
+        },
+        {
+          "czas_utc": "2026-11-05 20:00",
+          "tytul": "Are World Sugar Futures Heading for a Test of the 2023 High? - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-05 17:23",
+          "tytul": "Dollar Weakness and Higher Crude Prices Spur Short Covering in Sugar - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-05 15:42",
+          "tytul": "3 Reasons to Sell Sugar Now as Prices Keep Falling - inkl"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Soja pozostaje w trendzie spadkowym i na nowych minimach, a przed raportem USDA nie ma wyraźnego impulsu wzrostowego na dziś.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 12:36",
+          "tytul": "Soybeans Market: China Links US Farm Buys to Tariff Deal - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 09:35",
+          "tytul": "Wheat rises while corn and soybeans decline in Chicago on Thursday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-06 08:09",
+          "tytul": "Crude oil rout pressures South American soybean oil prices - S&P Global"
+        },
+        {
+          "czas_utc": "2026-11-06 08:04",
+          "tytul": "Will soybean prices recover in November after October’s sell-off? - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-06 07:52",
+          "tytul": "Soybean market update: flat CBOT futures, strong exports, mixed basis - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 00:56",
+          "tytul": "CME : Soybean futures hit oversold territory ahead of USDA report. - www.marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-05 21:42",
+          "tytul": "Crops Analysis | Soybean slump continues - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-05 21:41",
+          "tytul": "Commodity markets daily recap - St Joseph Post"
+        },
+        {
+          "czas_utc": "2026-11-05 21:40",
+          "tytul": "Chicago Grain Futures Fall as Soybeans Lead Losses and Wheat Holds Firm - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-05 21:31",
+          "tytul": "CBOT review: Soybeans drop on large crop prospects - Country Guide"
+        },
+        {
+          "czas_utc": "2026-11-05 21:02",
+          "tytul": "Multiple Grain and Livestock Contracts Hit New Lows | Thursday, Nov. 5, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-05 20:49",
+          "tytul": "Corn, soybean futures sag under weight of big US crops - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-05 20:11",
+          "tytul": "Soybean Futures Fall as Downtrend Persists -- Daily Grain Highlights - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-05 19:55",
+          "tytul": "Closing Markets for Thursday, November 5 - Windsor News Today"
+        },
+        {
+          "czas_utc": "2026-11-05 18:24",
+          "tytul": "Corn, Soybean Futures Remain at Multi-Month Lows - Maritime Logistics News"
+        },
+        {
+          "czas_utc": "2026-11-05 18:24",
+          "tytul": "Soybeans Facing Midday Weakness - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-05 18:24",
+          "tytul": "Cotton Trading with Thursday Gains - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-05 15:12",
+          "tytul": "Will Soybean Futures price avoid a deeper drop amid seller pressure below the 200-day average? - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-05 14:10",
+          "tytul": "Ahead of the Open | Soybeans find strength late in overnight session - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-05 13:58",
+          "tytul": "Harvest prices beat spring guarantees for first time in years - Farm Progress"
+        }
+      ]
+    }
+  ],
+  "pozycje": [],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 46.93,
+      "sma200": 63.486,
+      "sila": 0.7392,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 13.76,
+      "sma200": 16.9814,
+      "sila": 0.8103,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 37.36,
+      "sma200": 37.9496,
+      "sila": 0.9845,
+      "trend": false
+    },
+    "DBB": {
+      "zamkniecie": 24.4,
+      "sma200": 24.8111,
+      "sila": 0.9834,
+      "trend": false
+    },
+    "UNG": {
+      "zamkniecie": 9.27,
+      "sma200": 11.1475,
+      "sila": 0.8316,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 62.53,
+      "sma200": 50.4706,
+      "sila": 1.2389,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 21.93,
+      "sma200": 23.573,
+      "sila": 0.9303,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.15,
+      "sma200": 18.1824,
+      "sila": 0.9432,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 25.3,
+      "sma200": 25.1786,
+      "sila": 1.0048,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 11.16,
+      "sma200": 10.2531,
+      "sila": 1.0884,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 3,
+  "pominiete": [
+    {
+      "ticker": "BNO"
+    },
+    {
+      "ticker": "CANE"
+    },
+    {
+      "ticker": "SOYB"
+    }
+  ]
+}
