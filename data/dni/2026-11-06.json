@@ -1,0 +1,505 @@
+{
+  "data": "2026-11-06",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:32",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Ropa spada po wynikach wyborów w USA i nadziejach na deeskalację z Iranem; momentum spadkowe, choć po mocnej przecenie możliwe odbicie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 13:26",
+          "tytul": "MOL's delayed coker at Rijeka, Danube CDU operating again - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-06 13:19",
+          "tytul": "Oil Market Arrives at 'Remarkable Destination' - Rigzone"
+        },
+        {
+          "czas_utc": "2026-11-06 13:17",
+          "tytul": "Brazil extends oil export tax through year end, advances US reciprocity process - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-06 13:06",
+          "tytul": "Malaysian palm oil prices plunge 9% in a week, steepest drop in nearly two years - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-06 13:02",
+          "tytul": "Will We Ever See $3 Gas in Texas Again? - Amarillo Country Radio"
+        },
+        {
+          "czas_utc": "2026-11-06 13:00",
+          "tytul": "Leaders of powerful energy industry prepare to work with Democrat on Texas Railroad Commission - WFAA"
+        },
+        {
+          "czas_utc": "2026-11-06 12:56",
+          "tytul": "Oil Market Jitters: Markets anxious over geopolitical tension in the Middle East - CGTN"
+        },
+        {
+          "czas_utc": "2026-11-06 12:48",
+          "tytul": "WTI: Elliott Wave Analysis and Forecast for 06.11.26–13.11.26 - LiteFinance"
+        },
+        {
+          "czas_utc": "2026-11-06 12:45",
+          "tytul": "Current price of oil as of Nov. 6, 2026 - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-06 12:42",
+          "tytul": "India's ONGC hopes to get rights to operate 2 Venezuelan oil projects in six months - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-06 12:41",
+          "tytul": "Enbridge Q3 2026 Earnings Rise, 2026 Guidance Reaffirmed - News and Statistics - IndexBox"
+        },
+        {
+          "czas_utc": "2026-11-06 12:33",
+          "tytul": "OIL PRICES FALL AGAIN as U.S. Election Results Fuel Hopes of Middle East Peace – WTI Below $90, Brent Near $98 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-06 12:33",
+          "tytul": "Oil’s Plunge Below $100 Doesn’t Mean Markets Are Out of Jeopardy - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-06 12:32",
+          "tytul": "China to accelerate construction of national oil, gas strategic reserve bases: NDRC - 巴士的報"
+        },
+        {
+          "czas_utc": "2026-11-06 12:30",
+          "tytul": "Oil Prices Plunge as U.S. Elections Shake Up the Iran War - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-06 12:30",
+          "tytul": "Asia's Fuel Oil Market Signals Hopes of U.S.-Iran De-Escalation - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-06 12:20",
+          "tytul": "Enbridge Reports Strong Third Quarter Results, Places Over $3 Billion of Gas Transmission Projects Into Service, and Reaffirms 2026 Financial Guidance - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-06 12:14",
+          "tytul": "News by CNBC TV18 on TradingView, 2026-11-06 — cnbctv:4d4218038094b:0 - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-06 12:11",
+          "tytul": "ONGC Posts Highest H1 Profit - Rigzone"
+        },
+        {
+          "czas_utc": "2026-11-06 12:10",
+          "tytul": "Top 5 African countries that produced the most crude oil in September 2026 - Business Insider Africa"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:32",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Po ostrej wyprzedaży sektora (Nvidia -9%, Micron -17%) kontrakty dają odbicie, Nvidia +5% przed sesją, a sygnały wyprzedania sprzyjają odreagowaniu.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 13:31",
+          "tytul": "Cathie Wood sells $120 million in AI stock, buys Nvidia - GuruFocus"
+        },
+        {
+          "czas_utc": "2026-11-06 13:29",
+          "tytul": "Michael Burry Dumps 25% of His Semiconductor Bet Amid Brutal Tec - GuruFocus"
+        },
+        {
+          "czas_utc": "2026-11-06 13:22",
+          "tytul": "Apple Is Now Worth $600 Billion More Than Nvidia - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-06 13:18",
+          "tytul": "These Analysts Lower Their Forecasts On Alpha And Omega Semiconductor Following Q1 Results - Benzinga"
+        },
+        {
+          "czas_utc": "2026-11-06 13:12",
+          "tytul": "Michael Burry Dumps 25% of His Semiconductor Bet Amid Brutal Tech Selloff - Yahoo! Finance Canada"
+        },
+        {
+          "czas_utc": "2026-11-06 13:11",
+          "tytul": "Nvidia Chips Stolen: $11.4M Vanish in Oakland [2026] - https://tech-insider.org/"
+        },
+        {
+          "czas_utc": "2026-11-06 13:06",
+          "tytul": "Cathie Wood Just Dumped $134 Million of Broadcom and Bought Nvidia and SpaceX - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-06 13:06",
+          "tytul": "Cathie Wood Just Dumped $134 Million of Broadcom and Bought Nvidia and SpaceX - AOL.com"
+        },
+        {
+          "czas_utc": "2026-11-06 13:05",
+          "tytul": "NVIDIA Says Vera Beats AMD's 256-Core EPYC Venice by 2x on Agent Speed, 1.6x on Agents per Watt - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-06 13:01",
+          "tytul": "Futures Split After Market Sell-Off. What To Do Now. - Investor's Business Daily"
+        },
+        {
+          "czas_utc": "2026-11-06 12:55",
+          "tytul": "Nvidia Stock’s 25% Slide: Why And What Investors Should Watch - Forbes"
+        },
+        {
+          "czas_utc": "2026-11-06 12:53",
+          "tytul": "NVIDIA Shares Struggle as Sellers Test Key Support - TradingPedia"
+        },
+        {
+          "czas_utc": "2026-11-06 12:52",
+          "tytul": "Nvidia reportedly pitches plan to turn Brightspeed buildings into small data centers - Mezha.net"
+        },
+        {
+          "czas_utc": "2026-11-06 12:45",
+          "tytul": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims — company in talks with Brightspeed after pitching idea to parent company Apollo Global Management - Tom's Hardware"
+        },
+        {
+          "czas_utc": "2026-11-06 12:37",
+          "tytul": "Nvidia Just Had Its Worst Day Since DeepSeek, Losing About $450 Billion - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-06 12:37",
+          "tytul": "Nvidia Just Had Its Worst Day Since DeepSeek, Losing About $450 Billion - AOL.com"
+        },
+        {
+          "czas_utc": "2026-11-06 12:35",
+          "tytul": "NVIDIA stock fell 9.26%, but oversold signals have not erased bearish bias - The Cryptonomist"
+        },
+        {
+          "czas_utc": "2026-11-06 12:33",
+          "tytul": "Micron Technology (MU) Shares Plunge Over 17% Amid Semiconductor Selloff and Labor Disputes - GuruFocus"
+        },
+        {
+          "czas_utc": "2026-11-06 12:30",
+          "tytul": "NVIDIA Vera Delivers 2x The Agent Speed Of AMD’s 256-Core EPYC Venice And 1.6x More Agents Per Watt Than The Frequency-Optimized 96-Core Venice - Wccftech"
+        },
+        {
+          "czas_utc": "2026-11-06 12:26",
+          "tytul": "Nvidia Up 5% Premarket as AI Stocks Regain $662B of $1.45T - FourWeekMBA"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:33",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "LONG",
+      "pewnosc": 1,
+      "powod": "Mieszane wiadomości: spadek cen wg FAO i słabe ceny kukurydzy, ale duży zakup Meksyku i ryzyko Morza Czarnego lekko sprzyjają odbiciu; praktycznie rzut monetą.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 13:06",
+          "tytul": "Wheat prices fall after four months of gains, corn prices also decline — FAO - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-06 12:13",
+          "tytul": "More Imported Wheat Arrives in Pakistan as Shortage Continues - Bloom Pakistan"
+        },
+        {
+          "czas_utc": "2026-11-06 12:00",
+          "tytul": "Global Food Prices Fall, but a Troubling Signal Emerges: What's Really Happening to Markets? - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-06 11:45",
+          "tytul": "Iowa farmers wrap up 2026 harvest with growing pessimism about 2027 - The Des Moines Register"
+        },
+        {
+          "czas_utc": "2026-11-06 11:38",
+          "tytul": "Wheat exports rise fourfold after ban lift, but high prices raise concerns - The Pamphlet"
+        },
+        {
+          "czas_utc": "2026-11-06 11:14",
+          "tytul": "Cheaper corn keeps Canadian feed barley and wheat prices under pressure - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-06 11:11",
+          "tytul": "Russia adapts to Black Sea disruption but wheat market is too optimistic, Sizov says - Miller Magazine"
+        },
+        {
+          "czas_utc": "2026-11-06 11:05",
+          "tytul": "Huge Mexico Corn Sale Extends Strong Export Demand - RFD-TV"
+        },
+        {
+          "czas_utc": "2026-11-06 10:36",
+          "tytul": "WFP Pakistan Market Monitor Report - October 2026 - ReliefWeb"
+        },
+        {
+          "czas_utc": "2026-11-06 10:29",
+          "tytul": "World food prices dip in October, but remain higher than a year ago - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-06 10:12",
+          "tytul": "Rising fuel, fertilizer costs squeeze Ohio farmers' thin margins - Mansfield News Journal"
+        },
+        {
+          "czas_utc": "2026-11-06 10:08",
+          "tytul": "Global wheat prices could rise 18–24% in 2027 if Black Sea ports remain closed - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-06 08:39",
+          "tytul": "Ukrainian Wheat Market: Danube Feed Wheat Prices Extend Decline - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 08:18",
+          "tytul": "Corn Market Outlook: Record Ukrainian Stocks, Weak Prices, Export Flows - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 08:04",
+          "tytul": "Will soybean prices recover in November after October’s sell-off? - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-06 07:50",
+          "tytul": "Corn Market Update: Futures Steady, European and Black Sea Basis Softer - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 07:45",
+          "tytul": "Why corn could rally: Mexico's record buy signals market bottom - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-06 06:15",
+          "tytul": "Chinese feed producers cut corn purchases amid losses in pig farming - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-06 05:32",
+          "tytul": "India Corn Market Softens on Buyer Resistance and New Arrivals - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-06 04:46",
+          "tytul": "Flour Prices in Pakistan Today – November 6, 2026 - Daily Ausaf"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:33",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Po silnym czwartkowym wzroście złoto cofa się przed danymi NFP; jastrzębia Fed i obniżona prognoza Goldmana sugerują korektę, choć sytuacja jest niepewna.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 13:22",
+          "tytul": "Gold Price Today Surges 4.31% to $4,107—Still 25% Below Its 52-Week High - The Cryptonomist"
+        },
+        {
+          "czas_utc": "2026-11-06 13:18",
+          "tytul": "Goldman Sachs lowered its gold price forecast as Fed turns hawkish - Quartz"
+        },
+        {
+          "czas_utc": "2026-11-06 13:16",
+          "tytul": "Gold goes digital on Dhanteras as NSE clocks 1.8 lakh EGR trades in one day - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-06 13:07",
+          "tytul": "Fake detective conned woman out of gold worth £1.5m - BBC"
+        },
+        {
+          "czas_utc": "2026-11-06 13:04",
+          "tytul": "Gold price forecast cut by Goldman Sachs due to expected Fed rate hikes, now $4,150/oz by end of 2026. - Pluang"
+        },
+        {
+          "czas_utc": "2026-11-06 13:03",
+          "tytul": "Gold Prices Drop Rs 2,500 on Dhanteras Amid Weak Demand - Rediff MoneyWiz"
+        },
+        {
+          "czas_utc": "2026-11-06 12:38",
+          "tytul": "Private Investing Jumps on Gold and Silver Price Drop - BullionVault"
+        },
+        {
+          "czas_utc": "2026-11-06 12:33",
+          "tytul": "Gold Price Today: One analyst sees 20% more upside, two warn the post-election bounce may not last - FXStreet"
+        },
+        {
+          "czas_utc": "2026-11-06 12:24",
+          "tytul": "Gold price today, Friday, November 6, 2026: Gold hovers above $4,000 ahead of jobs report - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-06 12:14",
+          "tytul": "Gold Price Today: Gold Rises 4.31% on November 05, 2026 - USA Today"
+        },
+        {
+          "czas_utc": "2026-11-06 12:06",
+          "tytul": "Gold Pulls Back Before NFP After Its Strongest Week in Two Months - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-11-06 11:48",
+          "tytul": "Gold price at the close of the session on November 6th: Sharp decrease, a factor pulling precious metals down - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-06 11:29",
+          "tytul": "Forecast update for Gold -06-11-2026 - Economies.com"
+        },
+        {
+          "czas_utc": "2026-11-06 11:28",
+          "tytul": "Gold price dip gives Dhanteras buying a shine, but consumers are spending lighter - Fortune India"
+        },
+        {
+          "czas_utc": "2026-11-06 10:24",
+          "tytul": "Gold price in Pakistan falls Rs6,500 per tola - Investify"
+        },
+        {
+          "czas_utc": "2026-11-06 10:00",
+          "tytul": "Gold investors are buying into declining prices: Brooke Thackray - BNN Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-06 09:59",
+          "tytul": "Is Gold's Rally Losing Steam? Forecast as of 06.11.2026 - LiteFinance"
+        },
+        {
+          "czas_utc": "2026-11-06 09:51",
+          "tytul": "Eldorado Gold Corporation (TSX:ELD): High Profit Per Employee Shows Gold Price Leverage While Skouries Ramp-Up Tests Near-Term Delivery - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-06 09:51",
+          "tytul": "IAMGOLD (TSX:IMG): Gold Price Leverage and Mine Scale Lift Earnings Per Employee Across a Small Team - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-06 09:51",
+          "tytul": "B2Gold Corp. (TSX:BTO): Multi-Mine Gold Production Lifts Earnings Per Employee Alongside a Growing Project Pipeline - kalkine.ca"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-06",
+      "czas_zapisu_et": "08:33",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Po mocnym rajdzie obligacji (ucieczka od akcji AI) rano rentowności lekko odbijają, a dane o zatrudnieniu mogą skłonić do realizacji zysków.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-06 12:38",
+          "tytul": "Treasuries, Temperament and 'Wimpy' Income Investing: How the Pros Say to Ride Out a Market Rout - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-06 12:35",
+          "tytul": "Dollar Rises as Investors Flee AI Stocks and Await US Jobs Data - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-06 11:58",
+          "tytul": "Treasury Yields Turn Higher, Eurozone Bond Yields Drop - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-06 09:23",
+          "tytul": "Indian Bond Market Rally Extends as US Treasury Prices Rise and Crude Oil Falls - KNN India"
+        },
+        {
+          "czas_utc": "2026-11-06 09:04",
+          "tytul": "US Treasury traders bullish as October jobs report looms - Crypto Briefing"
+        },
+        {
+          "czas_utc": "2026-11-06 08:47",
+          "tytul": "Shafaq News..Dollar firms amid AI selloff, falling Treasury yields - شفق نيوز"
+        },
+        {
+          "czas_utc": "2026-11-06 08:43",
+          "tytul": "US Treasury Traders Make Bullish Bets Ahead of Jobs Report - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-06 07:42",
+          "tytul": "US mortgage rates fall a 3rd week - The Arkansas Democrat-Gazette"
+        },
+        {
+          "czas_utc": "2026-11-06 06:58",
+          "tytul": "Bond yield rise squeezes banks' Q2 treasury gains - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-06 04:30",
+          "tytul": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-06 03:45",
+          "tytul": "Bond yield rise squeezes banks' Q2 treasury gains - Livemint"
+        },
+        {
+          "czas_utc": "2026-11-06 03:43",
+          "tytul": "Gold Price Forecast: Gold Falls Below $4,100, Can October Nonfarm Payrolls Fuel Another Rally? - TradingKey"
+        },
+        {
+          "czas_utc": "2026-11-06 00:01",
+          "tytul": "Midterm elections extend mortgage rate slide to three weeks - Mortgage Professional America"
+        },
+        {
+          "czas_utc": "2026-11-05 21:10",
+          "tytul": "Why Encore Capital Group (ECPG) stock is up today - StockStory"
+        },
+        {
+          "czas_utc": "2026-11-05 20:46",
+          "tytul": "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-05 17:24",
+          "tytul": "Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-05 16:48",
+          "tytul": "Wall Street Is Already Bracing for a 2027 Debt Ceiling Fight - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-05 16:33",
+          "tytul": "A wipeout for AI stocks sends Wall Street reeling, and the S&P 500 tumbles more than 3% - BNN Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-05 16:03",
+          "tytul": "How a Divided Congress Affects the Stock Market and Bond Yields - StoneX"
+        },
+        {
+          "czas_utc": "2026-11-05 15:20",
+          "tytul": "US Treasuries face a 3% inflation trap as the stock-bond hedge breaks down - Equiti Global"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "ilosc": 67,
+      "zlecenie_wejscia": "4ba12984-e159-448d-afcb-d08b601b74a1",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "ilosc": 22,
+      "zlecenie_wejscia": "b1588669-ddc8-4661-a971-8a969f802fa6",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "LONG",
+      "ilosc": 382,
+      "zlecenie_wejscia": "27b2c1d7-8ca9-46b7-b071-f2b2c8d10f92",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "ilosc": 26,
+      "zlecenie_wejscia": "ec92dbef-553d-4bf3-ad03-7ef8e9f27dff",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "SHORT",
+      "ilosc": 122,
+      "zlecenie_wejscia": "444e7ea9-9f6c-48c1-bb24-800d2d64f8ed",
+      "tif_wejscia": "day"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
