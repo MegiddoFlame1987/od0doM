@@ -1,0 +1,336 @@
+{
+  "data": "2026-11-09",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-09",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "SKIP",
+      "pewnosc": 3,
+      "powod": "Ropa mocno spada po sygnałach Trumpa o deeskalacji z Iranem; nastroje i momentum są niedźwiedzie, a prognozy wskazują na nadwyżkę podaży.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-09 13:02",
+          "tytul": "Brent Oil Nears Critical 93.22 Support as Iran Tensions Ease, Dollar Retreats - Action Forex"
+        },
+        {
+          "czas_utc": "2026-11-09 12:42",
+          "tytul": "Trump Downplays Odds of Further Iran Strikes; Brent Crude Falls 3.5% - bloomingbit"
+        },
+        {
+          "czas_utc": "2026-11-09 12:30",
+          "tytul": "Oil Slides More Than 3% as Trump Downplays Prospect of New Iran Strikes - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-09 12:30",
+          "tytul": "Crude Oil Falls 16% as Middle East Attacks Raise Fresh Risks - Analytics Insight"
+        },
+        {
+          "czas_utc": "2026-11-09 12:21",
+          "tytul": "Oil prices today: Brent crude, WTI fall as Trump rules out fresh Iran strikes amid Strait of Hormuz concerns | Hindustan Times - Hindustan Times"
+        },
+        {
+          "czas_utc": "2026-11-09 11:59",
+          "tytul": "Oil prices fall over 3% as hopes of US-Iran peace talks ease supply fears - CNBC TV18"
+        },
+        {
+          "czas_utc": "2026-11-09 11:33",
+          "tytul": "Oil Prices Fall Below $90 as Trump Signals Reduced Risk of New Iran Attacks — Middle East Supply Recovery Pressures Crude Markets - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-09 11:21",
+          "tytul": "Brent Crude Falls Below $98 a Barrel, Down 3.4% From Prior Session - bloomingbit"
+        },
+        {
+          "czas_utc": "2026-11-09 10:48",
+          "tytul": "Oil prices today: Why Brent is falling despite Strait of Hormuz attacks - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-09 09:42",
+          "tytul": "Brent Crude Falls 1.7% As Trump Signals Restraint On Iran - Arise News"
+        },
+        {
+          "czas_utc": "2026-11-09 09:33",
+          "tytul": "Middle East oil price war signals post-conflict glut, Brent crude declines - Crypto Briefing"
+        },
+        {
+          "czas_utc": "2026-11-09 09:24",
+          "tytul": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance"
+        },
+        {
+          "czas_utc": "2026-11-09 09:19",
+          "tytul": "Oil Prices Suffer Steepest Weekly Fall Since 2020 on US Election Results - streamlinefeed.co.ke"
+        },
+        {
+          "czas_utc": "2026-11-09 09:13",
+          "tytul": "After Trump's Statement: Oil Prices Fall Sharply - blue News"
+        },
+        {
+          "czas_utc": "2026-11-09 09:10",
+          "tytul": "Brent Oil Falls 1.5% to US$96.91 as Iran Tensions Ease - grafa.com"
+        },
+        {
+          "czas_utc": "2026-11-09 09:01",
+          "tytul": "Oil Prices Fall On Easing Supply Risk, Brent Dips Below $97 - MarketForces Africa"
+        },
+        {
+          "czas_utc": "2026-11-09 08:49",
+          "tytul": "Oil prices have plummeted: Brent has fallen below $97 - UkrMedia News"
+        },
+        {
+          "czas_utc": "2026-11-09 08:47",
+          "tytul": "Global markets rally amid tech gains, cooling oil prices at start of new week - Anadolu Ajansı"
+        },
+        {
+          "czas_utc": "2026-11-09 08:47",
+          "tytul": "Oil Prices Today: Brent Slips to $96.84 Per Barrel as Trump Signals No Fresh Iran Strikes - Arbiterz"
+        },
+        {
+          "czas_utc": "2026-11-09 08:45",
+          "tytul": "Global oil market faces surplus despite Gulf supply recovery - AzerNews"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-09",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Nagłówki są mieszane: ICE nr 11 lekko słabnie, słaby kompleks tłuszczów roślinnych i ropy, a straty buraków w Niemczech wspierają tylko regionalnie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-09 12:51",
+          "tytul": "Futures and Market Data: 9th November 2026 - Czapp"
+        },
+        {
+          "czas_utc": "2026-11-09 12:36",
+          "tytul": "Daily Sugar Market Update By Vizzie – 09/11/2026 - ChiniMandi"
+        },
+        {
+          "czas_utc": "2026-11-09 09:10",
+          "tytul": "Dairy futures retreat despite positive GDT results - DCA Market Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-09 08:59",
+          "tytul": "Severe South German Sugar Beet Losses Tighten Regional Sugar Market - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 08:56",
+          "tytul": "Butter Market Analysis – Weaker Quotes Amid Rising Milk and Powder Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:56",
+          "tytul": "Sugar cane market: ICE No.11 softens, Brazil & India keep balance tight - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:55",
+          "tytul": "Sugar Beet Market Brief: ICE White Sugar and EU Beet Price Signals - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:54",
+          "tytul": "Crude Oil Market Analysis – Futures Curve, OPEC+ and Macro Risks - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:53",
+          "tytul": "Barley Market Update: Stable Futures, Soft Black Sea Basis, Mild Downtrend - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:50",
+          "tytul": "Palm Oil Futures Hit 8-Month Low on Record Stocks and Weak Crude Oil - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:49",
+          "tytul": "Sunflower Market Update: Prices Ease on Weak Vegetable Oil Complex - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:48",
+          "tytul": "Soybeans steady off recent low amid higher U.S. yields and fast Brazil planting - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:47",
+          "tytul": "Rapeseed Market Update: Vegetable Oil Slump and Peace Talks Pressure Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 06:52",
+          "tytul": "New Crushing Season Begins; China White Sugar Prices Remain Range-Bound - Sunsirs"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-09",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Soja lekko rośnie przed raportami USDA, a USA naciskają na Chiny w sprawie zakupów; to słaby, lekko pozytywny sygnał, choć ryzyko przed WASDE pozostaje.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-09 12:30",
+          "tytul": "3 Big Things Today, Nov. 9, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-09 12:11",
+          "tytul": "First Thing Today | Corn, soybeans tick higher ahead of this week’s USDA reports - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-09 12:05",
+          "tytul": "Feed Prices Have Fallen Fast — Should Livestock Producers Stock Up? - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-09 11:48",
+          "tytul": "US Agriculture Faces Critical Week as Congress Returns and USDA WASDE Looms - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-09 11:34",
+          "tytul": "Wheat falls, corn rises and soybeans trade mixed in Chicago on Friday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-09 11:13",
+          "tytul": "Soybean prices face pressure despite strong export demand - The Mighty 790 KFGO"
+        },
+        {
+          "czas_utc": "2026-11-09 09:32",
+          "tytul": "Soybeans market: El Niño risk, firm prices and cost pressure - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 08:50",
+          "tytul": "EU Soybean Crop Down 20%: Drought, Tight Non-GM Supply and Price Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:50",
+          "tytul": "Palm Oil Futures Hit 8-Month Low on Record Stocks and Weak Crude Oil - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:48",
+          "tytul": "Soybeans steady off recent low amid higher U.S. yields and fast Brazil planting - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:47",
+          "tytul": "Rapeseed Market Update: Vegetable Oil Slump and Peace Talks Pressure Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 07:12",
+          "tytul": "Court Strikes Urgency: Grain SA Disputes Finding as Producers Remain Exposed - https://agrinews.co.za/"
+        },
+        {
+          "czas_utc": "2026-11-09 07:00",
+          "tytul": "Crops almost put away with selling past its peak - FarmWeekNow"
+        },
+        {
+          "czas_utc": "2026-11-09 06:48",
+          "tytul": "Indonesia steps up soybean price stabilization, focuses on tofu producers - Independent Observer"
+        },
+        {
+          "czas_utc": "2026-11-09 03:50",
+          "tytul": "Soybeans Rise as US Presses China to Boost Farm Goods Purchases - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-09 03:04",
+          "tytul": "China soybeans market split: strong domestic beans, weak crush demand - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-08 19:44",
+          "tytul": "Cercospora Leaf Spot Treatment: Understanding and Managing the Disease - AgWeb"
+        },
+        {
+          "czas_utc": "2026-11-08 16:52",
+          "tytul": "After the Black Thursday stock market crash? Market review from October 30 to November 5 - Moomoo"
+        },
+        {
+          "czas_utc": "2026-11-08 16:06",
+          "tytul": "Why We Think it's Time to Take Profits on Soybean Shorts - Barchart.com"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "SOYB",
+      "kierunek": "LONG",
+      "ilosc": 263,
+      "zlecenie_wejscia": "1a1ecc1a-b457-4128-ab94-ff9baa3932c5",
+      "tif_wejscia": "day"
+    }
+  ],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 46.87,
+      "sma200": 63.2846,
+      "sila": 0.7406,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 13.86,
+      "sma200": 16.9305,
+      "sila": 0.8186,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 37.67,
+      "sma200": 37.9596,
+      "sila": 0.9924,
+      "trend": false
+    },
+    "DBB": {
+      "zamkniecie": 24.58,
+      "sma200": 24.8146,
+      "sila": 0.9905,
+      "trend": false
+    },
+    "UNG": {
+      "zamkniecie": 9.35,
+      "sma200": 11.1271,
+      "sila": 0.8403,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 62.22,
+      "sma200": 50.6323,
+      "sila": 1.2289,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 21.73,
+      "sma200": 23.5801,
+      "sila": 0.9215,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.19,
+      "sma200": 18.1824,
+      "sila": 0.9454,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 25.32,
+      "sma200": 25.1944,
+      "sila": 1.005,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 11.02,
+      "sma200": 10.26,
+      "sila": 1.0741,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 3,
+  "pominiete": [
+    {
+      "ticker": "BNO"
+    },
+    {
+      "ticker": "CANE"
+    }
+  ]
+}
