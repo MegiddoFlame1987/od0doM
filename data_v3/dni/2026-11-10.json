@@ -3,7 +3,7 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
@@ -378,7 +378,13 @@
       "kierunek": "LONG",
       "ilosc": 173,
       "zlecenie_wejscia": "da7c1f8a-78ab-4097-a63e-8a424b82703f",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 37.758728,
+        "ilosc": 173
+      },
+      "zlecenie_wyjscia": "8701f5af-86b9-450a-af4a-108cbde0ba35"
     }
   ],
   "uniwersum": {
