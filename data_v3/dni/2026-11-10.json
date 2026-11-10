@@ -1,0 +1,458 @@
+{
+  "data": "2026-11-10",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-10",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "SKIP",
+      "pewnosc": 3,
+      "powod": "Ropa mocno spada na nadziei pokoju z Iranem, Brent poniżej 90 USD; momentum jest spadkowe, więc brak powodu do pozycji długiej.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-10 13:08",
+          "tytul": "Trump’s West Asia peace signal and falling crude prices may bring fresh cheer to Indian market - The New Indian Express"
+        },
+        {
+          "czas_utc": "2026-11-10 12:40",
+          "tytul": "OMC stocks: Brent slips below $90 to hit over 2-month low amid Iran peace hopes; Will HPCL, BPCL and IOC benefit? - Livemint"
+        },
+        {
+          "czas_utc": "2026-11-10 12:37",
+          "tytul": "Falling Oil Prices and Bond Yields Offer Investors Some Relief - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-10 12:26",
+          "tytul": "WTI and Brent Crude Futures Erase September and October Gains as Iran War Hopes Grow - Hokanews"
+        },
+        {
+          "czas_utc": "2026-11-10 12:15",
+          "tytul": "Brent crude falls below $90 for the first time since August on Iran war hopes - Quartz"
+        },
+        {
+          "czas_utc": "2026-11-10 12:10",
+          "tytul": "Gold slips below $4,100, silver at $52 as Brent crude falls below $90; Fed rate hike bets rise - Moneycontrol.com"
+        },
+        {
+          "czas_utc": "2026-11-10 12:07",
+          "tytul": "Brent Crude Falls Below $90: Will US Inflation Data and Fed Rate Bets Drive Oil Lower? - Coinpedia"
+        },
+        {
+          "czas_utc": "2026-11-10 12:03",
+          "tytul": "Price of Brent oil slides below $90 for first time since August - Türkiye Today"
+        },
+        {
+          "czas_utc": "2026-11-10 11:32",
+          "tytul": "World shares rise after technology shares advance on Wall Street ahead of U.S. inflation data - BNN Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-10 11:30",
+          "tytul": "Oil Prices Fall Again as Trump Signals Restraint on Iran - WTI Near $85, Brent Approaches $90 - EnergyNow"
+        },
+        {
+          "czas_utc": "2026-11-10 11:19",
+          "tytul": "Brent crude falls below $90 as Trump signals Iran war de-escalation - streamlinefeed.co.ke"
+        },
+        {
+          "czas_utc": "2026-11-10 11:18",
+          "tytul": "Oil prices drop below 90 dollars as Trump says Iran war could end soon - London Evening Standard"
+        },
+        {
+          "czas_utc": "2026-11-10 11:18",
+          "tytul": "Brent crude drops below $90 for first time since August as Trump signals possible end to Iran war - Business Today"
+        },
+        {
+          "czas_utc": "2026-11-10 11:12",
+          "tytul": "Angola’s Bonds Lead Retreat Among Emerging-Market Oil Producers - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-10 11:10",
+          "tytul": "Brent crude falls to lowest level since August; will markets extend recovery? - Business Today"
+        },
+        {
+          "czas_utc": "2026-11-10 11:06",
+          "tytul": "Mapping the Market: Global oil prices could extend slide - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-10 11:04",
+          "tytul": "Oil prices drop below $90 as Trump signals poss... - Pluang"
+        },
+        {
+          "czas_utc": "2026-11-10 11:00",
+          "tytul": "Stocks Climb as Oil Prices Fall: Full Details - JournalArta"
+        },
+        {
+          "czas_utc": "2026-11-10 10:58",
+          "tytul": "Oil Extends Drop as Trump Says Further Iran Strikes Unnecessary - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-10 10:48",
+          "tytul": "Oil Prices Drop On Improved Supply Outlook, Brent Falls To $91 - MarketForces Africa"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-10",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Nagłówki są mieszane: cukier No.11 lekko słabnie, a presja z poprzedniej sesji kontrastuje z solidnym rynkiem białego cukru, więc brak wyraźnej przewagi.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-10 12:21",
+          "tytul": "Wheat Market Outlook: Fertilizer Squeeze vs. Soft Cash Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 12:10",
+          "tytul": "Russian Strike Halts Astarta Soy Plant, Tightens Black Sea Soybeans - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 09:42",
+          "tytul": "EU sugar beet 2026/27: production slump and contract demand - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 08:37",
+          "tytul": "US Sugar Prices Hold Firm Amid Tight Supply Outlook - Czapp"
+        },
+        {
+          "czas_utc": "2026-11-10 07:54",
+          "tytul": "Sugar beet market: white sugar futures firm, EU prices ease - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:54",
+          "tytul": "Sugar No.11 softens as Brazil rains and India policy keep balance tight - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:50",
+          "tytul": "Barley Market Update: Flat Futures, Softer Black Sea Values - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:49",
+          "tytul": "Oat Market Update: Futures Edge Higher, Physical Prices Steady - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:49",
+          "tytul": "Rice market update: CBOT futures ease, Asian FOB prices steady - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:48",
+          "tytul": "Soybeans Market Brief: Futures Curve Firms, Physical Bids Catch Up - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:46",
+          "tytul": "Corn Market Update: Futures Under Pressure, EU Cash Prices Ease - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:45",
+          "tytul": "Rapeseed Market Update: Firm MATIF, Softer Black Sea Prices, Stable Demand - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 07:43",
+          "tytul": "Wheat Market Update: Futures Near Lows, EU Leads, Black Sea in Focus - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 06:54",
+          "tytul": "Sugar output surges as season begins, but mills face margin squeeze on ethanol curbs, higher cane costs - SME Futures"
+        },
+        {
+          "czas_utc": "2026-11-10 02:00",
+          "tytul": "Ukrainian Rapeseed Holds Flat as Global Futures Ease - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-09 23:44",
+          "tytul": "CBoT wheat futures drift lower, soybean and corn firm - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-09 23:44",
+          "tytul": "US natgas rises on colder weather outlook - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-09 23:44",
+          "tytul": "Iron ore falls as China pollution curbs fuel demand worries - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-09 23:44",
+          "tytul": "Dollar weakens against euro, yen - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-09 20:43",
+          "tytul": "Softs Report: Sugar And Coffee Faced Pressure - TalkMarkets - Howl.Link"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-10",
+      "czas_zapisu_et": "08:33",
+      "sektor": "miedz",
+      "ticker": "CPER",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Miedź odbija po najgorszym tygodniu od marca, popyt w Chinach i niedobory podaży wspierają, ale presja taryfowa ogranicza przekonanie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-10 13:17",
+          "tytul": "Lumen CFO expects up to $1.5 billion from legacy copper amid pivot to AI connectivity - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-10 09:30",
+          "tytul": "District Copper Corp. Shares Draw Investor Attention Following a 20.00% Gain - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-10 09:28",
+          "tytul": "Oxygen-Free Copper Market to Reach US$50.04 Billion by 2033 as - openPR.com"
+        },
+        {
+          "czas_utc": "2026-11-10 09:25",
+          "tytul": "Copper Rebounds as China Supply Tightness Keeps LME Prices Under Pressure - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-10 08:00",
+          "tytul": "Copper Prices See Short-Term Rebound, Mining Company Stocks Rise Along With Prices - NAI500"
+        },
+        {
+          "czas_utc": "2026-11-10 07:53",
+          "tytul": "Coyote Copper Mines Inc. (CCM): Understanding Its High-Beta Profile and Exposure to Market Volatility - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-10 07:50",
+          "tytul": "Can China’s Copper Demand Reverse the US Tariff Trade as AI Market Optimism Fades? - Modern Diplomacy"
+        },
+        {
+          "czas_utc": "2026-11-10 05:18",
+          "tytul": "Wall Street reduces copper long positions as Chinese buyers snap up spot supply! Tariff arbitrage margins narrow, potentially reversing global copper flows - 富途牛牛"
+        },
+        {
+          "czas_utc": "2026-11-10 04:37",
+          "tytul": "META_TITLE_QUOTE - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-10 04:18",
+          "tytul": "Axo Metals Corp. (AXO.V) Stock Price, News, Quote & History - Yahoo! Finance Canada"
+        },
+        {
+          "czas_utc": "2026-11-10 04:02",
+          "tytul": "Copper supply constraints: why new mines are scarce - Mining.com.au"
+        },
+        {
+          "czas_utc": "2026-11-10 03:31",
+          "tytul": "Copper price to peak in FY27. Here's why and which ASX shares experts rate a buy - The Motley Fool Australia"
+        },
+        {
+          "czas_utc": "2026-11-10 01:44",
+          "tytul": "Copper Plate/Sheet and Strip: End-Use Demand Continues to Improve, October Operating Rate Beats Expectations - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-11-10 01:36",
+          "tytul": "Copper Plate/Sheet and Strip: End-use demand continues to improve, October operating rates better than expectations [SMM Analysis] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-11-10 00:52",
+          "tytul": "Tariff expectations cool, demand concerns linger; copper prices still face downward pressure [SMM Copper Morning Meeting Summary] - Shanghai Metals Market"
+        },
+        {
+          "czas_utc": "2026-11-10 00:15",
+          "tytul": "Copper rebounds as long-term supply story strengthens - Proactive Investors Australia"
+        },
+        {
+          "czas_utc": "2026-11-09 23:44",
+          "tytul": "Copper rebounds on tight supply in China - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-09 19:39",
+          "tytul": "Copper price bounces after worst week since March amid scramble for metal in China - Mining.com"
+        },
+        {
+          "czas_utc": "2026-11-09 19:15",
+          "tytul": "Where Is Rio Tinto’s (RIO) Copper Growth Coming From? (Ready) - Yahoo Finance Australia"
+        },
+        {
+          "czas_utc": "2026-11-09 16:11",
+          "tytul": "Codelco and Pucobre Secure Environmental Approval for $870-Million Tovaku Copper Project in Chile - IndexBox"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-10",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Nagłówki są mieszane: presja żniw i spadki przed raportem USDA, a z drugiej strony silny eksport i rozmowy z Chinami; brak wyraźnej przewagi.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-10 12:09",
+          "tytul": "Cheaper Beans, Busier Ships - Breakwave Advisors"
+        },
+        {
+          "czas_utc": "2026-11-10 10:29",
+          "tytul": "Wheat futures end mixed, while corn and soybeans decline in Chicago on Monday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-10 10:20",
+          "tytul": "Soybean price dispute puts R800 million at stake - https://novanews.co.za/"
+        },
+        {
+          "czas_utc": "2026-11-10 07:48",
+          "tytul": "Soybeans Market Brief: Futures Curve Firms, Physical Bids Catch Up - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-10 02:00",
+          "tytul": "Grain SA case for halting JSE soybean pricing change struck off the court roll - thenational.co.za"
+        },
+        {
+          "czas_utc": "2026-11-10 01:47",
+          "tytul": "Analyst says corn, soybean rally could improve farm margins - Brownfield Ag News"
+        },
+        {
+          "czas_utc": "2026-11-10 00:09",
+          "tytul": "Soybean futures slide ahead of USDA report as harvest pressure builds. - CME Group"
+        },
+        {
+          "czas_utc": "2026-11-09 23:44",
+          "tytul": "CBoT wheat futures drift lower, soybean and corn firm - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-09 22:31",
+          "tytul": "Soybean Weakness Holds into Monday’s Close - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-09 21:22",
+          "tytul": "Managed money flips net short corn: What to watch ahead of Tuesday’s USDA data - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-09 20:57",
+          "tytul": "CME : Soybean futures slide ahead of USDA report as harvest pressure builds. - www.marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-09 20:14",
+          "tytul": "U.S. Grain/Oilseed Review: Declines in crude weigh on soy, corn - The Western Producer"
+        },
+        {
+          "czas_utc": "2026-11-09 19:41",
+          "tytul": "Soybean prices fell $1 in 6 weeks — what to do now - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-09 19:01",
+          "tytul": "Soybean prices face pressure despite strong export demand - St Joseph Post"
+        },
+        {
+          "czas_utc": "2026-11-09 17:41",
+          "tytul": "USDA Grain Report: Falling Corn, Soybean and Wheat Prices Put New Forecasts in Focus - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-09 17:03",
+          "tytul": "Soybean prices face pressure despite strong export demand - Iowa Agribusiness Radio Network"
+        },
+        {
+          "czas_utc": "2026-11-09 16:23",
+          "tytul": "El Niño could slash Brazil’s soybean production - Canadian Cattlemen"
+        },
+        {
+          "czas_utc": "2026-11-09 15:04",
+          "tytul": "U.S. pressed China on farm purchase pledges, lifting soybean futures - Quartz"
+        },
+        {
+          "czas_utc": "2026-11-09 15:00",
+          "tytul": "BC-Soybean Futures - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-09 14:38",
+          "tytul": "ICE Canola Board Margin Index Close – Nov. 6 - The Western Producer"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "CPER",
+      "kierunek": "LONG",
+      "ilosc": 173,
+      "zlecenie_wejscia": "da7c1f8a-78ab-4097-a63e-8a424b82703f",
+      "tif_wejscia": "day"
+    }
+  ],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 48.14,
+      "sma200": 63.0608,
+      "sila": 0.7634,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 14.24,
+      "sma200": 16.8756,
+      "sila": 0.8438,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 38.43,
+      "sma200": 37.9691,
+      "sila": 1.0121,
+      "trend": true
+    },
+    "DBB": {
+      "zamkniecie": 24.8,
+      "sma200": 24.8172,
+      "sila": 0.9993,
+      "trend": false
+    },
+    "UNG": {
+      "zamkniecie": 10.08,
+      "sma200": 11.1077,
+      "sila": 0.9075,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 58.93,
+      "sma200": 50.7736,
+      "sila": 1.1606,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 21.65,
+      "sma200": 23.5846,
+      "sila": 0.918,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.16,
+      "sma200": 18.1811,
+      "sila": 0.9438,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 25.22,
+      "sma200": 25.2091,
+      "sila": 1.0004,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 10.99,
+      "sma200": 10.2672,
+      "sila": 1.0704,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 4,
+  "pominiete": [
+    {
+      "ticker": "BNO"
+    },
+    {
+      "ticker": "CANE"
+    },
+    {
+      "ticker": "SOYB"
+    }
+  ]
+}
