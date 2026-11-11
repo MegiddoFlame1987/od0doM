@@ -45,3 +45,5 @@ data,wersja,zaliczona,ticker,kierunek,pewnosc,cena_wejscia,cena_wyjscia,zmiana,w
 2026-11-10,3.1,True,BNO,SKIP,3,57.065,58.36,0.022693,0.0
 2026-11-10,3.1,True,CANE,SKIP,2,10.84,10.915,0.006919,0.0
 2026-11-10,3.1,True,SOYB,SKIP,2,25.77,25.89,0.004657,0.0
+2026-11-11,3.1,False,BNO,SKIP,2,58.985,58.74,-0.004154,0.0
+2026-11-11,3.1,False,CANE,SKIP,2,11.06,11.16,0.009042,0.0
