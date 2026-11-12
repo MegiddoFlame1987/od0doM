@@ -3,8 +3,8 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -293,7 +293,14 @@
         "cena": 25.815136,
         "ilosc": 257
       },
-      "zlecenie_wyjscia": "b74ed9b4-0146-41c9-ae67-d54bc615a257"
+      "zlecenie_wyjscia": "b74ed9b4-0146-41c9-ae67-d54bc615a257",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 25.67,
+        "ilosc": 257
+      },
+      "zmiana": -0.005622128041471378,
+      "wynik": -0.0071221280414713786
     }
   ],
   "uniwersum": {
@@ -361,10 +368,19 @@
   "liczba_oczekiwana": 3,
   "pominiete": [
     {
-      "ticker": "BNO"
+      "ticker": "BNO",
+      "otwarcie": 59.185,
+      "zamkniecie": 61.04,
+      "zmiana": 0.031342400946185636,
+      "wynik": 0.0
     },
     {
-      "ticker": "CANE"
+      "ticker": "CANE",
+      "otwarcie": 10.96,
+      "zamkniecie": 11.02,
+      "zmiana": 0.005474452554744409,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": -0.007122
 }
