@@ -3,7 +3,7 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
@@ -469,35 +469,65 @@
       "kierunek": "SHORT",
       "ilosc": 70,
       "zlecenie_wejscia": "be33c506-081a-4824-803e-f44f5c773501",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 141.55,
+        "ilosc": 70
+      },
+      "zlecenie_wyjscia": "88121778-369a-4321-b90f-fc4a86cb2d67"
     },
     {
       "ticker": "SMH",
       "kierunek": "SHORT",
       "ilosc": 20,
       "zlecenie_wejscia": "320edd2b-5e17-43ce-bfa2-f55afe4aff89",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 489.234,
+        "ilosc": 20
+      },
+      "zlecenie_wyjscia": "6c25bc27-72ef-430b-999c-1cf159eaa0a2"
     },
     {
       "ticker": "DBA",
       "kierunek": "SHORT",
       "ilosc": 379,
       "zlecenie_wejscia": "9fdf5138-d606-4b38-961c-3fbdf1afc5ab",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 26.27,
+        "ilosc": 379
+      },
+      "zlecenie_wyjscia": "83dbb9a1-8c13-4a18-8d24-298596888815"
     },
     {
       "ticker": "GLD",
       "kierunek": "LONG",
       "ilosc": 27,
       "zlecenie_wejscia": "232eb7a4-e244-4aa4-b859-5952b5c7eb6f",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 357.24,
+        "ilosc": 27
+      },
+      "zlecenie_wyjscia": "229d91e7-d986-446c-8444-bae852b528e5"
     },
     {
       "ticker": "TLT",
       "kierunek": "LONG",
       "ilosc": 123,
       "zlecenie_wejscia": "2014b1f7-4c25-4f34-8248-4342b19236ae",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 80.735285,
+        "ilosc": 123
+      },
+      "zlecenie_wyjscia": "818e2aea-9847-4144-810e-2fcfc9d2644a"
     }
   ],
   "liczba_oczekiwana": 5,
