@@ -1,0 +1,364 @@
+{
+  "data": "2026-11-13",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Sygnały są mieszane: prognoza nadwyżki podaży według IEA i słabsze ceny w tym tygodniu kontra ryzyko związane z blokadą Iranu; brak wyraźnej przewagi.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 12:55",
+          "tytul": "Oil Prices Up Over Unresolved US-Iran War, Brent Tops $96 - MarketForces Africa"
+        },
+        {
+          "czas_utc": "2026-11-13 12:53",
+          "tytul": "World oil market is returning to surplus as Gulf exports recover, IEA says - BNN Bloomberg"
+        },
+        {
+          "czas_utc": "2026-11-13 12:45",
+          "tytul": "Oil Prices Slip as U.S. Maintains Iran Blockade and Global Supply Outlook Weakens — WTI Near $88, Brent Below $96 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-13 12:27",
+          "tytul": "World oil market is returning to surplus as Gulf exports recover - The Straits Times"
+        },
+        {
+          "czas_utc": "2026-11-13 12:15",
+          "tytul": "Oil: Brent rebounds above 200-day average – BBH - FXStreet"
+        },
+        {
+          "czas_utc": "2026-11-13 12:11",
+          "tytul": "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-13 10:58",
+          "tytul": "Oil price today: Brent holds near $96 as IEA sees first surplus since Iran war - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-13 10:48",
+          "tytul": "WTI Crude Oil Futures Fall 0.7% to $88.09, Brent Crude Oil Futures Slip 0.3% to $95.50 Early Friday - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-13 10:35",
+          "tytul": "Oil market returns to surplus as Gulf exports recover - oEnergetice.cz"
+        },
+        {
+          "czas_utc": "2026-11-13 10:27",
+          "tytul": "Oil Prices Crash 32% From $136 Peak as IEA Forecasts Global Supply Surplus Despite Iran War - Coinpaper"
+        },
+        {
+          "czas_utc": "2026-11-13 10:20",
+          "tytul": "Sensex settles 300 pts lower, Nifty ends below 25,150: Rise in crude oil prices among key factors behind... - Moneycontrol.com"
+        },
+        {
+          "czas_utc": "2026-11-13 10:07",
+          "tytul": "Iran Blockade Leaves Saudi Oil Routes Exposed, Keeping Brent Upside Open - Crux Investor"
+        },
+        {
+          "czas_utc": "2026-11-13 10:03",
+          "tytul": "Oil Prices Decline as Brent and WTI Head for Second Consecutive Weekly Loss - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-13 09:51",
+          "tytul": "Brent crude steady but heads for weekly losses - ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي"
+        },
+        {
+          "czas_utc": "2026-11-13 09:18",
+          "tytul": "Sharp rally lifts Brent crude price: Can XBR sustain current momentum? - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-13 08:56",
+          "tytul": "Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-13 08:54",
+          "tytul": "Oil Prices Today: Brent Rises to $95.94, WTI Holds at $88.73 - Arbiterz"
+        },
+        {
+          "czas_utc": "2026-11-13 08:44",
+          "tytul": "Brent trades near $96 as oil prices face second weekly decline - grafa.com"
+        },
+        {
+          "czas_utc": "2026-11-13 08:38",
+          "tytul": "Crude oil prices may fall to $70/barrel in 2027 as external conditions improve: SBI Report - DD News"
+        },
+        {
+          "czas_utc": "2026-11-13 08:28",
+          "tytul": "Oil Prices Head for Second Weekly Drop; Brent at $95.87 - JournalArta"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Cukier surowy zmierza ku 5-tygodniowemu minimum, a prognoza terminów wskazuje na komfortową podaż; brak wyraźnego impulsu wzrostowego na dziś.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 13:15",
+          "tytul": "What is El Niño and why is the world so worried? Impact on crops and markets - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-13 11:23",
+          "tytul": "Ukrainian Rapeseed Market Analysis – Prices, Logistics and Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 10:12",
+          "tytul": "Butter Market Analysis November 2026: India Fat Tightness, EU Prices Under Pressure - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:48",
+          "tytul": "Corn Market Outlook: Lower US Harvest vs. Global Grain Oversupply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:46",
+          "tytul": "Sugar beet market: ICE No.5 softens, EU prices firm, supply tight - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:46",
+          "tytul": "Sugar No.11 Softens as Forward Curve Signals Comfortable Supply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:45",
+          "tytul": "Palm Oil Market Update: CPO Futures Ease, Curve Flattens Mid-November 2026 - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:45",
+          "tytul": "Sunflower Market Update: SAFEX Rally, Stable Seed Prices, Firm Oil Values - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:44",
+          "tytul": "Crude Oil Market Briefing: WTI, Brent and Diesel Spreads, November 2026 - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:42",
+          "tytul": "Rice Market Update: Firm Futures, Strong Asian FOB Prices, Stable Premiums - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:42",
+          "tytul": "Oat Market Update: CBOT Recovery and Steady EU Feed Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:41",
+          "tytul": "Soybeans Market: Futures Rebound, Chinese FOB Firm, Black Sea Stable - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:39",
+          "tytul": "Corn market outlook: firmer futures and rising Black Sea cash prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:35",
+          "tytul": "Wheat Market Analysis – MATIF Support, Black Sea Risks, Global Supply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 05:39",
+          "tytul": "Palm Oil Market: High Stocks, India’s Import Shifts and Volatile Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 05:23",
+          "tytul": "Sugar market outlook: crude oil link and tighter 2026/27 supply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 05:11",
+          "tytul": "Raw sugar heads back towards 5-week low; arabica coffee gains nearly 4% - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-13 02:00",
+          "tytul": "Ukrainian Corn Prices Firm as Harvest Advances and Black Sea Risks Persist - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 00:14",
+          "tytul": "Raw sugar heads back towards 5-week low - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-12 21:27",
+          "tytul": "Daily Market Price Updates and Commentary 12th November 2026 - Czapp"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Po czwartkowej przecenie kontrakty na soję odbijają się rano, a chiński FOB jest mocny; to słaby, ale lekko pozytywny sygnał na dziś.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 10:47",
+          "tytul": "Wheat rebounds from 4-1/2-month low on Black Sea supply concerns - Trending Now Sustainable Construction"
+        },
+        {
+          "czas_utc": "2026-11-13 10:35",
+          "tytul": "Corn and Beans Test 20-Day Resistance: What Opens the Door Higher? - The Globe and Mail"
+        },
+        {
+          "czas_utc": "2026-11-13 10:35",
+          "tytul": "Soybean Oil Market Insights Highlight Segment Expansion And Market Leadership - openPR.com"
+        },
+        {
+          "czas_utc": "2026-11-13 10:01",
+          "tytul": "Wheat, corn and soybeans declined in Chicago on Thursday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-13 09:01",
+          "tytul": "Market Structures Reinforce Barriers Facing Black Soybean Producers, PGP Warns - https://agrinews.co.za/"
+        },
+        {
+          "czas_utc": "2026-11-13 07:45",
+          "tytul": "Palm Oil Market Update: CPO Futures Ease, Curve Flattens Mid-November 2026 - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:41",
+          "tytul": "Soybeans Market: Futures Rebound, Chinese FOB Firm, Black Sea Stable - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 05:39",
+          "tytul": "Palm Oil Market: High Stocks, India’s Import Shifts and Volatile Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-12 23:02",
+          "tytul": "Soybeans Retreat on Thursday, Despite Export Business - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-12 21:11",
+          "tytul": "ICE weekly: USDA report rallies canola prices - Country Guide"
+        },
+        {
+          "czas_utc": "2026-11-12 20:59",
+          "tytul": "Soybean Disease Management Gets More Complex as Red Crown Rot Spreads - AgWeb"
+        },
+        {
+          "czas_utc": "2026-11-12 20:58",
+          "tytul": "Grains Report: Wheat And Rice Prices Rose, Corn Fell - TalkMarkets - Howl.Link"
+        },
+        {
+          "czas_utc": "2026-11-12 20:48",
+          "tytul": "Soybean, corn basis values lower while futures fall - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-12 20:14",
+          "tytul": "ICE Closing Review: Canola moves higher - The Western Producer"
+        },
+        {
+          "czas_utc": "2026-11-12 20:07",
+          "tytul": "Closing Markets for Thursday, November 12 - Windsor News Today"
+        },
+        {
+          "czas_utc": "2026-11-12 20:05",
+          "tytul": "After the Bell | Selling pressure across the grains complex - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-12 20:02",
+          "tytul": "College scholarships offered by the Ohio Soybean Council Foundation and Ohio Soybean Association - Ohio's Country Journal"
+        },
+        {
+          "czas_utc": "2026-11-12 18:22",
+          "tytul": "Soybeans Pulling Back on Thursday - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-12 17:52",
+          "tytul": "Gulf Wheat Leads Positive Basis; Corn and Soybean Basis Diverge - News and Statistics - IndexBox"
+        },
+        {
+          "czas_utc": "2026-11-12 17:49",
+          "tytul": "Top Tips: Did WASDE open a window for grain sales? - Farm Progress"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "SOYB",
+      "kierunek": "LONG",
+      "ilosc": 259,
+      "zlecenie_wejscia": "426aee7f-adfb-4fc2-90a6-62748e6cee72",
+      "tif_wejscia": "day"
+    }
+  ],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 45.12,
+      "sma200": 62.2244,
+      "sila": 0.7251,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 13.71,
+      "sma200": 16.7184,
+      "sila": 0.8201,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 37.24,
+      "sma200": 37.9832,
+      "sila": 0.9804,
+      "trend": false
+    },
+    "DBB": {
+      "zamkniecie": 24.34,
+      "sma200": 24.8179,
+      "sila": 0.9807,
+      "trend": false
+    },
+    "UNG": {
+      "zamkniecie": 10.46,
+      "sma200": 11.0429,
+      "sila": 0.9472,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 61.01,
+      "sma200": 51.1952,
+      "sila": 1.1917,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 21.57,
+      "sma200": 23.6026,
+      "sila": 0.9139,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.09,
+      "sma200": 18.1797,
+      "sila": 0.9401,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 25.72,
+      "sma200": 25.2624,
+      "sila": 1.0181,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 11.01,
+      "sma200": 10.2893,
+      "sila": 1.07,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 3,
+  "pominiete": [
+    {
+      "ticker": "BNO"
+    },
+    {
+      "ticker": "CANE"
+    }
+  ]
+}
