@@ -1,0 +1,500 @@
+{
+  "data": "2026-11-13",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": false,
+  "powody": [
+    "USO: błąd zlecenia wejścia: {\"code\":42210000,\"message\":\"asset \\\"USO\\\" cannot be sold short\"}"
+  ],
+  "prognozy": [
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:32",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Raport IEA o nadwyżce podaży, wzrost produkcji w Rosji i słabnący sentyment przeważają nad ryzykiem na Bliskim Wschodzie, więc lekko stawiam na spadek.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 13:30",
+          "tytul": "Exclusive-Iraq turns to trucks to export oil in overland Syrian route revival - StreetInsider"
+        },
+        {
+          "czas_utc": "2026-11-13 13:28",
+          "tytul": "Russian crude output rises after Trump's diesel deal as global oil market returns to surplus - Anadolu Ajansı"
+        },
+        {
+          "czas_utc": "2026-11-13 13:17",
+          "tytul": "Serbia's NIS seeks crude reserves after Janaf pipeline outage - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-13 13:12",
+          "tytul": "Niger investigates cause of oil well blowout in Agadem basin - Upstream Online"
+        },
+        {
+          "czas_utc": "2026-11-13 13:06",
+          "tytul": "The International Energy Agency announces a surplus in the oil market in the last quarter of 2026 - Informat.ro"
+        },
+        {
+          "czas_utc": "2026-11-13 13:00",
+          "tytul": "Crude: Benchmarks lower despite late-week recovery, talks falter - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-13 12:54",
+          "tytul": "Tunisia fuel imports jump during Bizerte crude unit stoppage - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-13 12:45",
+          "tytul": "Oil Prices Slip as U.S. Maintains Iran Blockade and Global Supply Outlook Weakens — WTI Near $88, Brent Below $96 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-13 12:45",
+          "tytul": "Iran Says Gas Tanker Hit Mine in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-13 12:32",
+          "tytul": "USA Oil, Gas Workforce Hits Lowest Figure So Far in 2026 - Rigzone"
+        },
+        {
+          "czas_utc": "2026-11-13 12:30",
+          "tytul": "WTI Stages Sharp Comeback as Middle East Supply Risks Intensify - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-13 12:25",
+          "tytul": "Oil futures: Crude consolidates gains as US-Iran talks stall - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-13 12:25",
+          "tytul": "The Endgame of War and U.S. Fiscal Pressure: Dual Clues to Medium-Term Crude Oil Pricing - Moomoo"
+        },
+        {
+          "czas_utc": "2026-11-13 12:24",
+          "tytul": "Iraq overtakes Russia as Turkey's top crude supplier - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-13 12:23",
+          "tytul": "Fire reported at Lukoil's Volgograd refinery after drone attack - Quantum Commodity Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-13 12:17",
+          "tytul": "Russia Oil Revenues Hit Five-Month High on Crude Rally, IEA Says - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-13 12:16",
+          "tytul": "Bonterra Energy Announces Third Quarter 2026 Results with Record Production; Provides Operations Update and 2027 Budget Guidance - markets.businessinsider.com"
+        },
+        {
+          "czas_utc": "2026-11-13 12:12",
+          "tytul": "Daily Oil, Gold, Silver Technical Analysis - Friday, Nov. 13 - TalkMarkets - Howl.Link"
+        },
+        {
+          "czas_utc": "2026-11-13 12:05",
+          "tytul": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-13 12:00",
+          "tytul": "Crude oil price falls as peace hopes grow; oilseeds hit - The Western Producer"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:32",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "pewnosc": 1,
+      "powod": "Kontrakty rosną po wyprzedaży Nvidii, a kupowanie spadków wspiera odbicie, ale niepewność wokół skandalu i zarządu ogranicza przekonanie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 13:29",
+          "tytul": "Nvidia Stock Is Still a Buy After CEO Jensen Huang’s Departure - Barron's"
+        },
+        {
+          "czas_utc": "2026-11-13 13:19",
+          "tytul": "Life after Jensen: What Nvidia’s shakeup means for private AI - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-13 13:11",
+          "tytul": "Here are Friday's biggest analyst calls: Nvidia, SpaceX, Deckers, Broadcom, CoreWeave, Palo Alto Networks & more - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-13 13:10",
+          "tytul": "How Much Is Nvidia Stock Worth Without Jensen Huang? - The Motley Fool"
+        },
+        {
+          "czas_utc": "2026-11-13 13:09",
+          "tytul": "Alice Huang-Linked Firm Procured Banned Nvidia Chips in China - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-13 13:08",
+          "tytul": "Retail investors 'got it right' on buying Nvidia dip: TastyTrade CEO - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-13 13:02",
+          "tytul": "Fallout From the Nvidia Scandal May Dampen Exuberance Around AI - Broadband Breakfast"
+        },
+        {
+          "czas_utc": "2026-11-13 13:00",
+          "tytul": "Nvidia Stock In Peril After Jensen Huang Resignation; Earnings Now In Focus - Investor's Business Daily"
+        },
+        {
+          "czas_utc": "2026-11-13 12:58",
+          "tytul": "AI semiconductor bull warns Nvidia crisis could trigger broader earnings reset - Yahoo Finance Singapore"
+        },
+        {
+          "czas_utc": "2026-11-13 12:55",
+          "tytul": "The Morning Risk Report: Huang’s Departure From Nvidia Unlikely to Mollify Congress, Plaintiffs’ Lawyers - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-13 12:54",
+          "tytul": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-13 12:53",
+          "tytul": "Nvidia is an 'interesting buy opportunity' says EJF Capital CEO - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-13 12:48",
+          "tytul": "Nvidia stock touches $150 for the first time in nearly 17 months - Opening Bell Daily"
+        },
+        {
+          "czas_utc": "2026-11-13 12:46",
+          "tytul": "US futures climb as Wall Street keeps an eye on Nvidia, Microsoft and producer prices - AP News"
+        },
+        {
+          "czas_utc": "2026-11-13 12:44",
+          "tytul": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-13 12:42",
+          "tytul": "After Nvidia’s $427B wipeout, is AMD’s 117x P/E rally a trap? - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-13 12:42",
+          "tytul": "Trump Wants Apple’s Tim Cook to Run Nvidia - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-13 12:38",
+          "tytul": "The Stock Market Is Bigger Than Nvidia. But What About Anthropic? - Barron's"
+        },
+        {
+          "czas_utc": "2026-11-13 12:30",
+          "tytul": "The hunt for the next Nvidia CEO begins - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-13 12:30",
+          "tytul": "Nvidia-Backed Nscale Says It Needs Additional Financing Ahead of Planned IPO - WSJ"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:32",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Zboża mocno spadły dzień wcześniej przez sprzedaż techniczną i silniejszego dolara; globalna nadpodaż i presja na ceny kukurydzy sugerują kontynuację słabości.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 12:19",
+          "tytul": "Black Sea war risk reshapes global wheat market - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 11:59",
+          "tytul": "US Corn Yields Face New Uncertainty as USDA Revisions Raise Price Risks for Farmers - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-13 11:33",
+          "tytul": "What comes after the green screen for the grain markets? - Agweek"
+        },
+        {
+          "czas_utc": "2026-11-13 11:21",
+          "tytul": "Ukrainian Corn Market Under Pressure as Global Stocks Rise - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 11:19",
+          "tytul": "Ukraine wheat: Danube feed market under pressure as price slide slows - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 09:37",
+          "tytul": "Lean hogs end mixed as pork cutout stays near five-year low - CME - The Pig Site"
+        },
+        {
+          "czas_utc": "2026-11-13 09:29",
+          "tytul": "Corn Market: Strong Dollar Pressure vs. Tight EU Supply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 09:14",
+          "tytul": "Black Sea disruption tests the resilience of global grain supply - Miller Magazine"
+        },
+        {
+          "czas_utc": "2026-11-13 08:26",
+          "tytul": "Food prices climb as conflicts and El Niño tighten grain supplies - World Bank Blogs"
+        },
+        {
+          "czas_utc": "2026-11-13 07:49",
+          "tytul": "Turkey’s 500,000 t Wheat Export Tender Pressures Black Sea Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:48",
+          "tytul": "Corn Market Outlook: Lower US Harvest vs. Global Grain Oversupply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:39",
+          "tytul": "Corn market outlook: firmer futures and rising Black Sea cash prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 07:35",
+          "tytul": "Wheat Market Analysis – MATIF Support, Black Sea Risks, Global Supply - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 05:37",
+          "tytul": "India wheat market: milling demand vs. government auctions - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 02:38",
+          "tytul": "Daily Market Wire 13 November 2026 - Grain Central"
+        },
+        {
+          "czas_utc": "2026-11-13 02:00",
+          "tytul": "Ukrainian Corn Prices Firm as Harvest Advances and Black Sea Risks Persist - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-13 01:51",
+          "tytul": "Grains Plunge on Technical Selling, Higher Dollar: Cattle Extend Rally - AgWeb"
+        },
+        {
+          "czas_utc": "2026-11-13 01:05",
+          "tytul": "Aging Mississippi River Barge Fleet Threatens to Drive Up Grain Transportation Costs for Farmers - 101.5 WKKG"
+        },
+        {
+          "czas_utc": "2026-11-13 00:13",
+          "tytul": "The Split Personality of 2026 US Corn Yield Estimates - farmdoc daily"
+        },
+        {
+          "czas_utc": "2026-11-12 23:34",
+          "tytul": "Cattle Futures Found Support In Cheaper Corn And Tight Supplies - Finimize"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:32",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Złoto jest w silnym trendzie spadkowym (trzecia sesja spadków, 13-miesięczne minimum), a dane PPI i obawy o podwyżkę stóp Fed zwiększają presję, mimo ryzyka odbicia.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 13:21",
+          "tytul": "Gold Price Today on November 13, 2026 - USA Today"
+        },
+        {
+          "czas_utc": "2026-11-13 13:14",
+          "tytul": "Gold price closing session on November 13: World gold recovers after hitting a 13-month low - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-13 13:14",
+          "tytul": "Gold Price in Pakistan Further Drops to Rs. 411,636 Per Tola - Bloom Pakistan"
+        },
+        {
+          "czas_utc": "2026-11-13 13:01",
+          "tytul": "Gold price in Pakistan latest - November 13, 2026 - samaa tv"
+        },
+        {
+          "czas_utc": "2026-11-13 13:00",
+          "tytul": "Gold rate today, November 13: 24k, 22k prices fall again; metal now 5% below November 5 peak - Upstox"
+        },
+        {
+          "czas_utc": "2026-11-13 12:57",
+          "tytul": "Gold Price Forecast – Prices Must Hold $3,800 Next Week - FXEmpire"
+        },
+        {
+          "czas_utc": "2026-11-13 12:46",
+          "tytul": "Gold price falls by Rs4,900 per tola in Pakistan - Daily Pakistan"
+        },
+        {
+          "czas_utc": "2026-11-13 12:38",
+          "tytul": "Gold price today, Friday, November 13, 2026: Gold's down over 4% in the last five days - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-13 12:38",
+          "tytul": "Gold price drops by Rs4,900 per tola - Daily Times"
+        },
+        {
+          "czas_utc": "2026-11-13 12:24",
+          "tytul": "Gold price in Pakistan falls Rs4,900 per tola - Investify"
+        },
+        {
+          "czas_utc": "2026-11-13 12:00",
+          "tytul": "Gold price falls for third straight day, reaches Rs. 411,636 per tola - UrduPoint"
+        },
+        {
+          "czas_utc": "2026-11-13 11:58",
+          "tytul": "Gold finally within reach? Prices crash by Rs 1,800 in a day - BUSINESS - GENERAL - Kerala Kaumudi"
+        },
+        {
+          "czas_utc": "2026-11-13 11:38",
+          "tytul": "Alive News Faridabad - राजनीति, मनोरंजन, खेल और व्यापार की नई खबरें - alivenews.co.in"
+        },
+        {
+          "czas_utc": "2026-11-13 11:30",
+          "tytul": "Gold Price Drops to Rs411,636/tola in Local Market - Bol News"
+        },
+        {
+          "czas_utc": "2026-11-13 11:29",
+          "tytul": "Today’s Wholesale Price Report Could Tip the Fed Toward a Half-Point Hike - TipRanks"
+        },
+        {
+          "czas_utc": "2026-11-13 11:14",
+          "tytul": "Gold loses Rs4,900 per tola in Pakistan - Investify"
+        },
+        {
+          "czas_utc": "2026-11-13 11:14",
+          "tytul": "Gold loses Rs4,900 per tola in Pakistan - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-13 11:11",
+          "tytul": "Gold struggles below $3,900 ahead of US PPI data - FXStreet"
+        },
+        {
+          "czas_utc": "2026-11-13 10:40",
+          "tytul": "Gold prices are heading for a deep week of decline, not yet regaining the 3,900 USD/ounce mark - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-13 10:34",
+          "tytul": "Time to Buy Gold? This 1970s Gold Pattern Says the Bull Market May Not Be Over - CaptainAltcoin"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-13",
+      "czas_zapisu_et": "08:32",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Silny impet wzrostu rentowności i oczekiwania na podwyżki Fed sugerują dalszą presję na TLT, choć po tak gwałtownym tygodniu możliwe jest odbicie.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-13 13:13",
+          "tytul": "What If the Fed Doubles the Rate Hike in December? These 5 Dividend Stocks Could Prosper - 24/7 Wall St."
+        },
+        {
+          "czas_utc": "2026-11-13 12:50",
+          "tytul": "Treasury yields rise as Fed hike bets firm, 10-year near 5.13% - richtv.io"
+        },
+        {
+          "czas_utc": "2026-11-13 12:46",
+          "tytul": "investingLive European session wrap: Wall Street eyes a rebound but rising Treasury yields keep traders on edge - investingLive"
+        },
+        {
+          "czas_utc": "2026-11-13 11:22",
+          "tytul": "U.S. Treasury Yields Log Biggest Weekly Jump Since April 2025 - www.tokenpost.com"
+        },
+        {
+          "czas_utc": "2026-11-13 11:04",
+          "tytul": "Investors Warn Bond Rout Isn’t Over After Week of Soaring Yields - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-13 10:59",
+          "tytul": "Two-Year U.S. Treasury Yield Surges 30 Basis Points in a Week: With the Federal Reserve’s Hawkish Stance Returning, Where Do Opportunities Lie in FX, Gold, and Crude Oil? - Moomoo"
+        },
+        {
+          "czas_utc": "2026-11-13 10:05",
+          "tytul": "Two-Year Treasury Stabilizes as Eurozone, U.S. Bond Yields Rise - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-13 09:03",
+          "tytul": "US Treasury yields rise as markets price in nea... - Pluang"
+        },
+        {
+          "czas_utc": "2026-11-13 06:47",
+          "tytul": "Silver Price Forecast: XAG/USD falls back below $50 amid mayhem in US bond markets - FXStreet"
+        },
+        {
+          "czas_utc": "2026-11-13 05:05",
+          "tytul": "Have Bond Yields Reached A Point Of No Return? - Seeking Alpha"
+        },
+        {
+          "czas_utc": "2026-11-13 04:54",
+          "tytul": "US bond market cracks resurface as higher for longer fears return to haunt Wall Street - investingLive"
+        },
+        {
+          "czas_utc": "2026-11-13 03:41",
+          "tytul": "Will the Fed Hike Interest Rates Three Times Consecutively? Wall Street Warns Stock Market Is Underestimating a Severe Market Tsunami - 36氪"
+        },
+        {
+          "czas_utc": "2026-11-13 01:09",
+          "tytul": "Inflation Is Sending Bond Yields Higher Again. Here’s Why We’re Not Worried - Morningstar"
+        },
+        {
+          "czas_utc": "2026-11-13 01:06",
+          "tytul": "Treasury Yields Breach 5.13%, Wall Street Warns Stocks Underestimate Risk of Three Straight Fed Hikes - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-13 00:40",
+          "tytul": "Japan bond yields hit multi-week highs on US Treasury moves - marketscreener.com"
+        },
+        {
+          "czas_utc": "2026-11-13 00:11",
+          "tytul": "Four-day rally! Short-term U.S. Treasury yields post fastest gains since 2022 as market bets on Fed rate hikes - 富途牛牛"
+        },
+        {
+          "czas_utc": "2026-11-12 23:03",
+          "tytul": "US Treasury bought yen in July; Fed made no solo FX interventions in Q3 - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-12 22:16",
+          "tytul": "Gold, silver slide as Treasury yields surge, Fed hike concerns intensify - Kitco PM Report - Kitco"
+        },
+        {
+          "czas_utc": "2026-11-12 22:16",
+          "tytul": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes - MarketWatch"
+        },
+        {
+          "czas_utc": "2026-11-12 21:59",
+          "tytul": "As the Stock Market Churns, Treasury Yields and the Dollar Break Out - Mott Capital Management"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "SMH",
+      "kierunek": "LONG",
+      "ilosc": 19,
+      "zlecenie_wejscia": "4cff1107-9117-4265-84bd-b330405532ac",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "ilosc": 380,
+      "zlecenie_wejscia": "5726695d-6b2a-47ae-95eb-1ee7fd531266",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "SHORT",
+      "ilosc": 28,
+      "zlecenie_wejscia": "b7e2b6da-88e1-4a6a-be97-8a0165289643",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "SHORT",
+      "ilosc": 125,
+      "zlecenie_wejscia": "29a6f298-40cf-4747-86cc-6fe475b5bd78",
+      "tif_wejscia": "day"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
