@@ -1,0 +1,505 @@
+{
+  "data": "2026-11-16",
+  "wersja": "1.2",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "ropa",
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Ropa testuje kluczowe wsparcie, a odbudowa podaży z Bliskiego Wschodu i obawy o nadpodaż przeważają; WSJ pisze o odwróceniu początkowych wzrostów.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:28",
+          "tytul": "Barlow’s Research Roundup: Biggest winners from royalty cuts that will ‘unleash the next major wave of oil sands growth’ - The Globe and Mail"
+        },
+        {
+          "czas_utc": "2026-11-16 13:15",
+          "tytul": "Hormuz block hit Africa in 4 places: what the continent must do to prevent future shocks - The Conversation"
+        },
+        {
+          "czas_utc": "2026-11-16 13:15",
+          "tytul": "Zelensky Says Ukraine Knocked 55% of Russia’s Refining Capacity Offline - Kyiv Post"
+        },
+        {
+          "czas_utc": "2026-11-16 13:14",
+          "tytul": "Workers load crude oil into tanker trucks at the Tuba crude depot, where Iraqi crude is transferred for export through Syria's Baniyas Port, Basra - The Lufkin Daily News"
+        },
+        {
+          "czas_utc": "2026-11-16 13:14",
+          "tytul": "Sinopec Demands Derail Oil Refinery Plans at Sri Lanka’s Hambantota - The Diplomat – Asia-Pacific Current Affairs Magazine"
+        },
+        {
+          "czas_utc": "2026-11-16 13:13",
+          "tytul": "Crude Oil Tests Key Support as Glut Fears Collide With Mideast Risk - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-16 13:07",
+          "tytul": "Canadian Natural’s $1.77 billion Advantage takeover fuels Alberta oil expansion - Mining.com"
+        },
+        {
+          "czas_utc": "2026-11-16 13:06",
+          "tytul": "Uganda courts Africa's richest man for billion-dollar refinery and fertiliser projects as Dangote raises his continental investment ambitions to $70 billion - Business Insider Africa"
+        },
+        {
+          "czas_utc": "2026-11-16 13:05",
+          "tytul": "Oil Prices Struggle for Direction as Middle East Supply Recovers — WTI Near $89, Brent Below $96 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-16 13:00",
+          "tytul": "Opinion | Californians are paying for the oil industry’s risky Plan B: burying carbon dioxide - CalMatters"
+        },
+        {
+          "czas_utc": "2026-11-16 12:59",
+          "tytul": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling - Reuters"
+        },
+        {
+          "czas_utc": "2026-11-16 12:59",
+          "tytul": "Vietsovpetro starts oil production at Bach Ho Field - Ocean Energy Resources"
+        },
+        {
+          "czas_utc": "2026-11-16 12:58",
+          "tytul": "Iran’s proxy in Iraq rakes in hundreds of millions through oil smuggling - Internazionale"
+        },
+        {
+          "czas_utc": "2026-11-16 12:56",
+          "tytul": "Oil Prices Reverse Initial Gains as Supply Concerns Weigh - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-16 12:52",
+          "tytul": "Canadian Natural in $1.8 billion deal to buy Toronto-listed independent - Upstream Online"
+        },
+        {
+          "czas_utc": "2026-11-16 12:45",
+          "tytul": "Current price of oil as of Nov. 16, 2026 - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-16 12:20",
+          "tytul": "India WPI Inflation Rises to 12.29% in October on Fuel and Power Prices - News and Statistics - IndexBox"
+        },
+        {
+          "czas_utc": "2026-11-16 12:18",
+          "tytul": "Farmers debating whether export duties on sunflower seeds should be abolished following shutdown of oil extraction plants in Ukraine - Ukrainian News Agency"
+        },
+        {
+          "czas_utc": "2026-11-16 12:17",
+          "tytul": "China’s Crude Oil Production rises 2.3% in October - وكالة سبأ"
+        },
+        {
+          "czas_utc": "2026-11-16 12:16",
+          "tytul": "Canadian Natural Goes Big on Alberta Oil and Gas With Advantage Energy Deal - Benzinga"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "chipy",
+      "ticker": "SMH",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Skandal wokół Nvidia i odejście Huanga ciągną sektor w dół, a akcje spadają kolejny dzień; możliwy jednak odbicie po wyprzedaży.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:28",
+          "tytul": "Trump held as much as $62 million in Nvidia stock, Post reports - qz.com"
+        },
+        {
+          "czas_utc": "2026-11-16 13:25",
+          "tytul": "Petition to bring back Jensen Huang as Nvidia CEO draws thousands of signatures, including Elon Musk - CBS News"
+        },
+        {
+          "czas_utc": "2026-11-16 13:18",
+          "tytul": "Elon Musk Joins Petition to Restore Jensen Huang as Nvidia CEO - TODAY.com"
+        },
+        {
+          "czas_utc": "2026-11-16 13:18",
+          "tytul": "Elon Musk, tech leaders push to reinstate Jensen Huang at Nvidia - Quartz"
+        },
+        {
+          "czas_utc": "2026-11-16 13:17",
+          "tytul": "Tech investor: Here's how Nvidia founder Jensen Huang can rebuild his reputation - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-16 13:12",
+          "tytul": "Scandal-Hit Nvidia Among Trump's Planned AI ‘National Champions,’ Report Says - Forbes"
+        },
+        {
+          "czas_utc": "2026-11-16 13:12",
+          "tytul": "What next for Nvidia after Jensen Huang’s exit? - Anadolu Ajansı"
+        },
+        {
+          "czas_utc": "2026-11-16 13:10",
+          "tytul": "Jensen Huang's Children Work at Nvidia. An Expert Says 1 Obstacle Could Keep Either From Becoming CEO - Inc.com"
+        },
+        {
+          "czas_utc": "2026-11-16 13:07",
+          "tytul": "Who inherits Jensen Huang’s empire? The Nvidia CEO contenders facing an extraordinary test - Fortune"
+        },
+        {
+          "czas_utc": "2026-11-16 13:06",
+          "tytul": "Here are Monday's biggest analyst calls: Nvidia, SpaceX, CoreWeave, Tesla, Viking, Nucor, Eli Lilly & more - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-16 13:04",
+          "tytul": "Trump administration plans to name Nvidia among U.S. AI 'national champions' - Quartz"
+        },
+        {
+          "czas_utc": "2026-11-16 13:03",
+          "tytul": "Nvidia Stock Falls Again. It Doesn’t Need a Jensen Huang Comeback to Thrive. - Barron's"
+        },
+        {
+          "czas_utc": "2026-11-16 13:03",
+          "tytul": "Midterm losses, Nvidia scandal weaken Trump as he faces Xi and Putin - The Washington Post"
+        },
+        {
+          "czas_utc": "2026-11-16 13:02",
+          "tytul": "Trump’s stake in Nvidia grew to as much as $62 million before scandal broke out - The Washington Post"
+        },
+        {
+          "czas_utc": "2026-11-16 13:01",
+          "tytul": "Nvidia Stock Is Down 32%. Is It a No-Brainer Buy at $163 or a Value Trap? - The Motley Fool"
+        },
+        {
+          "czas_utc": "2026-11-16 13:00",
+          "tytul": "Nvidia-China scandal demands answers before judgment: Sen. McCormick - CNBC"
+        },
+        {
+          "czas_utc": "2026-11-16 13:00",
+          "tytul": "The Nvidia scandal isn’t slowing down - The Verge"
+        },
+        {
+          "czas_utc": "2026-11-16 12:58",
+          "tytul": "Nvidia Scandal Could Buy Sports Teams Time to Manage AI Disruption - Sportico.com"
+        },
+        {
+          "czas_utc": "2026-11-16 12:57",
+          "tytul": "Nvidia Fuels Half of Israel’s Growth as Economy Beats Forecasts - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-16 12:57",
+          "tytul": "Morning Call Sheet: Nvidia earnings, Anthropic IPO and Fed rate outlook - CNBC"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "zywnosc",
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "pewnosc": 2,
+      "powod": "Pszenica spada w oczekiwaniu na postęp w rozmowach USA–Ukraina–Rosja i otwarcie Morza Czarnego, a rynek zbóż jest wyciszony po raporcie USDA.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:14",
+          "tytul": "Flour prices soar in Punjab as open-market wheat rates climb - Daily Pakistan"
+        },
+        {
+          "czas_utc": "2026-11-16 12:50",
+          "tytul": "Flour prices in Karachi rise again: See latest rates - Pakistan Connect"
+        },
+        {
+          "czas_utc": "2026-11-16 12:48",
+          "tytul": "Flour Prices Rise Again as Wheat Reaches Rs. 147 per Kg - Bloom Pakistan"
+        },
+        {
+          "czas_utc": "2026-11-16 12:25",
+          "tytul": "Wheat prices fall amid hopes for progress in talks between the US, Ukraine and Russia - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-16 12:23",
+          "tytul": "Cedi could weaken to GH¢12.40 per dollar in 2027 – Fitch Solutions - GhanaWeb"
+        },
+        {
+          "czas_utc": "2026-11-16 11:59",
+          "tytul": "PwC Post-Budget Forum: Fitch Solutions forecasts cedi averaging GH¢12.40 in 2027 - MyJoyOnline"
+        },
+        {
+          "czas_utc": "2026-11-16 11:46",
+          "tytul": "WFP: Declining Wages and Fewer Job Opportunities Weaken Afghan Households’ Purchasing Power - thekabultribune.com"
+        },
+        {
+          "czas_utc": "2026-11-16 11:32",
+          "tytul": "USDA corn yield estimates raise questions about prices and market outlook - KFGO"
+        },
+        {
+          "czas_utc": "2026-11-16 11:31",
+          "tytul": "Flour prices increased again in Karachi - Daily Ausaf"
+        },
+        {
+          "czas_utc": "2026-11-16 10:53",
+          "tytul": "Poland Corn Market Hit by Propane Shortage and Elevator Intake Limits - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 10:52",
+          "tytul": "Grains market update: Wheat and corn trading subdued as USDA raises global wheat stocks - Fastmarkets"
+        },
+        {
+          "czas_utc": "2026-11-16 10:26",
+          "tytul": "Wheat, corn and soybeans rose in Chicago on Friday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-16 10:09",
+          "tytul": "Soybean Economics Point Toward 2027 Corn Acre Decline - RFD-TV"
+        },
+        {
+          "czas_utc": "2026-11-16 09:39",
+          "tytul": "Ukrainian corn in Egypt cheaper than Brazilian and Argentine supplies - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-16 08:54",
+          "tytul": "Wheat Prices Fall as Markets Await the Reopening of the Black Sea ᐉ News from Fakti.bg - Business - Fakti.bg"
+        },
+        {
+          "czas_utc": "2026-11-16 08:28",
+          "tytul": "Ukrainian corn in Egypt is EGP 500/ton cheaper than Brazilian and Argentine supplies - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-16 08:00",
+          "tytul": "Iowa buyers continue to pay strong prices for farmland - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-16 07:57",
+          "tytul": "Canada wheat exports face smaller crop and weaker North African demand - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:53",
+          "tytul": "Wheat Market Report: Fertilizer Cost Squeeze and Black Sea Supplies - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:46",
+          "tytul": "Soybean Market Eases After WASDE Rally as Regional Cash Prices Diverge - CMB News"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "zloto",
+      "ticker": "GLD",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Złoto spadło o 15% w 12 tygodni i jest na rocznych minimach, więc możliwy jest odbicie techniczne, choć trend spadkowy i oczekiwanie na przemówienie Warsha niosą ryzyko.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:29",
+          "tytul": "'Plenty of Reasons to Sell' as Gold Sinks 15% in 12 Weeks - BullionVault"
+        },
+        {
+          "czas_utc": "2026-11-16 13:21",
+          "tytul": "Gold Price Today on November 16, 2026 - The Arizona Republic"
+        },
+        {
+          "czas_utc": "2026-11-16 13:13",
+          "tytul": "Gold Price Today: $3,872 Monday, Lowest Since October 2025 Before Warsh Speech, Bull $4,010, Bear $3,800 - FinanceFeeds"
+        },
+        {
+          "czas_utc": "2026-11-16 12:42",
+          "tytul": "Barrick's Buyback Shield Meets a Gold Price Under Fire - ad-hoc-news.de"
+        },
+        {
+          "czas_utc": "2026-11-16 12:41",
+          "tytul": "Gold prices plummet after three months, buyers lose up to 10.5 million VND/tael - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-16 12:35",
+          "tytul": "Gold prices today, Monday, November 16, 2026: Gold prices hit lowest levels in over a year. Here's why. - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-16 12:24",
+          "tytul": "Gold price in Pakistan falls Rs2,000 per tola - Investify"
+        },
+        {
+          "czas_utc": "2026-11-16 12:00",
+          "tytul": "Gold prices face the risk of creating a new bottom, warning of traps for investors - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-16 12:00",
+          "tytul": "Gold price falls for sixth straight day, settles at Rs. 408,936 per tola - UrduPoint"
+        },
+        {
+          "czas_utc": "2026-11-16 11:59",
+          "tytul": "Why Did Spanish Mountain Gold Ltd. (TSXV:SPA) Rise 4.348% on November 13, 2026? - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-16 11:59",
+          "tytul": "Why Did Lavras Gold Corp. (TSXV:LGC) Rise 1.818% on November 13, 2026? - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-16 11:59",
+          "tytul": "Why Did Greenheart Gold Inc. (TSXV:GHRT) Rise 7.143% on November 13, 2026? - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-16 11:53",
+          "tytul": "Gold price falls to lowest level in a year in key signal over interest rates - The Independent"
+        },
+        {
+          "czas_utc": "2026-11-16 11:44",
+          "tytul": "i-80 Gold: Development Remains On Track, And The Stock Offers Great Value - Seeking Alpha"
+        },
+        {
+          "czas_utc": "2026-11-16 11:40",
+          "tytul": "Gold Rates Today | Gold Price in Pakistan | 24K Gold Rate | 4PM HEADLINES 16 NOV 2026 - Aaj English TV"
+        },
+        {
+          "czas_utc": "2026-11-16 11:26",
+          "tytul": "Gold price drops Rs2,000 per tola to Rs408,936 - The Nation (Pakistan )"
+        },
+        {
+          "czas_utc": "2026-11-16 11:22",
+          "tytul": "Gold Prices in Pakistan dip to Rs4.8 Lac Per Tola amid Global Market slump - Pakistan Observer"
+        },
+        {
+          "czas_utc": "2026-11-16 11:21",
+          "tytul": "Gold price at the close of the session on November 16: Continuing the downward trend, the gap with world gold widens - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-16 11:18",
+          "tytul": "Gold prices today, afternoon of November 16, 2026: Gold bars, rings 9999 SJC BTMC, BTMH, DOJI - Vietnam.vn"
+        },
+        {
+          "czas_utc": "2026-11-16 11:17",
+          "tytul": "Gold Price Drop: How It Affects Your Gold Loan Top-Up Eligibility | 2026 Guide - StreetInsider"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "obligacje",
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Rentowności spadają przed wystąpieniem Warsha po niedawnej wyprzedaży, co sugeruje odbicie TLT, ale ryzyko podwyżki stóp i danych o sprzedaży ogranicza pewność.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:06",
+          "tytul": "Warsh Speech Preview: Fed Chair on 16 November 2026 - Admirals"
+        },
+        {
+          "czas_utc": "2026-11-16 13:00",
+          "tytul": "Aikenomics: Inflation strikes again ... mortgage rates rise - Appen Media"
+        },
+        {
+          "czas_utc": "2026-11-16 11:14",
+          "tytul": "US Treasury yields fall as investors await Kevin Warsh's comments, US retail sales data and Fed minutes | Hindustan Times - Hindustan Times"
+        },
+        {
+          "czas_utc": "2026-11-16 11:14",
+          "tytul": "US Treasury yields fall as investors await Kevin Warsh's comments, US retail sales data and Fed minutes | Hindustan Times - Hindustan Times"
+        },
+        {
+          "czas_utc": "2026-11-16 10:35",
+          "tytul": "Treasury bond yields fall, led by long-term maturities… 10-year note at 3.981% : Finance : JKN - 재경일보"
+        },
+        {
+          "czas_utc": "2026-11-16 10:03",
+          "tytul": "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-16 09:54",
+          "tytul": "U.S. Treasury yields edge lower as markets await Fed comments and key data - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-16 09:11",
+          "tytul": "EURUSD Falls to 2026 Low as US Treasury Yields Surge - VT Markets"
+        },
+        {
+          "czas_utc": "2026-11-16 09:11",
+          "tytul": "Exclusive Interview with Former Federal Reserve Vice Chairman Kohn: The Higher Hidden Cost of the Fed Holding Interest Rates Unraised - 36Kr"
+        },
+        {
+          "czas_utc": "2026-11-16 09:05",
+          "tytul": "Partner Insight: Short duration shines as bond markets sell off - Investment Week"
+        },
+        {
+          "czas_utc": "2026-11-16 08:10",
+          "tytul": "Japan bond yields hit multi-week highs as US rate hike bets strengthen - The Economic Times"
+        },
+        {
+          "czas_utc": "2026-11-16 08:07",
+          "tytul": "Rate hike a certainty, but will the Fed go big? - 헤럴드경제"
+        },
+        {
+          "czas_utc": "2026-11-16 07:25",
+          "tytul": "South Korea's 10-Year Treasury Auction Draws 3x Bids Despite $1.2 Billion Fine... Year-End Buying 'Persists' - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-16 07:05",
+          "tytul": "FOMC Meeting December 9th, Bond Market Annual Returns, The Fallout From Nvidia And The Midterm Elections - Seeking Alpha"
+        },
+        {
+          "czas_utc": "2026-11-16 06:17",
+          "tytul": "Betashares Geared Short US Treasury Bond Fund (ASX:BBFD) Units in Focus: Why Is the Inverse US Treasury Exposure Drawing Attention? - Kalkine Media"
+        },
+        {
+          "czas_utc": "2026-11-16 04:30",
+          "tytul": "Govt Bond Yields Remains Resilient Despite US Treasury Selloff - BusinessToday Malaysia"
+        },
+        {
+          "czas_utc": "2026-11-16 01:34",
+          "tytul": "Silver's bullish breakout case builds as bond yields retreat - StoneX"
+        },
+        {
+          "czas_utc": "2026-11-16 01:26",
+          "tytul": "After US Treasury Yields Surge Past 5%, Wall Street Zeroes In on Warsh's Remarks Tonight and October Meeting Minutes - BigGo Finance"
+        },
+        {
+          "czas_utc": "2026-11-16 00:17",
+          "tytul": "Bond investors brace for more pain ahead - KLSE Screener"
+        },
+        {
+          "czas_utc": "2026-11-15 20:54",
+          "tytul": "Morning Report - Westpac IQ"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "USO",
+      "kierunek": "SHORT",
+      "ilosc": 69,
+      "zlecenie_wejscia": "a409250b-a0e3-4f28-85b4-bf752df3da17",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "SMH",
+      "kierunek": "SHORT",
+      "ilosc": 20,
+      "zlecenie_wejscia": "c7b7a287-97a2-4208-a345-78199cf8d461",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "DBA",
+      "kierunek": "SHORT",
+      "ilosc": 376,
+      "zlecenie_wejscia": "adbf4ac0-5653-4e8d-abb5-403d12be2c08",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "GLD",
+      "kierunek": "LONG",
+      "ilosc": 28,
+      "zlecenie_wejscia": "cb6575e9-0fc5-4019-8778-4c399169970a",
+      "tif_wejscia": "day"
+    },
+    {
+      "ticker": "TLT",
+      "kierunek": "LONG",
+      "ilosc": 125,
+      "zlecenie_wejscia": "bd456e9c-5677-46ef-9320-d4dcaa80bb37",
+      "tif_wejscia": "day"
+    }
+  ],
+  "liczba_oczekiwana": 5,
+  "pominiete": []
+}
