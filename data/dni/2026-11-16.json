@@ -3,8 +3,8 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -475,7 +475,14 @@
         "cena": 142.403044,
         "ilosc": 69
       },
-      "zlecenie_wyjscia": "2016d3bf-b1fc-4437-897d-6d7b13449d34"
+      "zlecenie_wyjscia": "2016d3bf-b1fc-4437-897d-6d7b13449d34",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 140.14,
+        "ilosc": 69
+      },
+      "zmiana": -0.015891823211307252,
+      "wynik": 0.014891823211307251
     },
     {
       "ticker": "SMH",
@@ -488,7 +495,14 @@
         "cena": 464.247,
         "ilosc": 20
       },
-      "zlecenie_wyjscia": "b3c52284-5d3a-49a1-8924-ff89d467419f"
+      "zlecenie_wyjscia": "b3c52284-5d3a-49a1-8924-ff89d467419f",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 462.9,
+        "ilosc": 20
+      },
+      "zmiana": -0.0029014727074166053,
+      "wynik": 0.0019014727074166053
     },
     {
       "ticker": "DBA",
@@ -501,7 +515,14 @@
         "cena": 26.43,
         "ilosc": 376
       },
-      "zlecenie_wyjscia": "c4f600e9-95eb-4c85-9b49-ac3e88ca3eeb"
+      "zlecenie_wyjscia": "c4f600e9-95eb-4c85-9b49-ac3e88ca3eeb",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 26.4,
+        "ilosc": 376
+      },
+      "zmiana": -0.0011350737797957298,
+      "wynik": 0.00013507377979572982
     },
     {
       "ticker": "GLD",
@@ -514,7 +535,14 @@
         "cena": 354.65,
         "ilosc": 28
       },
-      "zlecenie_wyjscia": "7d905e99-f6b4-42e6-b95f-dc39cd03a830"
+      "zlecenie_wyjscia": "7d905e99-f6b4-42e6-b95f-dc39cd03a830",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 353.1,
+        "ilosc": 28
+      },
+      "zmiana": -0.004370506132806865,
+      "wynik": -0.005370506132806865
     },
     {
       "ticker": "TLT",
@@ -527,9 +555,17 @@
         "cena": 79.5924,
         "ilosc": 125
       },
-      "zlecenie_wyjscia": "ce75e1bd-3cea-4e93-8137-01f94d941e0a"
+      "zlecenie_wyjscia": "ce75e1bd-3cea-4e93-8137-01f94d941e0a",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 79.44,
+        "ilosc": 125
+      },
+      "zmiana": -0.0019147556801905722,
+      "wynik": -0.002914755680190572
     }
   ],
   "liczba_oczekiwana": 5,
-  "pominiete": []
+  "pominiete": [],
+  "wynik_sesji": 0.008643
 }
