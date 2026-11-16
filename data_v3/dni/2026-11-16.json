@@ -3,7 +3,7 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
