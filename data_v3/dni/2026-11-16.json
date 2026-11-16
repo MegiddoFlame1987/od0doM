@@ -1,0 +1,319 @@
+{
+  "data": "2026-11-16",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "SKIP",
+      "pewnosc": 3,
+      "powod": "Przeważają nastroje spadkowe: prognoza IEA o nadwyżce podaży i niedźwiedzi Goldman Sachs, a ropa ma trudności z kierunkiem; brak wyraźnej przewagi dla pozycji długiej.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:05",
+          "tytul": "Oil Prices Struggle for Direction as Middle East Supply Recovers — WTI Near $89, Brent Below $96 - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-16 12:56",
+          "tytul": "Oil Prices Reverse Initial Gains as Supply Concerns Weigh - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-16 12:01",
+          "tytul": "Goldman Sachs' 2027 Oil Outlook: The Hormuz Shock Fades, but the Oil Market Has Learned to Live With War - The Dark Side Of The Boom"
+        },
+        {
+          "czas_utc": "2026-11-16 11:43",
+          "tytul": "Goldman Sachs Projects Brent Crude to Average $88 in 2027 - www.tokenpost.com"
+        },
+        {
+          "czas_utc": "2026-11-16 11:39",
+          "tytul": "Oil Prices Today: Brent Falls to $95.36, WTI Drops to $88.30 - Arbiterz"
+        },
+        {
+          "czas_utc": "2026-11-16 11:36",
+          "tytul": "Oil Price Forecast: Brent Risks $90 as OPEC+ Faces November 29 Production Decision - Coinpaper"
+        },
+        {
+          "czas_utc": "2026-11-16 11:32",
+          "tytul": "Indian Equities Rise: Sensex Up 512 Points, Nifty Nears 25,300 Amidst FII Inflows - Rediff"
+        },
+        {
+          "czas_utc": "2026-11-16 11:16",
+          "tytul": "Oil prices near $95: will Brent crude crash below $90 as supply glut grows? - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-16 10:40",
+          "tytul": "Brent Crude Above $95 Amid US-Iran Tensions - News Karnataka"
+        },
+        {
+          "czas_utc": "2026-11-16 10:19",
+          "tytul": "Brent declines as IEA expects oil market to return to surplus - https://www.engine.online/"
+        },
+        {
+          "czas_utc": "2026-11-16 10:12",
+          "tytul": "Oil prices fall amid expectations of rising global supply - سانا"
+        },
+        {
+          "czas_utc": "2026-11-16 10:00",
+          "tytul": "Brent and WTI Oil Prices Fall as IEA Predicts Global Supply Surplus - Yahoo Finance UK"
+        },
+        {
+          "czas_utc": "2026-11-16 10:00",
+          "tytul": "Oil: Elevated costs sustain high prices – Rabobank - www.tmgm.com"
+        },
+        {
+          "czas_utc": "2026-11-16 09:39",
+          "tytul": "Orlen's Termination of Qatar LNG Deal Could Yield $2B in Savings - Offshore Engineer Magazine"
+        },
+        {
+          "czas_utc": "2026-11-16 09:38",
+          "tytul": "Oil prices edge up as reported Hormuz incidents raise concern - Offshore Technology"
+        },
+        {
+          "czas_utc": "2026-11-16 09:19",
+          "tytul": "Brent crude oil faces heightened regional risks: XBR remains range-bound - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-16 08:41",
+          "tytul": "Oil Prices Rebound as Middle East Supply Risks Persist - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-16 08:38",
+          "tytul": "Oil prices fall as IEA forecasts global supply surplus - grafa.com"
+        },
+        {
+          "czas_utc": "2026-11-16 08:30",
+          "tytul": "Goldman Sachs Warns of Massive Oil Glut in 2027 - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-16 07:55",
+          "tytul": "Goldman Sachs Turns Bearish on Next Year's Oil Market, Sees Brent Averaging $88 and Sliding to $78 by Year-End - BigGo Finance"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "SKIP",
+      "pewnosc": 1,
+      "powod": "Nagłówki są mieszane i bez wyraźnego katalizatora: szybki start sezonu w Maharashtrze i słabszy popyt kontra mocne kontrakty terminowe, brak przewagi na dziś.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 10:15",
+          "tytul": "Dairy futures lose momentum across global exchanges - DCA Market Intelligence"
+        },
+        {
+          "czas_utc": "2026-11-16 09:54",
+          "tytul": "Dwarikesh Sugar seeks member approval for two directors' continuation - scanx.trade"
+        },
+        {
+          "czas_utc": "2026-11-16 08:20",
+          "tytul": "Peanut Kernel Futures Price Chart — ZCE:PKX2027 - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-16 08:12",
+          "tytul": "Agricultural Products Industries Bulk Commodity Intelligence (November 16, 2026) - Sunsirs"
+        },
+        {
+          "czas_utc": "2026-11-16 07:52",
+          "tytul": "Sugar Cane Market Update: ICE #11 Futures, Brazil Weather, India Policy - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:51",
+          "tytul": "Sugar Beet Market November 2026 – Firm Futures, Softer EU Spot Sugar - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 06:09",
+          "tytul": "Sugar Market: Maharashtra 2026/27 Fast Start and Price Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 06:05",
+          "tytul": "China Sugar Mills Show Reluctance to Sell at Low Prices; Sugar Futures Expected to Trade Within a Range - Sunsirs"
+        },
+        {
+          "czas_utc": "2026-11-16 04:50",
+          "tytul": "White Sugar Near USD 514 Meets a Weaker Outlook at Associated British Foods (LSE: ABF) - Kalkine"
+        },
+        {
+          "czas_utc": "2026-11-15 19:58",
+          "tytul": "Air pollution’s link to blood sugar has a surprising temperature twist - Earth.com"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Nagłówki są mieszane: soja wzrosła w piątek, ale rynek słabnie po WASDE, a byki czekają na impuls. Brak wyraźnej przewagi.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-16 13:21",
+          "tytul": "BASF Agricultural Solutions strengthens Seed Solutions portfolio with breakthrough Nemasphere™ technology - ACROFAN USA"
+        },
+        {
+          "czas_utc": "2026-11-16 12:30",
+          "tytul": "3 Big Things Today, Nov. 16, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-16 12:22",
+          "tytul": "First Thing Today | Grain market bulls need a catalyst - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-16 12:11",
+          "tytul": "Stronger Demand Offsets Record Soybean Production in November - RFD-TV"
+        },
+        {
+          "czas_utc": "2026-11-16 10:52",
+          "tytul": "Grains market update: Wheat and corn trading subdued as USDA raises global wheat stocks - Fastmarkets"
+        },
+        {
+          "czas_utc": "2026-11-16 10:26",
+          "tytul": "Wheat, corn and soybeans rose in Chicago on Friday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-16 10:09",
+          "tytul": "Soybean Economics Point Toward 2027 Corn Acre Decline - RFD-TV"
+        },
+        {
+          "czas_utc": "2026-11-16 08:30",
+          "tytul": "Sunflower market: Ukraine outages tighten oil, EU prices firm - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:57",
+          "tytul": "Palm Oil Market Analysis: Malaysian Output Decline and Rising Prices - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:50",
+          "tytul": "Sunflower market update: SAFEX weakness vs firm Black Sea oil - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:46",
+          "tytul": "Soybean Market Eases After WASDE Rally as Regional Cash Prices Diverge - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 07:26",
+          "tytul": "Wheat falls towards multi-month lows on firmer dollar, harvest pressure - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-16 06:07",
+          "tytul": "Palm Oil Market Outlook: Indonesia’s 2027 Export Shift and B50 Impact - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-16 06:00",
+          "tytul": "China trade relations face fresh tests - FarmWeekNow"
+        },
+        {
+          "czas_utc": "2026-11-16 04:01",
+          "tytul": "Conab Raises Brazil Soybean Oil Export Forecast to 1.8M MT for 2026-27 - News and Statistics - IndexBox"
+        },
+        {
+          "czas_utc": "2026-11-16 03:55",
+          "tytul": "Palm Oil Slips As Cheaper Rivals Set The Tone - Finimize"
+        },
+        {
+          "czas_utc": "2026-11-16 00:51",
+          "tytul": "Market analysts eye acreage shifts in Dakotas, Delta ahead of USDA report - Brownfield Ag News"
+        },
+        {
+          "czas_utc": "2026-11-15 19:15",
+          "tytul": "Bruce Burnett’s Ontario weather and corn market outlook - Farmtario"
+        },
+        {
+          "czas_utc": "2026-11-15 18:01",
+          "tytul": "Ontario grain outlook: Corn, soybean and wheat prices - Farmtario"
+        },
+        {
+          "czas_utc": "2026-11-15 17:04",
+          "tytul": "Weekly pig report: Lean hog futures struggle to recover amid weak cash hog prices - The Pig Site"
+        }
+      ]
+    }
+  ],
+  "pozycje": [],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 44.13,
+      "sma200": 61.9172,
+      "sila": 0.7127,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 13.5,
+      "sma200": 16.6664,
+      "sila": 0.81,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 36.53,
+      "sma200": 37.9723,
+      "sila": 0.962,
+      "trend": false
+    },
+    "DBB": {
+      "zamkniecie": 24.06,
+      "sma200": 24.8128,
+      "sila": 0.9697,
+      "trend": false
+    },
+    "UNG": {
+      "zamkniecie": 10.15,
+      "sma200": 11.0183,
+      "sila": 0.9212,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 61.06,
+      "sma200": 51.3365,
+      "sila": 1.1894,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 21.86,
+      "sma200": 23.6062,
+      "sila": 0.926,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.18,
+      "sma200": 18.1781,
+      "sila": 0.9451,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 25.97,
+      "sma200": 25.2801,
+      "sila": 1.0273,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 11.14,
+      "sma200": 10.2972,
+      "sila": 1.0818,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 3,
+  "pominiete": [
+    {
+      "ticker": "BNO"
+    },
+    {
+      "ticker": "CANE"
+    },
+    {
+      "ticker": "SOYB"
+    }
+  ]
+}
