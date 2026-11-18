@@ -3,8 +3,8 @@
   "wersja": "3.1",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
-  "etap": "zamykana",
-  "zaliczona": null,
+  "etap": "rozliczona",
+  "zaliczona": true,
   "powody": [],
   "prognozy": [
     {
@@ -293,7 +293,14 @@
         "cena": 10.909622,
         "ilosc": 609
       },
-      "zlecenie_wyjscia": "11f6153e-9e8b-435f-ade0-ffd681d00e33"
+      "zlecenie_wyjscia": "11f6153e-9e8b-435f-ade0-ffd681d00e33",
+      "wyjscie": {
+        "status": "filled",
+        "cena": 10.86,
+        "ilosc": 609
+      },
+      "zmiana": -0.004548461899046655,
+      "wynik": -0.006048461899046655
     }
   ],
   "uniwersum": {
@@ -361,10 +368,19 @@
   "liczba_oczekiwana": 3,
   "pominiete": [
     {
-      "ticker": "BNO"
+      "ticker": "BNO",
+      "otwarcie": 58.96,
+      "zamkniecie": 58.06,
+      "zmiana": -0.015264586160108524,
+      "wynik": 0.0
     },
     {
-      "ticker": "SOYB"
+      "ticker": "SOYB",
+      "otwarcie": 25.57,
+      "zamkniecie": 25.62,
+      "zmiana": 0.001955416503715319,
+      "wynik": 0.0
     }
-  ]
+  ],
+  "wynik_sesji": -0.006048
 }
