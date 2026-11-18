@@ -1,0 +1,364 @@
+{
+  "data": "2026-11-18",
+  "wersja": "3.1",
+  "model": "claude-sonnet-5-5",
+  "prompt_sha256": "b7c31d0003b55cd6f5dbc2e6d2bc5e1ee7f4d75a057fc06cae99e2a4f668ed01",
+  "etap": "otwarta",
+  "zaliczona": null,
+  "powody": [],
+  "prognozy": [
+    {
+      "data": "2026-11-18",
+      "czas_zapisu_et": "08:33",
+      "sektor": "brent",
+      "ticker": "BNO",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Ropa spada po wzroście zapasów w USA, a napięcia na Bliskim Wschodzie nie dają wyraźnej przewagi, więc brak jasnego powodu do pozycji long.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-18 11:46",
+          "tytul": "Oil Steadies as Renewed Mideast Fighting Tests Supply Recovery - Bloomberg.com"
+        },
+        {
+          "czas_utc": "2026-11-18 11:34",
+          "tytul": "Oil prices fall as higher US crude stocks temper supply risks, World News - AsiaOne.com"
+        },
+        {
+          "czas_utc": "2026-11-18 11:31",
+          "tytul": "Oil Prices Fall Sharply as U.S. Crude Inventories Rise, Overshadowing Middle East Supply Risks - EnergyNow.com"
+        },
+        {
+          "czas_utc": "2026-11-18 10:51",
+          "tytul": "Oil price today: Brent slips as fresh data shows rise in US crude inventory - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-18 10:45",
+          "tytul": "Oil prices react to rise in U.S. inventories - The New Voice of Ukraine"
+        },
+        {
+          "czas_utc": "2026-11-18 10:37",
+          "tytul": "Brent Crude Oil Slips Towards $92 as Rising US Inventories Renew Pressure on Oil Prices - Investors King"
+        },
+        {
+          "czas_utc": "2026-11-18 10:20",
+          "tytul": "Oil price today: Brent slips as API shows 5.28 million-barrel US crude build - Invezz"
+        },
+        {
+          "czas_utc": "2026-11-18 10:12",
+          "tytul": "Crude Futures Post Back-to-Back Weekly Losses - WSJ"
+        },
+        {
+          "czas_utc": "2026-11-18 09:53",
+          "tytul": "Oil prices decline despite escalating military tensions in the Middle East - AzerNews"
+        },
+        {
+          "czas_utc": "2026-11-18 09:34",
+          "tytul": "What Lifted Brent to USD 93.14 After an Iranian Drone Attack, and How Does It Affect United States Oil Fund (NYSEARCA:USO)? - kalkine.ca"
+        },
+        {
+          "czas_utc": "2026-11-18 09:14",
+          "tytul": "Brent Crude Slips To $91 Per Barrel As Supply Surplus, US Oil Inventories Ease Jitters - NDTV Profit"
+        },
+        {
+          "czas_utc": "2026-11-18 09:07",
+          "tytul": "Oil prices fall as higher US crude stocks temper supply risks - アラブニュース"
+        },
+        {
+          "czas_utc": "2026-11-18 08:52",
+          "tytul": "Brent Crude Touches $91 a Barrel as WTI Falls $2 to $83.73 - www.tokenpost.com"
+        },
+        {
+          "czas_utc": "2026-11-18 07:06",
+          "tytul": "Oil prices decline as rising US inventories offset supply risks - Latest news from Azerbaijan"
+        },
+        {
+          "czas_utc": "2026-11-18 06:49",
+          "tytul": "Brent Crude Oil Price: $92.61 Wednesday, US Stock Build Before Fed Minutes, Bull $96, Bear $88 - FinanceFeeds"
+        },
+        {
+          "czas_utc": "2026-11-18 06:37",
+          "tytul": "India bonds rise tracking easing crude oil, US Treasury yields - Investify"
+        },
+        {
+          "czas_utc": "2026-11-18 06:22",
+          "tytul": "Oil prices fall, Brent at US$92.98 per barrel - برق الإمارات"
+        },
+        {
+          "czas_utc": "2026-11-18 06:01",
+          "tytul": "Gasoline and oil prices today, November 18th: Turnaround - Laodong.vn"
+        },
+        {
+          "czas_utc": "2026-11-18 05:55",
+          "tytul": "Oil Prices Drop Despite Escalating U.S.-Iran Conflict - Crude Oil Prices Today | OilPrice.com"
+        },
+        {
+          "czas_utc": "2026-11-18 04:47",
+          "tytul": "Crude Oil Prices Edge Higher on Tanker Attacks, US Stockpile Outlook | - Business Post Nigeria"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "czas_zapisu_et": "08:33",
+      "sektor": "cukier",
+      "ticker": "CANE",
+      "kierunek": "LONG",
+      "pewnosc": 2,
+      "powod": "Nagłówki wskazują na zacieśnianie podaży (Francja, Niemcy, Brazylia, El Niño), co sprzyja wzrostom, ale spadki na Wall Street ograniczają pewność.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-18 13:21",
+          "tytul": "China sugar imports at 10-year low amid tightening global sugar balance - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 13:21",
+          "tytul": "France’s 2026 Sugar Beet Harvest Cut to Decades-Low, EU Supply Tightens - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 09:46",
+          "tytul": "Brazil Weather Widens the Near-Term Deficit - Czapp"
+        },
+        {
+          "czas_utc": "2026-11-18 08:46",
+          "tytul": "Sugar & jaggery market: tight Indian supply, stable global futures - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 08:01",
+          "tytul": "Sugar cane market update: Sugar #11 contango and softer fundamentals - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 08:00",
+          "tytul": "Sugar Beet Market November 2026: EU Crop Losses vs. Softer Futures - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 07:54",
+          "tytul": "Govt seeks sugar price stability, uninterrupted domestic supply - Mettis Global"
+        },
+        {
+          "czas_utc": "2026-11-18 06:31",
+          "tytul": "Global Sugar Supply Tightens Despite Weak Prices in China By Kedia Advisory - Investing.com India"
+        },
+        {
+          "czas_utc": "2026-11-18 06:06",
+          "tytul": "Ugar Sugar Works Begins 2026-27 Crushing Season at Jewargi Unit; Shares Edge Higher - HDFC Sky"
+        },
+        {
+          "czas_utc": "2026-11-18 03:08",
+          "tytul": "Dow Jones Falls 849 Points as Nvidia Woes Hit US Stocks - HDFC Sky"
+        },
+        {
+          "czas_utc": "2026-11-18 00:27",
+          "tytul": "Robusta coffee hits 2-1/2 year low - Business Recorder"
+        },
+        {
+          "czas_utc": "2026-11-17 22:17",
+          "tytul": "Soybeans Fail to Hold Front Month Gains on Tuesday - TradingView"
+        },
+        {
+          "czas_utc": "2026-11-17 20:00",
+          "tytul": "Daily Market Price Updates and Commentary 17th November 2026 - Czapp"
+        },
+        {
+          "czas_utc": "2026-11-17 19:42",
+          "tytul": "Four Louisiana Quarterbacks Combine for 1,019 Yards and 15 Touchdowns in Playoff Openers to Earn Manning Futures Award - allstatesugarbowl.org"
+        },
+        {
+          "czas_utc": "2026-11-17 19:23",
+          "tytul": "Lower French Production Boosts Sugar Prices - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-17 16:55",
+          "tytul": "Futures and Market Data: 17th November 2026 - Czapp"
+        },
+        {
+          "czas_utc": "2026-11-17 14:29",
+          "tytul": "Sugar futures price consolidates amid range-bound trading and mild intraday seller pressure - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-17 14:03",
+          "tytul": "El Nino's sugar price rush set to make sweet treats more expensive - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-17 13:50",
+          "tytul": "German Sugar Beet Yield Cut Tightens EU Sugar Supply Outlook - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-17 13:50",
+          "tytul": "Sugar prices surge 25% on El Niño, biofuel demand and export curbs - CMB News"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-18",
+      "czas_zapisu_et": "08:33",
+      "sektor": "soja",
+      "ticker": "SOYB",
+      "kierunek": "SKIP",
+      "pewnosc": 2,
+      "powod": "Sygnały są mieszane: wczoraj soja nie utrzymała zwyżek, rano kontrakty słabsze, a silniejszy dolar ciąży. Wiadomości z Trumpem w Chinach to niepewny czynnik.",
+      "naglowki": [
+        {
+          "czas_utc": "2026-11-18 12:29",
+          "tytul": "3 Big Things Today, Nov. 18, 2026 - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-18 12:12",
+          "tytul": "First Thing Today | Grains run out of gas as dollar resumes rally; Trump arrives in Shenzhen - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-18 09:24",
+          "tytul": "Soybean supplies are shrinking: What farmers should do next - Farm Progress"
+        },
+        {
+          "czas_utc": "2026-11-18 08:37",
+          "tytul": "Wheat rises, corn trades mixed and soybeans fall in Chicago on Tuesday - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-18 07:55",
+          "tytul": "Soybeans Market Update: Futures Softer as Brazil Planting Advances - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 07:10",
+          "tytul": "Indian Soymeal Export Pull Tightens Soybean Market Margins - CMB News"
+        },
+        {
+          "czas_utc": "2026-11-18 05:50",
+          "tytul": "Record US soybean crush fails to halt decline in futures prices - UkrAgroConsult"
+        },
+        {
+          "czas_utc": "2026-11-18 01:50",
+          "tytul": "Soybean meal futures prices reach three-week high - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-18 00:00",
+          "tytul": "Wheat futures climb to 595'2 as NOPA soybean crush hits record. - CME Group"
+        },
+        {
+          "czas_utc": "2026-11-17 21:31",
+          "tytul": "Closing Markets for Tuesday, November 17 - Windsor News Today"
+        },
+        {
+          "czas_utc": "2026-11-17 20:52",
+          "tytul": "Soybean Prices Face a New Test as USDA Cuts Stocks: Is Another Rally Coming? - AgroLatam"
+        },
+        {
+          "czas_utc": "2026-11-17 20:14",
+          "tytul": "U.S. Grain/Oilseed Review: Wheat rises, as soybeans, corn fail to hang on to gains - The Western Producer"
+        },
+        {
+          "czas_utc": "2026-11-17 20:00",
+          "tytul": "Will Soybeans Continue to Follow Oil and Oil Product Prices? - Yahoo Finance"
+        },
+        {
+          "czas_utc": "2026-11-17 19:27",
+          "tytul": "WASDE Surprised Soybean Traders — Here’s What Farmers Should Consider Next - Successful Farming"
+        },
+        {
+          "czas_utc": "2026-11-17 18:13",
+          "tytul": "Soybeans Holding Higher on Tuesday - Barchart.com"
+        },
+        {
+          "czas_utc": "2026-11-17 17:40",
+          "tytul": "First Thing Today | China angry over new U.S. chip curbs ahead of Trump-Xi meeting - Pro Farmer"
+        },
+        {
+          "czas_utc": "2026-11-17 15:50",
+          "tytul": "Wheat Prices Drop Despite Strong Acreage Projections While Soybean Crush Hits Record High - Oklahoma Farm Report"
+        },
+        {
+          "czas_utc": "2026-11-17 15:47",
+          "tytul": "ICE Canola Midday: Support from higher crude oil, Chicago soy - The Western Producer"
+        },
+        {
+          "czas_utc": "2026-11-17 15:27",
+          "tytul": "Soybean Futures price forecast: Neutral momentum as consolidation continues below resistance - Traders Union"
+        },
+        {
+          "czas_utc": "2026-11-17 14:42",
+          "tytul": "ICE Canola Board Margin Index Close – Nov. 16 - The Western Producer"
+        }
+      ]
+    }
+  ],
+  "pozycje": [
+    {
+      "ticker": "CANE",
+      "kierunek": "LONG",
+      "ilosc": 609,
+      "zlecenie_wejscia": "e50c42a5-cf4b-4549-87cf-7e843717b924",
+      "tif_wejscia": "day"
+    }
+  ],
+  "uniwersum": {
+    "SLV": {
+      "zamkniecie": 42.64,
+      "sma200": 61.6029,
+      "sila": 0.6922,
+      "trend": false
+    },
+    "PPLT": {
+      "zamkniecie": 12.88,
+      "sma200": 16.6012,
+      "sila": 0.7758,
+      "trend": false
+    },
+    "CPER": {
+      "zamkniecie": 35.99,
+      "sma200": 37.9708,
+      "sila": 0.9478,
+      "trend": false
+    },
+    "DBB": {
+      "zamkniecie": 23.77,
+      "sma200": 24.813,
+      "sila": 0.958,
+      "trend": false
+    },
+    "UNG": {
+      "zamkniecie": 10.04,
+      "sma200": 10.9696,
+      "sila": 0.9153,
+      "trend": false
+    },
+    "BNO": {
+      "zamkniecie": 58.96,
+      "sma200": 51.6035,
+      "sila": 1.1426,
+      "trend": true
+    },
+    "WEAT": {
+      "zamkniecie": 21.98,
+      "sma200": 23.6165,
+      "sila": 0.9307,
+      "trend": false
+    },
+    "CORN": {
+      "zamkniecie": 17.25,
+      "sma200": 18.1765,
+      "sila": 0.949,
+      "trend": false
+    },
+    "SOYB": {
+      "zamkniecie": 25.87,
+      "sma200": 25.3165,
+      "sila": 1.0219,
+      "trend": true
+    },
+    "CANE": {
+      "zamkniecie": 10.935,
+      "sma200": 10.3143,
+      "sila": 1.0602,
+      "trend": true
+    }
+  },
+  "liczba_oczekiwana": 3,
+  "pominiete": [
+    {
+      "ticker": "BNO"
+    },
+    {
+      "ticker": "SOYB"
+    }
+  ]
+}
