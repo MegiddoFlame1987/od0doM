@@ -3,7 +3,7 @@
   "wersja": "1.2",
   "model": "claude-sonnet-5-5",
   "prompt_sha256": "4b0eba6ea0c3de53fb2ed4b9e3b3eb40f45eff6e7b6b4ef2737278384a9200d5",
-  "etap": "otwarta",
+  "etap": "zamykana",
   "zaliczona": null,
   "powody": [],
   "prognozy": [
@@ -469,35 +469,65 @@
       "kierunek": "LONG",
       "ilosc": 72,
       "zlecenie_wejscia": "6907de05-4881-4850-a520-e9a5f46a40a5",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 139.278889,
+        "ilosc": 72
+      },
+      "zlecenie_wyjscia": "5225004f-f70e-4d88-b4b3-cb16da1858dd"
     },
     {
       "ticker": "SMH",
       "kierunek": "SHORT",
       "ilosc": 21,
       "zlecenie_wejscia": "e9ddbda1-e652-42c0-9c92-ce0f0ed12898",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 471.31,
+        "ilosc": 21
+      },
+      "zlecenie_wyjscia": "9206cd47-5512-47c7-a30a-0d37636d7584"
     },
     {
       "ticker": "DBA",
       "kierunek": "SHORT",
       "ilosc": 384,
       "zlecenie_wejscia": "27eb95d8-b2f2-49bc-a525-b09a455def3c",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 26.15375,
+        "ilosc": 384
+      },
+      "zlecenie_wyjscia": "5d998480-10fb-4d6b-82cf-82208513772d"
     },
     {
       "ticker": "GLD",
       "kierunek": "LONG",
       "ilosc": 29,
       "zlecenie_wejscia": "c4d8ea01-4fa5-4eee-b052-a36c6dacadaf",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 340.162414,
+        "ilosc": 29
+      },
+      "zlecenie_wyjscia": "274c97c0-4f00-43a8-80de-ee00eb1b8dfb"
     },
     {
       "ticker": "TLT",
       "kierunek": "SHORT",
       "ilosc": 124,
       "zlecenie_wejscia": "b290e2bb-89ea-4e6d-b102-7ffac0adb055",
-      "tif_wejscia": "day"
+      "tif_wejscia": "day",
+      "wejscie": {
+        "status": "filled",
+        "cena": 80.061936,
+        "ilosc": 124
+      },
+      "zlecenie_wyjscia": "d13e189a-6f47-4f4a-83e5-7af4e619f6fa"
     }
   ],
   "liczba_oczekiwana": 5,
