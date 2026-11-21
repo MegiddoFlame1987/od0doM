@@ -1,33 +1,33 @@
-# Typy z rolek vs S&P 500 (SPY), stan na 2026-11-14
+# Typy z rolek vs S&P 500 (SPY), stan na 2026-11-21
 
 Wejście: zamknięcie pierwszej sesji od daty publikacji. Bez kosztów, bez dywidend. Przewaga = wynik akcji minus wynik SPY w tym samym okresie.
 
 | Źródło | Data | Ticker | Etykieta | Wejście | Dni | Akcja | SPY | Przewaga |
 |---|---|---|---|---|---|---|---|---|
-| martinelli_paul (Instagram) | 2026-10-05 | VRT | RIGHT NOW | 253.41 | 40 | -20.3% | -2.7% | -17.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | EME | RIGHT NOW | 778.45 | 40 | -15.3% | -2.7% | -12.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | GLW | RIGHT NOW | 158.98 | 40 | -28.3% | -2.7% | -25.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | CRWV | TOO EARLY | 87.42 | 40 | -39.3% | -2.7% | -36.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | LEU | TOO EARLY | 141.89 | 40 | -26.8% | -2.7% | -24.2% |
-| martinelli_paul (Instagram) | 2026-10-05 | ACHR | TOO EARLY | 4.74 | 40 | -15.0% | -2.7% | -12.3% |
-| martinelli_paul (Instagram) | 2026-10-05 | NVDA | TOO LATE | 238.98 | 40 | -31.9% | -2.7% | -29.2% |
-| martinelli_paul (Instagram) | 2026-10-05 | PLTR | TOO LATE | 189.31 | 40 | -11.2% | -2.7% | -8.6% |
-| martinelli_paul (Instagram) | 2026-10-05 | CRWD | TOO LATE | 272.72 | 40 | -16.9% | -2.7% | -14.2% |
-| derekanddakota (Instagram) | 2026-10-11 | CEG | KUP | 293.79 | 33 | -4.7% | -3.1% | -1.6% |
-| derekanddakota (Instagram) | 2026-10-11 | VST | KUP | 158.12 | 33 | -15.9% | -3.1% | -12.9% |
-| derekanddakota (Instagram) | 2026-10-11 | VRT | KUP | 239.36 | 33 | -15.6% | -3.1% | -12.5% |
-| derekanddakota (Instagram) | 2026-10-11 | MU | KUP | 988.95 | 33 | -21.3% | -3.1% | -18.3% |
-| derekanddakota (Instagram) | 2026-10-11 | ANET | KUP | 210.85 | 33 | -6.4% | -3.1% | -3.4% |
-| derekanddakota (Instagram) | 2026-10-11 | AVGO | KUP | 354.79 | 33 | -2.3% | -3.1% | +0.8% |
+| martinelli_paul (Instagram) | 2026-10-05 | VRT | RIGHT NOW | 253.41 | 47 | -34.5% | -10.9% | -23.6% |
+| martinelli_paul (Instagram) | 2026-10-05 | EME | RIGHT NOW | 778.45 | 47 | -22.4% | -10.9% | -11.5% |
+| martinelli_paul (Instagram) | 2026-10-05 | GLW | RIGHT NOW | 158.98 | 47 | -40.6% | -10.9% | -29.7% |
+| martinelli_paul (Instagram) | 2026-10-05 | CRWV | TOO EARLY | 87.42 | 47 | -54.9% | -10.9% | -44.0% |
+| martinelli_paul (Instagram) | 2026-10-05 | LEU | TOO EARLY | 141.89 | 47 | -42.6% | -10.9% | -31.7% |
+| martinelli_paul (Instagram) | 2026-10-05 | ACHR | TOO EARLY | 4.74 | 47 | -38.7% | -10.9% | -27.8% |
+| martinelli_paul (Instagram) | 2026-10-05 | NVDA | TOO LATE | 238.98 | 47 | -47.4% | -10.9% | -36.5% |
+| martinelli_paul (Instagram) | 2026-10-05 | PLTR | TOO LATE | 189.31 | 47 | -24.1% | -10.9% | -13.2% |
+| martinelli_paul (Instagram) | 2026-10-05 | CRWD | TOO LATE | 272.72 | 47 | -15.8% | -10.9% | -5.0% |
+| derekanddakota (Instagram) | 2026-10-11 | CEG | KUP | 293.34 | 40 | -19.0% | -11.2% | -7.8% |
+| derekanddakota (Instagram) | 2026-10-11 | VST | KUP | 158.12 | 40 | -27.1% | -11.2% | -15.9% |
+| derekanddakota (Instagram) | 2026-10-11 | VRT | KUP | 239.36 | 40 | -30.6% | -11.2% | -19.4% |
+| derekanddakota (Instagram) | 2026-10-11 | MU | KUP | 988.95 | 40 | -39.9% | -11.2% | -28.6% |
+| derekanddakota (Instagram) | 2026-10-11 | ANET | KUP | 210.85 | 40 | -20.6% | -11.2% | -9.3% |
+| derekanddakota (Instagram) | 2026-10-11 | AVGO | KUP | 354.79 | 40 | -14.2% | -11.2% | -3.0% |
 
 ## Średnia przewaga nad SPY wg źródła i etykiety
 
 | Źródło | Etykieta | Typów | Średnia przewaga | Trafionych (przewaga > 0) |
 |---|---|---|---|---|
-| derekanddakota (Instagram) | KUP | 6 | -8.0% | 1/6 |
-| martinelli_paul (Instagram) | RIGHT NOW | 3 | -18.6% | 0/3 |
-| martinelli_paul (Instagram) | TOO EARLY | 3 | -24.4% | 0/3 |
-| martinelli_paul (Instagram) | TOO LATE | 3 | -17.3% | 0/3 |
+| derekanddakota (Instagram) | KUP | 6 | -14.0% | 0/6 |
+| martinelli_paul (Instagram) | RIGHT NOW | 3 | -21.6% | 0/3 |
+| martinelli_paul (Instagram) | TOO EARLY | 3 | -34.5% | 0/3 |
+| martinelli_paul (Instagram) | TOO LATE | 3 | -18.3% | 0/3 |
 
 ## Horyzonty (gdy minęły)
 
